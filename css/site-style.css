@@ -45,6 +45,44 @@ body {
 	color:#333333;
 	z-index:10;
 }
+#important-link {
+	position:absolute;
+	top:90px;
+	left:720px;
+	width:100px;
+	height:100px;
+
+}
+#app-title {
+	position:relative;
+	top:0;
+	left:0;
+	width:125px;
+	height:21px;
+	font-size:14px;
+	font-weight:bold;
+	color:#333333;
+}
+#app-status{
+	position:relative;
+	top:0;
+	left:0;
+	width:100px;
+	height:25px;
+	font-size:20px;
+	font-weight:bold;
+	color:#CE3C31;
+}
+#app-go {
+	position:relative;
+	top:0;
+	left:0;
+	width:100px;
+	height:20px;
+	font-size:14px;
+	font-weight:bold;
+	color:#333333;
+}
 
 /*At a glance Styling--------------------------------------------*/
 #son-glance {
@@ -52,10 +90,11 @@ body {
 	top:0;
 	left:0;
 	width:auto;
-	height:600px;
+	height:auto;
 	background-color: #f4f4f4;
 	box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.17);
 	overflow:hidden;
+	padding-bottom:120px;
 }
 #glance-title {
 	position:relative;
@@ -193,4 +232,18 @@ ul#filters li.show-all a:active {
 	width: 500px;
 	color:#333333;
 	font-size:11px;
+}
+.card-picture-removethisforfinal1 {
+	position:relative;
+	top:0;
+	left:0;
+	width:300px;
+	height:auto;
+}
+.card-picture-removethisforfinal2 {
+	position:relative;
+	top:0;
+	left:0;
+	width:500px;
+	height:auto;
 }
