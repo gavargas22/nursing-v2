@@ -1,0 +1,196 @@
+/*
+Theme Name: UTEP SoN
+Theme URI: http://nursing.utep.edu
+Description: The theme utilised by the School of Nursing at The University of Texas at El Paso
+Author: Guillermo Vargas
+Author URI: http://www.slackentie.com
+Version: 2.0
+Tags: UTEP, SoN
+License: All Rights Reserved | Slacken Tie Group 2011
+License URI: http://www.slackentie.com/license/
+*/
+body {
+	margin:0;
+	font-family: 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
+}
+#main-wrapper {
+	position:relative;
+	top:0;
+	left:50%;
+	width:960px;
+	height:auto;
+	margin-left:-480px;
+}
+/*Header aspects*/
+#header-wrapper {
+	background-color: #FFFFFF;
+	width:100%;
+	height:auto;
+}
+#header-content-wrapper {
+	position: relative;
+	top: 0;
+	left: 50%;
+	margin-left: -480px;
+	width:960px;
+	height:400px;
+	overflow:hidden;
+}
+#welcome-title {
+	position: relative;
+	top:20px;
+	left:0;
+	font-size: 24px;
+	font-weight:bold;
+	color:#333333;
+	z-index:10;
+}
+
+/*At a glance Styling--------------------------------------------*/
+#son-glance {
+	position:relative;
+	top:0;
+	left:0;
+	width:auto;
+	height:600px;
+	background-color: #f4f4f4;
+	box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.17);
+	overflow:hidden;
+}
+#glance-title {
+	position:relative;
+	top:20px;
+	left:10px;
+	width:auto;
+	height:30px;
+	color:#333333;
+	font-size:28px;
+	font-weight: bold;
+}
+#glance-descr{ 
+	position:relative;
+	top:20px;
+	left:10px;
+	width:auto;
+	height:12px;
+	color:#333333;
+	font-size:11px;
+	}
+	
+ul#filters {
+	font-family:"Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	font-size:10px;
+	position:absolute;
+	top:130px;
+	left:820px;
+	width:100px;
+	height:auto;
+	margin: 0px;
+	z-index:10;
+	list-style:none;
+}
+
+ul#filters li {
+	position:relative;
+	float:left;
+	top:0;
+	left:0;
+	width:auto;
+	height:auto;
+	font-size:10px;
+	padding-right:6px;
+	margin-bottom:6px;
+}
+ul#filters li.news-filter a {
+	padding: 9px 10px 9px 10px;
+	background-color:#FF7908;
+	color:#FFF;
+	display:block;
+	text-decoration:none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 0px 2px #000;
+  	-webkit-box-shadow: 0px 0px 2px #000;
+  	box-shadow: 0px 0px 2px #000;
+}
+ul#filters li.news-filter a:active {
+	-moz-box-shadow:inset 0px 0px 3px #000;
+	-webkit-box-shadow:inset 0px 0px 3px #000;
+	box-shadow:inset 0px 0px 3px #000;
+	z-index: 0;
+}
+ul#filters li.research-filter a {
+	padding: 9px 10px 9px 10px;
+	background-color:#FFFFFF;
+	color:#333;
+	display:block;
+	text-decoration:none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 0px 2px #000;
+  	-webkit-box-shadow: 0px 0px 2px #000;
+  	box-shadow: 0px 0px 2px #000;
+}
+ul#filters li.research-filter a:active {
+	-moz-box-shadow:inset 0px 0px 3px #000;
+	-webkit-box-shadow:inset 0px 0px 3px #000;
+	box-shadow:inset 0px 0px 3px #000;
+	z-index: 0;
+}
+ul#filters li.show-all a {
+	padding: 9px 10px 9px 10px;
+	background-color:#112233;
+	color:#FFFFFF;
+	display:block;
+	text-decoration:none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 0px 2px #000;
+  	-webkit-box-shadow: 0px 0px 2px #000;
+  	box-shadow: 0px 0px 2px #000;
+}
+ul#filters li.show-all a:active {
+	-moz-box-shadow:inset 0px 0px 3px #000;
+	-webkit-box-shadow:inset 0px 0px 3px #000;
+	box-shadow:inset 0px 0px 3px #000;
+	z-index: 0;
+}
+/*Isotope element styles are located here*/
+#elements {
+	position:relative;
+	top:40px;
+	left:0;
+	width:960px;
+	height:auto;
+}
+.isotope-elements {
+	position: relative;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	height: auto;
+	display: block;
+	float: left;
+	font-family: 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
+	left: 0px;
+	margin: 10px 0px 0px 10px;
+	padding: 5px 5px 5px 5px;
+	top: 0px;
+	z-index: 0;
+}
+.news-element {
+	background-color: #FF7908;
+	width: 300px;
+	color:#FFFFFF;
+	font-size:11px;
+
+}
+.applications-element {
+	background-color: #ffffff;
+	width: 500px;
+	color:#333333;
+	font-size:11px;
+}
