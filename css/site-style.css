@@ -44,14 +44,52 @@ body {
 	height:400px;
 	overflow:hidden;
 }
-#welcome-title {
-	position: relative;
+#welcome-menu {
+	position: absolute;
 	top:20px;
-	left:0;
-	font-size: 24px;
-	font-weight:bold;
-	color:#333333;
+	left:640px;
 	z-index:10;
+	width:280px;
+}
+#welcome-menu ul {
+	position:relative;
+	top:0;
+	left:0;
+	width:400px;
+	height:20px;
+	list-style:none;
+	margin-left:-40px;
+}
+#welcome-menu ul li a {
+	position:relative;
+	float:left;
+	top:0;
+	left:0;
+	width:auto;
+	height: 22px;
+	line-height:22px;
+	font-size:10px;
+	color:#666666;
+	text-decoration:none;
+	padding: 0 10px 0 10px;
+}
+#welcome-menu ul li a:hover {
+	text-decoration:underline;
+}
+#welcome-menu ul li.give-son a {
+	position:relative;
+	float:left;
+	top:0;
+	left:0;
+	width:132px;
+	height: 22px;
+	text-indent:-99999px;
+	display:block;
+	font-size:10px;
+	color:#FF7908;
+	text-decoration:none;
+	padding: 0 10px 0 10px;
+	background-image:url(../images/givenow.png);
 }
 #nursing-apps {
 	position:absolute;
@@ -296,7 +334,7 @@ ul#filters li.social-media-filter a:active {
 	top:10px;
 	left:0;
 	width:auto;
-	font-size:22px;
+	font-size:18px;
 	font-weight:bold;
 	padding-left:10px;
 }
