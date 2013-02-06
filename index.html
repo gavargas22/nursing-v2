@@ -13,8 +13,10 @@ Remove this if you use the .htaccess -->
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <link rel="stylesheet" href="css/site-style.css">
+<link rel="stylesheet" href="css/nav-css/sticky-navigation.css">
 <link rel="stylesheet" href="css/isotope-style.css">
 <link rel="stylesheet" href="css/slideshow-style.css">
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script src="js/jquery.isotope.js"></script>
 <script src="js/init.js"></script>
@@ -23,7 +25,6 @@ Remove this if you use the .htaccess -->
 
 </head>
 <body>
-	<nav> </nav>
 	<header id="header-wrapper">
 		<div id="header-content-wrapper">
 			<div id="welcome-menu">
@@ -36,13 +37,13 @@ Remove this if you use the .htaccess -->
 				</ul>
 			</div>
 			<div id="nursing-logo"> </div>
-			<!--<div id="slideshow">
+			<div id="slideshow">
 				<div class="slides_container">
-					<div><img src="http://farm8.staticflickr.com/7203/6775400348_7b61edd1b2_b.jpg"></div>
-					<div><img src="http://farm8.staticflickr.com/7049/6941995953_c1ebfc3738_b.jpg"></div>
-					<div><img src="http://farm8.staticflickr.com/7180/6819245944_5b57c591aa_b.jpg"></div>
+					<div><img src="images/experiment.png"></div>
+					<!--<div><img src="http://farm8.staticflickr.com/7049/6941995953_c1ebfc3738_b.jpg"></div>
+					<div><img src="http://farm8.staticflickr.com/7180/6819245944_5b57c591aa_b.jpg"></div>-->
 				</div>
-			</div>-->
+			</div>
 			<!--<div id="nursing-apps">
 				<div id="calendar-app">
 					<div id="calendar-title">Calendar</div>
@@ -53,6 +54,20 @@ Remove this if you use the .htaccess -->
 			</div>-->
 		</div>
 	</header>
+	<div id="main-navigation">
+		<div id="sticky_navigation">
+			<div class="demo_container">
+				<ul>
+					<li><a href="#" class="selected">Home</a></li>
+					<li><a href="#">Prospective Students</a></li>
+					<li><a href="#">Current Students</a></li>
+
+					<li><a href="#">Alumni</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
 	<div id="son-glance">
 		<div id="main-wrapper">
 			<div id="glance-title">Belive in UTEP SoN Education</div>
@@ -65,28 +80,32 @@ Remove this if you use the .htaccess -->
             </ul>
 			<div id="elements">
 				<div class="isotope-elements news-element" id="e01">
-					<div class="card-picture-removethisforfinal1"><img src="images/cards/01.jpg"></div>
 					<div class="element-title">Believe in BSN Education.</div>
+					<div class="card-picture-removethisforfinal1"><img src="images/cards/01.jpg"></div>
 					<div class="element-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. 
 						Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est.</div>
+					<div class="element-footer">Howdy</div>
 				</div>
 				<div class="isotope-elements applications-element" id="e02">
-					<div class="card-picture"><img src="images/cards/02.jpg"></div>
 					<div class="element-title">UTEP Nursing's Dean named scholar of the year.</div>
+					<div class="card-picture"><img src="images/cards/02.jpg"></div>
 						<div class="element-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. 
 						Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est.</div>
+					<div class="element-footer">Howdy</div>
 				</div>
 				<div class="isotope-elements facebook-element" id="e03">
-					<div class="card-picture"><img src="images/cards/03.jpg"></div>
 					<div class="element-title">Traditional BSN/Fast Track Applications are now open!</div>
+					<div class="card-picture"><img src="images/cards/03.jpg"></div>
 					<div class="element-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. 
 						Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est.</div>
+					<div class="element-footer">Howdy</div>
 				</div>
 				<div class="isotope-elements news-element" id="e04">
-					<div class="card-picture-removethisforfinal1"><img src="images/cards/01.jpg"></div>
 					<div class="element-title">Believe in BSN Education.</div>
+					<div class="card-picture-removethisforfinal1"><img src="images/cards/01.jpg"></div>
 					<div class="element-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. 
 						Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est.</div>
+					<div class="element-footer">Howdy</div>
 				</div>
 			</div>
 			<div id="load-more-btn">Load More</div>

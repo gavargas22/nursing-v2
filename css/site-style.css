@@ -41,7 +41,7 @@ body {
 	left: 50%;
 	margin-left: -480px;
 	width:960px;
-	height:400px;
+	height:465px;
 	overflow:hidden;
 }
 #welcome-menu {
@@ -144,6 +144,15 @@ body {
 	color:#333333;
 }
 
+/*Menu Styling*/
+#main-navigation {
+	position:relative;
+	width:100%;
+	left:0;
+	top:0;
+	height:50px;
+	z-index:9999;
+}
 /*At a glance Styling--------------------------------------------*/
 #son-glance {
 	position:relative;
@@ -297,21 +306,22 @@ ul#filters li.social-media-filter a:active {
 	padding: 0px 0px 25px 0px;
 	top: 0px;
 	z-index: 0;
+	box-shadow:0 0 1px 0px #AAA, 0 2px 0px 0px #999,0 5px 10px rgba(0, 0, 0, 0.25);
 }
 .news-element {
 	background-color: #FF7908;
-	width: 300px;
+	width: 225px;
 	color:#FFFFFF;
 }
 .applications-element {
 	background-color: #ffffff;
-	width: 500px;
+	width: 400px;
 	color:#333333;
 	font-size:11px;
 }
 .facebook-element {
-	background-color: #003168;
-	width: 400px;
+	background-color: #080f2c;
+	width: 225px;
 	color:#FFFFFF;
 	font-size:11px;
 }
@@ -337,6 +347,8 @@ ul#filters li.social-media-filter a:active {
 	font-size:18px;
 	font-weight:bold;
 	padding-left:10px;
+	padding-bottom:20px;
+	font-family: 'Droid Sans','Helvetica Neue', Arial sans-serif;
 }
 .element-text {
 	position: relative;
