@@ -89,7 +89,12 @@ body {
 	color:#FF7908;
 	text-decoration:none;
 	padding: 0 10px 0 10px;
-	background-image:url(../images/givenow.png);
+	background-image:url(../images/givenow-sprite.png);
+	background-position: 0 22px;
+}
+#welcome-menu ul li.give-son a:hover {
+	background-image:url(../images/givenow-sprite.png);
+	background-position: 0 0;
 }
 #nursing-apps {
 	position:absolute;

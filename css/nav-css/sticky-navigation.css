@@ -30,15 +30,23 @@
 	font-size: 14px;
 	font-family: 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
 	font-weight: bold;
-	color: #BEBEC1;
+	color: #777777;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 	text-decoration: none;
+}
+#sticky_navigation ul li ul {
+	position:relative;
+	top:0;
+	left:0;
+	width:400px;
+	height:200px;
+	background-color:#003168;
 }
 #sticky_navigation ul li a:hover, #sticky_navigation ul li a.selected {
 	color: #fff;
 	background: #D2D2D3;
 }
 
-	
+/*-----------------------------------------------------------------*/
