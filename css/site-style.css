@@ -298,6 +298,7 @@ ul#filters li.social-media-filter a:active {
 	-moz-border-radius: 0px 0px 4px 4px;
 	border-radius: 0px 0px 4px 4px;
 	height: auto;
+	overflow:hidden;
 	display: block;
 	float: left;
 	font-family: 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
@@ -360,6 +361,41 @@ ul#filters li.social-media-filter a:active {
 	padding-left:10px;
 	padding-right:10px;
 }
+.element-footer {
+	position: relative;
+	top:25px;
+	left:0;
+	width:100%;
+	height:30px;
+	background-color: rgba(255, 255, 255, .1);
+}
+.element-footer .light-color {
+	position: relative;
+	top:25px;
+	left:0;
+	width:100%;
+	height:30px;
+	background-color: rgba(0, 0, 0, .5);
+}
+.like-icon {
+	position:relative;
+	top:8px;
+	left: 50%;
+	width:13px;
+	height:13px;
+	background-image:url(../images/like-sprite.png);
+	background-position: 0 13px;
+}
+.like-counter {
+    position: absolute;
+    top:8px;
+    left:50%;
+    margin-left:17px;
+    width:auto;
+    height:auto;
+    font-family: 'Droid Sans','Helvetica Neue', Arial sans-serif;
+    font-size:11px;
+  }
 /*Secondary content of the nursing website*/
 #son-secondary-content {
 	position:relative;
