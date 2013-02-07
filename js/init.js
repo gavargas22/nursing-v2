@@ -38,8 +38,10 @@ $(function() {
 		// if we've scrolled more than the navigation, change its position to fixed to stick to top, otherwise change it back to relative
 		if (scroll_top > sticky_navigation_offset_top) { 
 			$('#sticky_navigation').css({ 'position': 'fixed', 'top':0, 'left':0 });
+			$('#mini-logo').css({ 'visibility': 'visible' });
 		} else {
-			$('#sticky_navigation').css({ 'position': 'relative' }); 
+			$('#sticky_navigation').css({ 'position': 'relative' });
+			$('#mini-logo').css({ 'visibility': 'hidden' });
 		}   
 	};
 	

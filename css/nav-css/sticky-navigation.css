@@ -48,5 +48,10 @@
 	color: #fff;
 	background: #D2D2D3;
 }
-
+#mini-logo {
+	position:absolute;
+	width:30px;
+	height:32px;
+	background-image: url(../images/pick.png);
+}
 /*-----------------------------------------------------------------*/

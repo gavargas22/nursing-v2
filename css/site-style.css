@@ -401,6 +401,14 @@ ul#filters li.social-media-filter a:active {
     font-family: 'Droid Sans','Helvetica Neue', Arial sans-serif;
     font-size:11px;
   }
+#load-more-btn {
+	position:relative;
+	top:0;
+	left:50%;
+	width:200px;
+	height:auto;
+	margin-left: -100px;
+}
 /*Secondary content of the nursing website*/
 #son-secondary-content {
 	position:relative;
