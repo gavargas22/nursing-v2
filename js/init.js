@@ -3,12 +3,13 @@ $(function(){
 	$container.isotope({
 		itemSelector : '.isotope-elements',
 		masonry : {
-		columnWidth : 10
+		columnWidth : 10,
+		cornerStampSelector: '.calendar-title'
 		},
 		animationOptions: {
 			duration: 750,
 			easing: 'linear',
-			queue: false
+			queue: false, 
 		}
 	});
 	$('#filters a').click(function(){
