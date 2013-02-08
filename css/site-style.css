@@ -148,6 +148,22 @@ body {
 	font-weight:bold;
 	color:#333333;
 }
+#calendar-tile {
+	position:absolute;
+	background-color:#34742D;
+	top:0;
+	left:0;
+	width:250px;
+	height:400px;
+	-webkit-border-radius: 0px 0px 4px 4px;
+	-moz-border-radius: 0px 0px 4px 4px;
+	border-radius: 0px 0px 4px 4px;
+	float: left;
+	margin: 10px 0px 0px 10px;
+	padding: 0px 0px 25px 0px;
+	z-index: 0;
+	box-shadow:0 0 1px 0px #AAA, 0 2px 0px 0px #999,0 5px 10px rgba(0, 0, 0, 0.25);
+}
 
 /*Menu Styling*/
 #main-navigation {
@@ -163,12 +179,11 @@ body {
 	position:relative;
 	top:0;
 	left:0;
-	width:auto;
+	width:100%;
 	height:auto;
 	background-color: #f4f4f4;
 	box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.17);
-	overflow:hidden;
-	padding-bottom:120px;
+	margin-bottom: -3px;
 }
 #glance-title {
 	position:relative;
@@ -195,7 +210,7 @@ ul#filters {
 	font-size:10px;
 	position:absolute;
 	top:130px;
-	left:820px;
+	left:855px;
 	width:100px;
 	height:auto;
 	margin: 0px;
@@ -296,6 +311,7 @@ ul#filters li.social-media-filter a:active {
 	left:0;
 	width:960px;
 	height:auto;
+	padding-bottom:25px;
 }
 .isotope-elements {
 	position: relative;
@@ -405,10 +421,17 @@ ul#filters li.social-media-filter a:active {
 	position:relative;
 	top:0;
 	left:50%;
-	width:200px;
-	height:auto;
 	margin-left: -100px;
 }
+#load-more-btn a {
+	width:85px;
+	height:39px;
+	background-image:url(../images/load-more-sprite.png);
+}
+/*#load-more-btn a:active {
+	background-position: 85px 0;
+}*/
+
 /*Secondary content of the nursing website*/
 #son-secondary-content {
 	position:relative;
@@ -449,4 +472,26 @@ ul#filters li.social-media-filter a:active {
 }
 .thirdFooter p a:hover {
 	text-decoration:underline;
+}
+
+/*Clearfix etc...*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
 }
