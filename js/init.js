@@ -31,6 +31,7 @@ $(function() {
 
 	// grab the initial top offset of the navigation 
 	var sticky_navigation_offset_top = $('#sticky_navigation').offset().top;
+	var screen_width = $(document).width();
 	
 	// our function that decides weather the navigation bar should have "fixed" css position or not.
 	var sticky_navigation = function(){
@@ -38,10 +39,10 @@ $(function() {
 		
 		// if we've scrolled more than the navigation, change its position to fixed to stick to top, otherwise change it back to relative
 		if (scroll_top > sticky_navigation_offset_top) { 
-			$('#sticky_navigation').css({ 'position': 'fixed', 'top':0, 'left':0 });
+			$('#main-navigation').css({ 'position': 'fixed', 'top':0, 'left':0, 'width': screen_width });
 			$('#mini-logo').css({ 'visibility': 'visible' });
 		} else {
-			$('#sticky_navigation').css({ 'position': 'relative' });
+			$('#main-navigation').css({ 'position': 'relative' });
 			$('#mini-logo').css({ 'visibility': 'hidden' });
 		}   
 	};

@@ -173,6 +173,8 @@ body {
 	top:0;
 	height:50px;
 	z-index:9999;
+	background-color: #FFFFFF;
+	box-shadow: 0 0 1px 0px #ffffff, 0 2px 0px 0px #FF7908, 0 5px 10px rgba(0, 0, 0, 0.25);
 }
 /*At a glance Styling--------------------------------------------*/
 #son-glance {
