@@ -199,12 +199,12 @@ body {
 }
 #glance-descr{ 
 	position:relative;
-	top:20px;
+	top:27px;
 	left:10px;
 	width:auto;
 	height:12px;
 	color:#333333;
-	font-size:11px;
+	font-size:12px;
 	}
 	
 ul#filters {
@@ -289,7 +289,7 @@ ul#filters li.show-all a:active {
 }
 ul#filters li.social-media-filter a {
 	padding: 9px 10px 9px 10px;
-	background-color:#003168;
+	background-color:#080F2C;
 	color:#FFFFFF;
 	display:block;
 	text-decoration:none;
@@ -344,7 +344,13 @@ ul#filters li.social-media-filter a:active {
 	font-size:11px;
 }
 .facebook-element {
-	background-color: #080f2c;
+	background-color: #080F2C;
+	width: 225px;
+	color:#FFFFFF;
+	font-size:11px;
+}
+.yellow-element {
+	background-color: #f2b701;
 	width: 225px;
 	color:#FFFFFF;
 	font-size:11px;
@@ -419,20 +425,28 @@ ul#filters li.social-media-filter a:active {
     font-family: 'Droid Sans','Helvetica Neue', Arial sans-serif;
     font-size:11px;
   }
-#load-more-btn {
+#load-more-posts-btn {
 	position:relative;
 	top:0;
 	left:50%;
-	margin-left: -100px;
+	width:200px;
+	height:50px;
 }
-#load-more-btn a {
-	width:85px;
-	height:39px;
-	background-image:url(../images/load-more-sprite.png);
+#load-more-posts-btn a {
+	position:relative;
+	overflow:visible;
+	top:0;
+	left:0;
+	padding:5px;
+	background-color:#EEEEEE;
+	color:#AAAAAA;
+	text-decoration:none;
+	font-size:11px;
 }
-/*#load-more-btn a:active {
-	background-position: 85px 0;
-}*/
+#load-more-posts-btn a:hover {
+	color:#999999;
+	background-color:#D2D2D3;
+}
 
 /*Secondary content of the nursing website*/
 #son-secondary-content {
