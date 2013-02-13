@@ -20,6 +20,7 @@ body {
 	width:960px;
 	height:auto;
 	margin-left:-480px;
+	padding-top:17px;
 }
 /*Header aspects*/
 #header-wrapper {
@@ -191,20 +192,22 @@ body {
 	position:relative;
 	top:20px;
 	left:10px;
-	width:auto;
-	height:30px;
-	color:#333333;
-	font-size:28px;
+	width:375px;
+	height:auto;
+	color:#555555;
+	font-size:30px;
 	font-weight: bold;
 }
 #glance-descr{ 
 	position:relative;
-	top:27px;
+	top:20px;
 	left:10px;
-	width:auto;
-	height:12px;
-	color:#333333;
-	font-size:12px;
+	width:590px;
+	height:30px;
+	color:#888888;
+	font-size:15px;
+	font-weight: bold;
+	border-bottom: 1px solid #DDDDDD;
 	}
 	
 ul#filters {
@@ -212,8 +215,8 @@ ul#filters {
 	font-size:10px;
 	position:absolute;
 	top:130px;
-	left:855px;
-	width:100px;
+	left:928px;
+	width:120px;
 	height:auto;
 	margin: 0px;
 	z-index:10;
@@ -339,7 +342,7 @@ ul#filters li.social-media-filter a:active {
 }
 .applications-element {
 	background-color: #ffffff;
-	width: 400px;
+	width: 225px;
 	color:#333333;
 	font-size:11px;
 }
