@@ -9,94 +9,80 @@ Tags: UTEP, SoN
 License: All Rights Reserved | Slacken Tie Group 2011
 License URI: http://www.slackentie.com/license/
 */
-body {
-	margin:0;
-	font-family: 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
-}
-#main-wrapper {
-	position:relative;
-	top:0;
-	left:50%;
-	width:960px;
-	height:auto;
-	margin-left:-480px;
-	padding-top:17px;
-}
 /*Header aspects*/
 #header-wrapper {
-	background-color: #FFFFFF;
-	width:100%;
+	padding: 20px 0 20px 0;
 	height:auto;
 }
 #nursing-logo {
 	position: relative;
-	top:20px;
+	top:0;
 	left:0;
-	width: 284px;
-	height:61px;
-	background-image: url(../images/sonlogo.png);
-}
-#header-content-wrapper {
-	position: relative;
-	top: 0;
-	left: 50%;
-	margin-left: -480px;
-	width:960px;
-	height:465px;
-	overflow:hidden;
+	width: auto;
+	height:auto;
 }
 #welcome-menu {
-	position: absolute;
-	top:20px;
-	left:640px;
+	position: relative;
 	z-index:10;
-	width:280px;
-}
-#welcome-menu ul {
-	position:relative;
-	top:0;
-	left:0;
-	width:400px;
-	height:20px;
-	list-style:none;
-	margin-left:-40px;
-}
-#welcome-menu ul li a {
-	position:relative;
-	float:left;
-	top:0;
-	left:0;
 	width:auto;
-	height: 22px;
-	line-height:22px;
-	font-size:10px;
+}
+#welcome-menu ul a {
 	color:#666666;
 	text-decoration:none;
-	padding: 0 10px 0 10px;
+	font-size:10px;
 }
-#welcome-menu ul li a:hover {
+#welcome-menu ul a:hover {
+	color:#666666;
 	text-decoration:underline;
 }
-#welcome-menu ul li.give-son a {
-	position:relative;
-	float:left;
-	top:0;
-	left:0;
-	width:132px;
-	height: 22px;
-	text-indent:-99999px;
+#welcome-menu ul li#give-son {
+	top:10px;
+}
+#welcome-menu ul li#give-son a {
 	display:block;
-	font-size:10px;
-	color:#FF7908;
-	text-decoration:none;
-	padding: 0 10px 0 10px;
-	background-image:url(../images/givenow-sprite.png);
-	background-position: 0 22px;
+	width:123px;
+	height:22px;
+	background-image: url(../img/givenow-sprite.png);
 }
-#welcome-menu ul li.give-son a:hover {
-	background-image:url(../images/givenow-sprite.png);
-	background-position: 0 0;
+/* Slideshow CSS */
+#slideshow-wrapper {
+	position:relative;
+	top:0;
+	left:0
 }
+#slideshow-wrapper img {
+	max-width:100%;
+	height:auto;
+}
+.flex-control-nav .flex-control-paging {
+	visibility:hidden;
+}
+/* ---------------- */
+
+/* Nav menu CSS */
+#menu-background-holder {
+	position:relative;
+	top:-65px;
+	left:0;
+	width:100%;
+	height:auto;
+	background:#FFFFFF;
+	box-shadow: 0 0 1px 0px #ffffff, 0 2px 0px 0px #FF7908, 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+/* ------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
 #nursing-apps {
 	position:absolute;
 	top:90px;
@@ -334,27 +320,24 @@ ul#filters li.social-media-filter a:active {
 	top: 0px;
 	z-index: 0;
 	box-shadow:0 0 1px 0px #AAA, 0 2px 0px 0px #999,0 5px 10px rgba(0, 0, 0, 0.25);
+	width:280px;
 }
 .news-element {
 	background-color: #FF7908;
-	width: 225px;
 	color:#FFFFFF;
 }
 .applications-element {
 	background-color: #ffffff;
-	width: 225px;
 	color:#333333;
 	font-size:11px;
 }
 .facebook-element {
 	background-color: #080F2C;
-	width: 225px;
 	color:#FFFFFF;
 	font-size:11px;
 }
 .yellow-element {
 	background-color: #f2b701;
-	width: 225px;
 	color:#FFFFFF;
 	font-size:11px;
 }

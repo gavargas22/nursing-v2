@@ -7,7 +7,7 @@ Remove this if you use the .htaccess -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <title>School of Nursing | The University of Texas at El Paso</title>
 <meta name="description" content="" />
-<meta name="author" content="Guillermo Vargas @ The School of Nursing | The University of Texas at E" />
+<meta name="author" content="Guillermo Vargas @ The School of Nursing | The University of Texas at El Paso" />
 <meta name="viewport" content="width=device-width; initial-scale=1.0" />
 <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
 <link rel="shortcut icon" href="/favicon.ico" />
@@ -15,89 +15,52 @@ Remove this if you use the .htaccess -->
 <link rel="stylesheet" href="css/site-style.css">
 <link rel="stylesheet" href="css/nav-css/sticky-navigation.css">
 <link rel="stylesheet" href="css/isotope-style.css">
-<link rel="stylesheet" href="css/slideshow-style.css">
-<!--Bootstrap library
-<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">-->
+<link rel="stylesheet" href="css/flexslider.css">
+<!--Bootstrap library-->
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+<!-- ----------------- -->
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-<script src="http://code.jquery.com/jquery.js"></script>
 <script src="js/jquery.isotope.js"></script>
-<script src="js/init.js"></script>
-<script src="js/slides.min.jquery.js"></script>
 
 
 </head>
 <body>
-	<header id="header-wrapper">
-		<div id="header-content-wrapper">
-			<div id="welcome-menu">
-				<ul>
+	<div class="container" id="header-wrapper">
+		<div class="span4" id="nursing-logo"><img src="img/sonlogo.png" width="285px" height="61px" /></div>
+		<div class="span4 offset5" id="welcome-menu">
+				<ul class="inline" id="top-quick-menu">
 					<li><a href="#">Alumni</a></li>
 					<li><a href="#">Students</a></li>
 					<li><a href="#">Faculty</a></li>
 					<li><a href="#">Staff</a></li>
-					<li class="give-son"><a href="#">Give to SoN</a></li>
+					<li id="give-son"><a href="#"></a></li>
 				</ul>
-			</div>
-			<div id="nursing-logo"> </div>
-			<div id="slideshow">
-				<div class="slides_container">
-					<div><img src="images/experiment.png"></div>
-					<div><img src="images/slide02.jpg"></div>
-					<!--<div><img src="http://farm8.staticflickr.com/7180/6819245944_5b57c591aa_b.jpg"></div>-->
-				</div>
-			</div>
-			<!--<div id="nursing-apps">
-				<div id="calendar-app">
-					<div id="calendar-title">Calendar</div>
-					<div id="calendar-icon"></div>
-				</div>
-				<div id="app1-status">OPEN</div>
-			<div id="app1-go">Apply Here</div>
-			</div>-->
-		</div>
-	</header>
-	<div id="main-navigation">
-		<div id="sticky_navigation">
-			<div class="demo_container">
-				<div id="mini-logo"></div>
-				<ul>
-					<li><a href="#" class="selected">Home</a></li>
-					<li><a href="#">Prospective Students</a>
-						<!--<ul>
-							<li>Current Students</li>
-							<li>Future Students</li>
-						</ul>-->
-					</li>
-					<li><a href="#">Current Students</a></li>
-
-					<li><a href="#">Alumni</a></li>
-					<li><a href="#">Contact Us</a></li>
-				</ul>
-			</div>
 		</div>
 	</div>
-	<div id="son-glance" class="clearfix">
-		<div id="main-wrapper"class="clearfix">
-			<div id="glance-title">UTEP Nursing <span style="color:#B3B4B5">at a Glance</span></div>
-			<div id="glance-descr">Explore our school of nursing, where we train the best nurses for the 21st century.</div>
-			<ul id="filters">
-            	<li class="news-filter"><a href="#" data-filter=".news-element">News</a></li>
-            	<li class="research-filter"><a href="#" data-filter=".applications-element">Applications</a></li>
-            	<li class="social-media-filter"><a href="#" data-filter=".facebook-element">Social Media</a></li>
-            	<li class="show-all"><a href="#" data-filter="*">Show All</a></li>
-            </ul>
-			<div id="elements" class="clearfix">
-				<!--<div class=".calendar-title" id="calendar">
-					<div class="element-title">Calendar of Events</div>
-					<div class="card-picture-removethisforfinal1"><img src="images/cards/01.jpg"></div>
-					<div class="element-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. 
-						Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est.</div>
-					<div class="element-footer">
-					</div>
-				</div>-->
-				<div class="isotope-elements news-element" id="e01">
+	<div class="container" id="slideshow-wrapper">
+		<!-- Place somewhere in the <body> of your page -->
+		<div class="flexslider">
+  			<ul class="slides">
+    		<li>
+    		  <img src="img/experiment.png" />
+    		</li>
+    		<li>
+    		  <img src="img/slide02.jpg" />
+    		</li>
+  			</ul>
+		</div>
+	</div>
+	<div id="menu-background-holder">
+		<div class="container">
+			hello
+		</div>
+	</div>
+	
+	<div id="tile-wrapper" class="container">
+		<div class="isotope-elements news-element" id="e01">
 					<div class="element-title">Believe in BSN Education.</div>
-					<div class="card-picture-removethisforfinal1"><img src="images/cards/01.jpg"></div>
+					<div class="card-picture-removethisforfinal1"><img src="img/cards/01.jpg"></div>
 					<div class="element-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. 
 						Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est.</div>
 					<div class="element-footer">
@@ -107,7 +70,7 @@ Remove this if you use the .htaccess -->
 				</div>
 				<div class="isotope-elements applications-element" id="e02">
 					<div class="element-title">UTEP Nursing's Dean named scholar of the year.</div>
-					<div class="card-picture"><img src="images/cards/02.jpeg"></div>
+					<div class="card-picture"><img src="img/cards/02.jpeg"></div>
 						<div class="element-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. 
 						Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est.</div>
 					<div class="element-footer light-color">
@@ -117,7 +80,7 @@ Remove this if you use the .htaccess -->
 				</div>
 				<div class="isotope-elements facebook-element" id="e03">
 					<div class="element-title">Traditional BSN/Fast Track Applications are now open!</div>
-					<div class="card-picture"><img src="images/cards/03.jpg"></div>
+					<div class="card-picture"><img src="img/cards/03.jpg"></div>
 					<div class="element-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. 
 						Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est.</div>
 					<div class="element-footer">
@@ -127,7 +90,7 @@ Remove this if you use the .htaccess -->
 				</div>
 				<div class="isotope-elements news-element" id="e04">
 					<div class="element-title">Believe in BSN Education.</div>
-					<div class="card-picture-removethisforfinal1"><img src="images/cards/04.jpg"></div>
+					<div class="card-picture-removethisforfinal1"><img src="img/cards/04.jpg"></div>
 					<div class="element-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. 
 						Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est.</div>
 					<div class="element-footer">
@@ -137,7 +100,7 @@ Remove this if you use the .htaccess -->
 				</div>
 				<div class="isotope-elements facebook-element" id="e05">
 					<div class="element-title">Some more news items.</div>
-					<div class="card-picture-removethisforfinal1"><img src="images/cards/04.jpg"></div>
+					<div class="card-picture-removethisforfinal1"><img src="img/cards/04.jpg"></div>
 					<div class="element-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. 
 						Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est.</div>
 					<div class="element-footer">
@@ -147,7 +110,7 @@ Remove this if you use the .htaccess -->
 				</div>
 				<div class="isotope-elements yellow-element" id="e06">
 					<div class="element-title">Applications are now open, CLICK HERE.</div>
-					<div class="card-picture-removethisforfinal1"><img src="images/cards/01.jpg"></div>
+					<div class="card-picture-removethisforfinal1"><img src="img/cards/01.jpg"></div>
 					<div class="element-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. 
 						Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est.</div>
 					<div class="element-footer">
@@ -155,20 +118,15 @@ Remove this if you use the .htaccess -->
 						<div class="like-counter">5</div>
 					</div>
 				</div>
-			</div>
-			<div id="load-more-posts-btn"><a class="btn btn-primary btn-large"href="#">Load More</a></div>
-			
-		</div>
 	</div>
-	<div id="son-secondary-content">
-		<div id="secondary-content-title"> </div>
-	</div>
-<footer>
-	<div class="thirdFooter">
-		<div class="container_12">
-			<div class="thirdFooterLogos"><a href="http://www.utep.edu/"><img src="images/footerUTEPlogo.png" alt="UTEP Logo"></a> <img src="images/footerMinerLogo.png" alt="Miner Logo"></div><div><p><a href="http://admin.utep.edu/Default.aspx?tabid=49976">State Reports</a> | <a href="http://www.utsystem.edu/">UT System</a> | <a href="http://www.utep.edu/customerservice.aspx">Customer Service Statement</a> | <a href="http://www.utep.edu/feedbackform.aspx">Site Feedback</a> | <a href="http://www.admin.utep.edu/Default.aspx?tabid=54275">Required Links</a> | <a href="http://admin.utep.edu/Default.aspx?tabid=37475">CLERY Crime Statistics</a> | <a href="http://sao.fraud.state.tx.us/">Report Fraud</a><br>The University of Texas at El Paso | 500 West University Avenue | El Paso, Texas 79968 | (915) 747-5000</div></p><div class="clear"></div></div></div>
-</footer>
-<!-- Bootstrap JS
-<script src="bootstrap/js/bootstrap.min.js"></script>-->
+	
+	
+	
+	
+<!-- JS -->
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/init.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
 </body>
 </html>

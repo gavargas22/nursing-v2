@@ -1,4 +1,4 @@
-$(function(){
+/*$(function(){
 	var $container = $('#elements');
 	$container.isotope({
 		itemSelector : '.isotope-elements',
@@ -17,17 +17,18 @@ $(function(){
 		$container.isotope({ filter: selector });
 		return false;
 	});
+});*/
+
+// Can also be used with $(document).ready()
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide",
+    touch: true
+  });
 });
 
-$(function(){
-	$("#slideshow").slides({
-		pagination: true,
-        generatePagination: false,
-        play: 5000
-      });
-});
 
-$(function() {
+/*$(function() {
 
 	// grab the initial top offset of the navigation 
 	var sticky_navigation_offset_top = $('#sticky_navigation').offset().top;
@@ -61,4 +62,4 @@ $(function() {
 		event.preventDefault(); 
 	});
 	
-});
+});*/
