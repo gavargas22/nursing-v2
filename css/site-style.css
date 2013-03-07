@@ -9,6 +9,9 @@ Tags: UTEP, SoN
 License: All Rights Reserved | Slacken Tie Group 2011
 License URI: http://www.slackentie.com/license/
 */
+body {
+	text-rendering: optimizeLegibility;
+}
 /*Header aspects*/
 #header-wrapper {
 	padding: 20px 0 20px 0;
@@ -20,6 +23,7 @@ License URI: http://www.slackentie.com/license/
 	left:0;
 	width: auto;
 	height:auto;
+	padding-bottom:15px;
 }
 #welcome-menu {
 	position: relative;
@@ -43,6 +47,8 @@ License URI: http://www.slackentie.com/license/
 	width:123px;
 	height:22px;
 	background-image: url(../img/givenow-sprite.png);
+	position:relative;
+	top:7px;
 }
 /* Slideshow CSS */
 #slideshow-wrapper {
@@ -69,10 +75,35 @@ License URI: http://www.slackentie.com/license/
 	background:#FFFFFF;
 	box-shadow: 0 0 1px 0px #ffffff, 0 2px 0px 0px #FF7908, 0 5px 10px rgba(0, 0, 0, 0.25);
 }
+#menu-background-holder-single {
+	position:relative;
+	top:0;
+	left:0;
+	width:100%;
+	height:auto;
+	background:#FFFFFF;
+	box-shadow: 0 0 1px 0px #ffffff, 0 2px 0px 0px #FF7908, 0 5px 10px rgba(0, 0, 0, 0.25);
+}
 /* ------------ */
 
-
-
+/* Tile Section CSS */
+#title-filters {
+	position:relative;
+	top:-20px;
+} 
+#tile-wrapper {
+	padding-bottom:50px;
+}
+/*Footer CSS Styling*/
+#footer-background-holder {
+	position:relative;
+	top:0;
+	left:0;
+	width:auto;
+	height:auto;
+	background-color:#002d62;
+}
+/* ---------------- */
 
 
 
@@ -161,7 +192,7 @@ License URI: http://www.slackentie.com/license/
 	height:50px;
 	z-index:9999;
 	background-color: #FFFFFF;
-	box-shadow: 0 0 1px 0px #ffffff, 0 2px 0px 0px #FF7908, 0 5px 10px rgba(0, 0, 0, 0.25);
+	/*box-shadow: 0 0 1px 0px #ffffff, 0 2px 0px 0px #FF7908, 0 5px 10px rgba(0, 0, 0, 0.25);*/
 }
 /*At a glance Styling--------------------------------------------*/
 #son-glance {
@@ -176,33 +207,35 @@ License URI: http://www.slackentie.com/license/
 }
 #glance-title {
 	position:relative;
-	top:20px;
+	top:0;
 	left:10px;
-	width:375px;
+	width:auto;
 	height:auto;
 	color:#555555;
 	font-size:30px;
 	font-weight: bold;
+	line-height:35px;
 }
 #glance-descr{ 
 	position:relative;
-	top:20px;
+	top:0;
 	left:10px;
-	width:590px;
-	height:30px;
+	width:auto;
+	height:auto;
 	color:#888888;
 	font-size:15px;
 	font-weight: normal;
 	border-bottom: 1px solid #DDDDDD;
+	padding-bottom:10px;
 	}
 	
 ul#filters {
 	font-family:"Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
 	font-size:10px;
-	position:absolute;
-	top:130px;
-	left:928px;
-	width:120px;
+	position:relative;
+	top:10px;
+	left:10px;
+	width:auto;
 	height:auto;
 	margin: 0px;
 	z-index:10;
@@ -220,14 +253,14 @@ ul#filters li {
 	margin-bottom:6px;
 }
 ul#filters li.news-filter a {
-	padding: 9px 10px 9px 10px;
+	padding: 5px 10px 5px 10px;
 	background-color:#FF7908;
 	color:#FFF;
 	display:block;
 	text-decoration:none;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 	-moz-box-shadow: 0px 0px 2px #000;
   	-webkit-box-shadow: 0px 0px 2px #000;
   	box-shadow: 0px 0px 2px #000;
@@ -238,58 +271,77 @@ ul#filters li.news-filter a:active {
 	box-shadow:inset 0px 0px 3px #000;
 	z-index: 0;
 }
-ul#filters li.research-filter a {
-	padding: 9px 10px 9px 10px;
-	background-color:#FFFFFF;
-	color:#333;
-	display:block;
-	text-decoration:none;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	-moz-box-shadow: 0px 0px 2px #000;
-  	-webkit-box-shadow: 0px 0px 2px #000;
-  	box-shadow: 0px 0px 2px #000;
-}
-ul#filters li.research-filter a:active {
-	-moz-box-shadow:inset 0px 0px 3px #000;
-	-webkit-box-shadow:inset 0px 0px 3px #000;
-	box-shadow:inset 0px 0px 3px #000;
-	z-index: 0;
-}
-ul#filters li.show-all a {
-	padding: 9px 10px 9px 10px;
+ul#filters li.admissions-filter a {
+	padding: 5px 10px 5px 10px;
 	background-color:#112233;
 	color:#FFFFFF;
 	display:block;
 	text-decoration:none;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 	-moz-box-shadow: 0px 0px 2px #000;
   	-webkit-box-shadow: 0px 0px 2px #000;
   	box-shadow: 0px 0px 2px #000;
 }
-ul#filters li.show-all a:active {
+ul#filters li.admissions-filter a:active {
 	-moz-box-shadow:inset 0px 0px 3px #000;
 	-webkit-box-shadow:inset 0px 0px 3px #000;
 	box-shadow:inset 0px 0px 3px #000;
 	z-index: 0;
 }
 ul#filters li.social-media-filter a {
-	padding: 9px 10px 9px 10px;
-	background-color:#080F2C;
-	color:#FFFFFF;
+	padding: 5px 10px 5px 10px;
+	background-color:#FFFFFF;
+	color:#333333;
 	display:block;
 	text-decoration:none;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 	-moz-box-shadow: 0px 0px 2px #000;
   	-webkit-box-shadow: 0px 0px 2px #000;
   	box-shadow: 0px 0px 2px #000;
 }
 ul#filters li.social-media-filter a:active {
+	-moz-box-shadow:inset 0px 0px 3px #000;
+	-webkit-box-shadow:inset 0px 0px 3px #000;
+	box-shadow:inset 0px 0px 3px #000;
+	z-index: 0;
+}
+ul#filters li.resources-element-filter a {
+	padding: 5px 10px 5px 10px;
+	background-color:#666666;
+	color:#FFFFFF;
+	display:block;
+	text-decoration:none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0px 0px 2px #000;
+  	-webkit-box-shadow: 0px 0px 2px #000;
+  	box-shadow: 0px 0px 2px #000;
+}
+ul#filters li.resources-element-filter a:active {
+	-moz-box-shadow:inset 0px 0px 3px #000;
+	-webkit-box-shadow:inset 0px 0px 3px #000;
+	box-shadow:inset 0px 0px 3px #000;
+	z-index: 0;
+}
+ul#filters li.show-all a {
+	padding: 5px 10px 5px 10px;
+	background-color:#FFFFFF;
+	color:#333333;
+	display:block;
+	text-decoration:none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0px 0px 2px #000;
+  	-webkit-box-shadow: 0px 0px 2px #000;
+  	box-shadow: 0px 0px 2px #000;
+}
+ul#filters li.show-all a:active {
 	-moz-box-shadow:inset 0px 0px 3px #000;
 	-webkit-box-shadow:inset 0px 0px 3px #000;
 	box-shadow:inset 0px 0px 3px #000;
@@ -303,6 +355,10 @@ ul#filters li.social-media-filter a:active {
 	width:960px;
 	height:auto;
 	padding-bottom:25px;
+}
+.isotope-elements img {
+	max-width:100%;
+	height:auto;
 }
 .isotope-elements {
 	position: relative;
@@ -320,24 +376,25 @@ ul#filters li.social-media-filter a:active {
 	top: 0px;
 	z-index: 0;
 	box-shadow:0 0 1px 0px #AAA, 0 2px 0px 0px #999,0 5px 10px rgba(0, 0, 0, 0.25);
-	width:280px;
+	/*width:280px;*/
+	width:220px;
 }
 .news-element {
 	background-color: #FF7908;
-	color:#FFFFFF;
+	color:#ffffff;
 }
-.applications-element {
-	background-color: #ffffff;
-	color:#333333;
+.admissions-element {
+	background-color: #112233;
+	color:#ffffff;
 	font-size:11px;
 }
 .facebook-element {
-	background-color: #080F2C;
-	color:#FFFFFF;
+	background-color: #FFFFFF;
+	color:#333333;
 	font-size:11px;
 }
-.yellow-element {
-	background-color: #f2b701;
+.resources-element {
+	background-color: #333333;
 	color:#FFFFFF;
 	font-size:11px;
 }
@@ -362,8 +419,7 @@ ul#filters li.social-media-filter a:active {
 	width:auto;
 	font-size:18px;
 	font-weight:bold;
-	padding-left:10px;
-	padding-bottom:20px;
+	padding: 0 10px 20px 10px;
 	font-family: 'Droid Sans','Helvetica Neue', Arial sans-serif;
 }
 .element-text {
@@ -372,9 +428,10 @@ ul#filters li.social-media-filter a:active {
 	left:0;
 	width:auto;
 	height:auto;
-	font-size:11px;
+	font-size:12px;
 	padding-left:10px;
 	padding-right:10px;
+	line-height: 14px;
 }
 .element-footer {
 	position: relative;
@@ -398,12 +455,12 @@ ul#filters li.social-media-filter a:active {
 	left: 50%;
 	width:13px;
 	height:13px;
-	background-image:url(../images/like-sprite.png);
+	background-image:url(../img/like-sprite.png);
 	background-position: 0 13px;
 }
 .like-counter {
     position: absolute;
-    top:8px;
+    top:5px;
     left:50%;
     margin-left:17px;
     width:auto;
@@ -497,3 +554,28 @@ html[xmlns] .clearfix {
 * html .clearfix {
 	height: 1%;
 }
+
+/*iPhone and mobile CSS*/
+/*Portrait Mode*/
+@media screen and (max-device-width: 480px){
+	.isotope-elements {
+		width:260px
+	}
+	.isotope-elements img {
+		width:100%;
+		height:auto;
+	}
+}
+/*Portrait Mode
+@media only screen and (max-device-width:900px ) {
+  	.tile {
+	width:250px;
+	}
+}
+Landscape Mode
+@media screen and (min-width: 481px), 
+  screen and (max-width: 940px) {
+  	.tile { 
+	width:200px;
+	}
+}*/

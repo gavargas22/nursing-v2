@@ -1,5 +1,5 @@
-/*$(function(){
-	var $container = $('#elements');
+$(function(){
+	var $container = $('#tile-wrapper');
 	$container.isotope({
 		itemSelector : '.isotope-elements',
 		masonry : {
@@ -17,7 +17,7 @@
 		$container.isotope({ filter: selector });
 		return false;
 	});
-});*/
+});
 
 // Can also be used with $(document).ready()
 $(window).load(function() {
