@@ -38,7 +38,6 @@ body {
 #welcome-menu {
 	position: relative;
 	z-index:10;
-	width:auto;
 }
 #welcome-menu ul a {
 	color:#ffffff;
@@ -72,6 +71,39 @@ body {
 }
 .flex-control-nav .flex-control-paging {
 	visibility:hidden;
+}
+/* ---------------- */
+
+/* Miscellaneous CSS*/
+#single-page {
+	padding-bottom:140px;
+	padding-top:50px;
+}
+#institution-title {
+	position:relative;
+	top:0;
+	left:0;
+	font-size:20px;
+	font-weight:bold;
+	color:#C67605;
+}
+#page-items h2 {
+	color:#444444;
+	line-height:30px;
+}
+#page-items p {
+	color:#85919A;
+	line-height:17px;
+	font-size:12px;
+}
+.page-item-class {
+	padding: 10px;
+}
+#single-page-teaser {
+	text-shadow: 1px 1px 2px #333333;
+}
+#single-page-teaser p {
+	line-height:25px;
 }
 /* ---------------- */
 
