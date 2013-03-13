@@ -12,6 +12,10 @@ License URI: http://www.slackentie.com/license/
 body {
 	text-rendering: optimizeLegibility;
 }
+::selection {
+	background-color:#F89406;
+	color:#FFFFFF;
+}
 /*Header aspects*/
 .identityheader {
 	background-color:#153a6e;
@@ -497,8 +501,9 @@ ul#filters li.show-all a:active {
 	left: 50%;
 	width:13px;
 	height:13px;
-	background-image:url(../img/like-sprite.png);
+	background-image:url(../img/pickbutton.png);
 	background-position: 0 13px;
+	background-size:cover;
 }
 .like-counter {
     position: absolute;
