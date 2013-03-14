@@ -1,3 +1,4 @@
+<?php get_header(); ?>
 <div class="identityheader" id="identityheaderborder">
     <div class="container">
         <div class="span6">	<a href="http://www.utep.edu/"><img src="http://onthemove.utep.edu/img/utepidheader2.png"></a>
@@ -36,10 +37,10 @@
     <div class="flexslider">
         <ul class="slides">
             <li>
-                <img src="img/experiment.png" />
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/img/experiment.png" />
             </li>
             <li>
-                <img src="img/slide02.jpg" />
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/img/slide02.jpg" />
             </li>
         </ul>
     </div>
@@ -106,144 +107,22 @@
     </div>
 </div>
 <div id="tile-wrapper" class="container">
-    <div class="isotope-elements news-element" id="e01">
-        <div class="element-title">Believe in BSN Education.</div>
+	<?php query_posts(array('showposts' => 20, 'orderby' => 'desc', 'category_name' => 'isotope-elements')); ?>
+	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+	<?php $card_id = get_post_meta($post->ID, "Card_Identifier", true); ?>
+    <div class="isotope-elements <?php echo $card_id; ?>" id="<?php get_the_ID(); ?>">
+        <div class="element-title"><?php the_title(); ?></div>
         <div class="card-picture-removethisforfinal1">
-            <img src="img/cards/01.jpg">
+            <a href="<?php the_permalink(); ?>"><?php if ( has_post_thumbnail() ) {the_post_thumbnail();} ?></a>
         </div>
-        <div class="element-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui
-            mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque
-            eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus
-            molestie magna non est.</div>
+        <div class="element-text"><?php the_content(); ?></div>
         <div class="element-footer">
+        	<?php edit_post_link('Edit'); ?>
             <div class="like-icon"></div>
             <div class="like-counter">5</div>
         </div>
     </div>
-    <div class="isotope-elements admissions-element" id="e02">
-        <div class="element-title">UTEP Nursing's Dean named scholar of the year.</div>
-        <div class="card-picture-removethisforfinal1">
-            <img src="img/cards/02.jpeg">
-        </div>
-        <div class="element-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui
-            mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque
-            eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus
-            molestie magna non est.</div>
-        <div class="element-footer light-color">
-            <div class="like-icon"></div>
-            <div class="like-counter">13</div>
-        </div>
-    </div>
-    <div class="isotope-elements social-element" id="e03">
-        <div class="element-title">Traditional BSN/Fast Track Applications are now open!</div>
-        <div class="card-picture-removethisforfinal1">
-            <img src="img/cards/03.jpg">
-        </div>
-        <div class="element-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui
-            mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque
-            eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus
-            molestie magna non est.</div>
-        <div class="element-footer">
-            <div class="like-icon"></div>
-            <div class="like-counter">7</div>
-        </div>
-    </div>
-    <div class="isotope-elements resources-element" id="e04">
-        <div class="element-title">Believe in BSN Education.</div>
-        <div class="card-picture-removethisforfinal1">
-            <img src="img/cards/04.jpg">
-        </div>
-        <div class="element-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui
-            mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque
-            eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus
-            molestie magna non est.</div>
-        <div class="element-footer">
-            <div class="like-icon"></div>
-            <div class="like-counter">3</div>
-        </div>
-    </div>
-    <div class="isotope-elements social-element" id="e05">
-        <div class="element-title">Some more news items.</div>
-        <div class="card-picture-removethisforfinal1">
-            <img src="img/2070641022_0386ee0053_z.jpg">
-        </div>
-        <div class="element-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui
-            mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque
-            eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus
-            molestie magna non est.</div>
-        <div class="element-footer">
-            <div class="like-icon"></div>
-            <div class="like-counter">3</div>
-        </div>
-    </div>
-    <div class="isotope-elements admissions-element" id="e06">
-        <div class="element-title">Applications are now open, CLICK HERE.</div>
-        <div class="card-picture-removethisforfinal1">
-            <img src="http://farm8.staticflickr.com/7215/7239624822_200dbf0a5f_c.jpg">
-        </div>
-        <div class="element-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui
-            mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque
-            eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus
-            molestie magna non est.</div>
-        <div class="element-footer">
-            <div class="like-icon"></div>
-            <div class="like-counter">5</div>
-        </div>
-    </div>
-    <div class="isotope-elements news-element" id="e07">
-        <div class="element-title">UTEP Nursing's Dean named scholar of the year.</div>
-        <div class="card-picture-removethisforfinal1">
-            <img src="http://farm4.staticflickr.com/3226/2981064180_2d354d58e1_z.jpg">
-        </div>
-        <div class="element-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui
-            mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque
-            eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus
-            molestie magna non est.</div>
-        <div class="element-footer light-color">
-            <div class="like-icon"></div>
-            <div class="like-counter">13</div>
-        </div>
-    </div>
-    <div class="isotope-elements social-element" id="e08">
-        <div class="element-title">Traditional BSN/Fast Track Applications are now open!</div>
-        <div class="card-picture-removethisforfinal1">
-            <img src="img/cards/03.jpg">
-        </div>
-        <div class="element-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui
-            mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque
-            eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus
-            molestie magna non est.</div>
-        <div class="element-footer">
-            <div class="like-icon"></div>
-            <div class="like-counter">7</div>
-        </div>
-    </div>
-    <div class="isotope-elements news-element" id="e09">
-        <div class="element-title">Believe in BSN Education.</div>
-        <div class="card-picture-removethisforfinal1">
-            <img src="img/cards/04.jpg">
-        </div>
-        <div class="element-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui
-            mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque
-            eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus
-            molestie magna non est.</div>
-        <div class="element-footer">
-            <div class="like-icon"></div>
-            <div class="like-counter">3</div>
-        </div>
-    </div>
-    <div class="isotope-elements resources-element" id="e10">
-        <div class="element-title">Some more news items.</div>
-        <div class="card-picture-removethisforfinal1">
-            <img src="img/cards/04.jpg">
-        </div>
-        <div class="element-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui
-            mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque
-            eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus
-            molestie magna non est.</div>
-        <div class="element-footer">
-            <div class="like-icon"></div>
-            <div class="like-counter">3</div>
-        </div>
-    </div>
+    <?php endwhile; else: ?>
+	<?php endif; ?>
 </div>
+<?php get_footer(); ?>

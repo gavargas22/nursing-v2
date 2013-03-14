@@ -50,10 +50,10 @@
 </div>
 <!-- JS -->
 <script src="http://code.jquery.com/jquery.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
-<script src="js/init.js"></script>
-<script src="js/jquery.flexslider-min.js"></script>
-<script src="js/jquery.isotope.min.js"></script>
+<script src="<?php bloginfo('stylesheet_directory'); ?>/bootstrap/js/bootstrap.min.js"></script>
+<script src="<?php bloginfo('stylesheet_directory'); ?>/js/init.js"></script>
+<script src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.flexslider-min.js"></script>
+<script src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.isotope.min.js"></script>
 </body>
 
 </html>
