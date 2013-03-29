@@ -1,50 +1,5 @@
 <?php get_header(); ?>
-<div class="identityheader" id="identityheaderborder">
-    <div class="container">
-        <div class="span6">	<a href="http://www.utep.edu/"><img src="http://onthemove.utep.edu/img/utepidheader2.png"></a>
-
-        </div>
-        <!-- End Six Columns -->
-        <div class="span4 offset1" id="welcome-menu">
-            <ul class="inline" id="top-quick-menu">
-                <li><a href="#">Contact Us</a>
-
-                </li>
-                <li><a href="#">UTEP Home</a>
-
-                </li>
-                <li><a href="#">Faculty &amp; Staff</a>
-
-                </li>
-                <li><a href="#">Give to SoN</a>
-
-                </li>
-            </ul>
-        </div>
-    </div>
-    <!-- End Row -->
-</div>
-<div class="container" id="header-wrapper">
-    <div class="span4" id="welcome-menu">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/small-title.png" />
-    </div>
-    <div class="span4 offset4" id="nursing-logo">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sonlogo.png" width="285px" height="61px" />
-    </div>
-</div>
-<div class="container" id="slideshow-wrapper">
-    <!-- Place somewhere in the <body> of your page -->
-    <div class="flexslider">
-        <ul class="slides">
-            <li>
-                <img src="<?php bloginfo('stylesheet_directory'); ?>/img/experiment.png" />
-            </li>
-            <li>
-                <img src="<?php bloginfo('stylesheet_directory'); ?>/img/slide02.jpg" />
-            </li>
-        </ul>
-    </div>
-</div>
+<?php get_template_part( 'slideshow-part' ); ?>
 <div id="menu-background-holder">
     <div class="container">
         <div id="main-navigation">

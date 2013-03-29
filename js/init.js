@@ -1,4 +1,4 @@
-$(function(){
+$(document).ready(function() {
 	var $container = $('#tile-wrapper');
 	$container.isotope({
 		itemSelector : '.isotope-elements',
@@ -18,15 +18,6 @@ $(function(){
 		return false;
 	});
 });
-
-// Can also be used with $(document).ready()
-$(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide",
-    touch: true
-  });
-});
-
 
 /*$(function() {
 
