@@ -121,10 +121,11 @@
 /* Tile Section CSS */
 #title-filters {
 	position:relative;
-	top:-20px;
+	top:0;
 } 
 #tile-wrapper {
-	padding-bottom:50px;
+	top:40px;
+	padding-bottom:70px;
 }
 /*Footer CSS Styling*/
 #footer-background-holder {
@@ -261,6 +262,11 @@
 	padding-bottom:10px;
 	}
 	
+#filter-holders {
+	position:relative;
+	top:20px;
+	left:0;
+}
 ul#filters {
 	font-family:"Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
 	font-size:10px;

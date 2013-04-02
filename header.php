@@ -63,3 +63,34 @@
         <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sonlogo.png" width="285px" height="61px" />
     </div>
 	</div>
+	<div id="menu-background-holder-single">
+            <div class="container">
+                <div id="main-navigation">
+                    <div id="sticky_navigation">
+                        <div class="demo_container">
+                            <div id="mini-logo"></div>
+                            <!--<ul>
+                                <li><a href="../" class="">Home</a>
+                                </li>
+                                <li><a href="prospective">Prospective Students</a>
+
+                                    <!--<ul>
+							<li>Current Students</li>
+							<li>Future Students</li>
+						</ul>-->
+                                <!--</li>
+                                <li><a href="current" class="">Current Students</a>
+                                </li>
+                                <li><a href="alumni">Alumni & Friends</a>
+                                </li>
+                                <li><a href="excellence">Areas of Excellence</a>
+                                </li>
+                                <li><a href="#">About Us</a>
+                                </li>
+                            </ul>-->
+                            <?php wp_nav_menu( array('menu' => 'Main Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-collapse' )); ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

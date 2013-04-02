@@ -1,41 +1,6 @@
 <?php get_header(); ?>
-<?php get_template_part( 'slideshow-part' ); ?>
-<div id="menu-background-holder">
-    <div class="container">
-        <div id="main-navigation">
-            <div id="sticky_navigation">
-                <div class="demo_container">
-                    <div id="mini-logo"></div>
-                    <ul>
-                        <li><a href="./" class="selected">Home</a>
 
-                        </li>
-                        <li><a href="single-page.html">Prospective Students</a>
-
-                            <!--<ul>
-							<li>Current Students</li>
-							<li>Future Students</li>
-						</ul>-->
-                        </li>
-                        <li><a href="other-page.html">Current Students</a>
-
-                        </li>
-                        <li><a href="#">Alumni & Friends</a>
-
-                        </li>
-                        <li><a href="#">Areas of Excellence</a>
-
-                        </li>
-                        <li><a href="#">About Us</a>
-
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container">
+<div class="container" id="filter-holders">
     <div id="title-filters">
         <div id="glance-title">UTEP Nursing <span style="color:#B3B4B5">at a Glance</span>
 
