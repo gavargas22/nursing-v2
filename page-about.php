@@ -17,7 +17,7 @@
                  <div class="caption">
                     <h3>Message from the Dean</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a href="#" class="btn btn-primary">Action</a> <a href="#" class="btn">Action</a></p>
+                    <p><a href="#" class="btn btn-primary btn-block">Read More</a></p>
                   </div>
                 </div>
               </li>
@@ -27,7 +27,7 @@
                   <div class="caption">
                     <h3>Mission &amp; Vision</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a href="#" class="btn btn-primary">Action</a> <a href="#" class="btn">Action</a></p>
+                    <p><a href="#" class="btn btn-primary btn-block">Read More</a></p>
                   </div>
                 </div>
               </li>
@@ -37,7 +37,7 @@
                   <div class="caption">
                     <h3>History</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a href="#" class="btn btn-primary">Action</a> <a href="#" class="btn">Action</a></p>
+                    <p><a href="#" class="btn btn-primary btn-block">Read More</a></p>
                   </div>
                 </div>
               </li>
@@ -47,7 +47,7 @@
                   <div class="caption">
                     <h3>Excellence, Innovation, Diversity</h3>
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a href="#" class="btn btn-primary">Action</a> <a href="#" class="btn">Action</a></p>
+                    <p><a href="#" class="btn btn-primary btn-block">Read More</a></p>
                   </div>
                 </div>
               </li>
