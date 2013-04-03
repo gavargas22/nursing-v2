@@ -3,15 +3,12 @@
         <div class="secondarycontent-width">
             <div class="secondarycontent">
                 <div class="row">
-                    <div class="span2 offset2">	<a href="http://centennial.utep.edu"><img width="205px" height="auto" src="http://onthemove.utep.edu/img/centennialtransparent.png"></a>
-
+                    <div class="span2 offset2">
+                    	<a href="http://onthemove.utep.edu/"><img src="http://centennial.utep.edu/img/300paydirtmovelogo5.png"></a>
                     </div>
                     <!-- End three columns -->
                     <div class="span7">
-                        	<h5 style="color:#FFFFFF; line-height: 1.3; font-weight:300; margin-bottom: 17px;">The University of Texas at El Paso will be one hundred years old in 2014. Over the past century, each of us—students, staff, and faculty—have brought our dreams to this University and worked together to achieve them. <a style="color:#f89728" href="http://centennial.utep.edu">Learn more »
-			</a>
-		</h5>
-
+                        	<h5 style="color:#FFFFFF; line-height: 1.3; font-weight:300; margin-bottom: 17px;">The Centennial Celebration will dramatically change the University’s campus. Stay informed of the latest construction timelines and street closures at <a href="http://onthemove.utep.edu/">onthemove.utep.edu</a></h5>
                     </div>
                     <!-- End eight columns -->
                 </div>

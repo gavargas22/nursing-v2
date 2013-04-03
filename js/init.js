@@ -19,6 +19,9 @@ $(document).ready(function() {
 	});
 });
 
+/*Load the Centennial Code*/
+
+
 /*$(function() {
 
 	// grab the initial top offset of the navigation 
