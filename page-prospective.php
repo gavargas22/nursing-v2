@@ -21,7 +21,8 @@
                     </p>
                 </div>
                 <div class="span4">
-                     <h3>Student Affairs</h3> 
+                     <h3>Academic Advising</h3>
+                     <h5>Office of Student Affairs</h5> 
                     <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
                         ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
                         sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed
