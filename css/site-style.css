@@ -267,6 +267,34 @@
 	top:20px;
 	left:0;
 }
+.filter-labels {
+	border-radius 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	display: inline-block;
+	padding: 2px 4px;
+	font-size: 11.844px;
+	font-weight: bold;
+	line-height: 14px;
+	/*color: #fff;*/
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+	white-space: nowrap;
+	vertical-align: baseline;
+}
+.filter-labels .news-element {
+	background-color:#FF7908;
+}
+.filter-labels .admissions-element {
+	background-color:#112233;
+}
+.filter-labels .resources-element {
+	background-color:#666666;
+}
+.filter-labels .social-element {
+	color:#333333;
+	background-color:#F4F4F4;
+}
+
 ul#filters {
 	font-family:"Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
 	font-size:10px;
@@ -528,6 +556,9 @@ ul#filters li.show-all a:active {
 #load-more-posts-btn a:hover {
 	color:#999999;
 	background-color:#D2D2D3;
+}
+#label-id {
+	padding: 0 0 20px 0;
 }
 
 /*Secondary content of the nursing website*/
