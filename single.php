@@ -1,11 +1,5 @@
 <?php get_header(); ?>
 <div class="container" id="single-page">
-    <ul class="breadcrumb">
-        <li><a href="#">Home</a>  <span class="divider">/</span>
-        </li>
-        <li class="active">Current Students<span class="divider">/</span>
-        </li>
-    </ul>
     <div class="container">
         <div class="row-fluid">
             <div class="span12">
