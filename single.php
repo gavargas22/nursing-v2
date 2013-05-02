@@ -1,52 +1,29 @@
 <?php get_header(); ?>
 <div class="container" id="single-page">
-        	<ul class="breadcrumb">
-  <li><a href="#">Home</a> <span class="divider">/</span></li>
-  <li class="active">Current Students<span class="divider">/</span></li>
-</ul>
-            <div class="hero-unit" id="single-page-teaser" style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/img/bgCurrent.jpg); color:#ffffff; background-size:cover;">
-                 <h1>Current Students</h1> 
-                <p>This is a template for a simple showcase of the most important information
-                    that students would need to know for the starting semester which are the
-                    Admissions, one of the most visited parts of our website.</p>
+    <ul class="breadcrumb">
+        <li><a href="#">Home</a>  <span class="divider">/</span>
+        </li>
+        <li class="active">Current Students<span class="divider">/</span>
+        </li>
+    </ul>
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span12">
+            	<div class="span3"><?php if ( has_post_thumbnail() ) {the_post_thumbnail('full');} ?></div>
+            	<div class="span6">
+            		<div></div>
+            		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+            		<?php $card_id = get_post_meta($post->ID, "Card_Identifier", true); ?>
+          			<h2><?php the_title(); ?></h2>
+          			<div id="label-id"><span class="filter-labels <?php echo $card_id; ?>"><?php echo $card_id; ?></span></div>
+            		<blockquote>
+  					<p><?php the_content(); ?></p>
+					</blockquote>
+					<?php endwhile; else: ?>
+					<?php endif; ?>
+            	</div>
             </div>
-            <div class="row" id="page-items">
-                <div class="span4">
-                     <h3>Forms &amp; Handbooks</h3> 
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
-                        ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                        sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed
-                        odio dui.</p>
-                    <p><a class="btn" href="sub-page.html">View details »</a>
-                    </p>
-                </div>
-                <div class="span4">
-                     <h3>Clinical Compliance</h3> 
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
-                        ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                        sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed
-                        odio dui.</p>
-                    <p><a class="btn" href="#">View details »</a>
-                    </p>
-                </div>
-                <div class="span4">
-                     <h3>Organizations</h3> 
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas
-                        eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus,
-                        tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                        massa justo sit amet risus.</p>
-                    <p><a class="btn" href="#">View details »</a>
-                    </p>
-                </div>
-                <div class="span4">
-                     <h3>Student Affairs</h3> 
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas
-                        eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus,
-                        tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                        massa justo sit amet risus.</p>
-                    <p><a class="btn" href="#">View details »</a>
-                    </p>
-                </div>
-            </div>
+        </div>
+    </div>
 </div>
 <?php get_footer(); ?>
