@@ -53,7 +53,7 @@
             <div class="span4 hidden-phone" id="welcome-menu">
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/small-title.png" />
             </div>
-            <div class="span4 offset4" id="nursing-logo">
+            <div class="span4 offset4" id="nursing-logo" style="width:285px; height:61px;">
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sonlogo.png" width="285px" height="61px" />
             </div>
         </div>
