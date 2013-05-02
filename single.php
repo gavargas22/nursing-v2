@@ -5,7 +5,6 @@
             <div class="span12">
             	<div class="span3"><?php if ( has_post_thumbnail() ) {the_post_thumbnail('full');} ?></div>
             	<div class="span6">
-            		<div></div>
             		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
             		<?php $card_id = get_post_meta($post->ID, "Card_Identifier", true); ?>
           			<h2><?php the_title(); ?></h2>
