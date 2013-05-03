@@ -14,7 +14,7 @@
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/site-style.css">
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/nav-css/sticky-navigation.css">
-        <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/isotope-style.css">
+        <link rel="stylesheet" href="http://slackentie.github.io/isotope/css/isotope-style.css">
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/flexslider.css">
         <!--Bootstrap library-->
         <link href="<?php bloginfo('stylesheet_directory'); ?>/css/bootstrap.min.css" rel="stylesheet" media="screen">

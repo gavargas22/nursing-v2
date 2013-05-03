@@ -50,7 +50,7 @@
 <script src="<?php bloginfo('stylesheet_directory'); ?>/bootstrap/js/bootstrap.min.js"></script>
 <script src="<?php bloginfo('stylesheet_directory'); ?>/js/init.js"></script>
 <script src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.flexslider-min.js"></script>
-<script src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.isotope.min.js"></script>
+<script src="http://slackentie.github.io/isotope/jquery.isotope.min.js"></script>
 </body>
 
 </html>
