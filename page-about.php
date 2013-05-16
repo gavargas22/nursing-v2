@@ -1,9 +1,6 @@
 <?php get_header(); ?>
 <div class="container" id="single-page">
-        	<ul class="breadcrumb">
-  <li><a href="#">Home</a> <span class="divider">/</span></li>
-  <li class="active">Areas of Excellence<span class="divider">/</span></li>
-</ul>
+  			<?php if ( function_exists('yoast_breadcrumb') ) { yoast_breadcrumb('<ul class="breadcrumb">','</ul>'); } ?>
             <div class="hero-unit" id="single-page-teaser" style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/img/alumni.jpg); color:#ffffff; background-size:cover;">
                  <h1>About Us</h1> 
                 <p>General and useful information about the school of nursing.</p>

@@ -26,7 +26,7 @@
     <body>
         <div class="identityheader" id="identityheaderborder">
             <div class="container">
-                <div class="span6">	<a href="http://www.utep.edu/"><img src="http://onthemove.utep.edu/img/utepidheader2.png"></a>
+                <div class="span6">	<a href="http://www.utep.edu/"><img src="http://onthemove.utep.edu/img/UTEP_SIG_web.png"></a>
 
                 </div>
                 <!-- End Six Columns -->
