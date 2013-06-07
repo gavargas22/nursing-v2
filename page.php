@@ -7,7 +7,7 @@
             		<h2><?php the_title(); ?></h2>
             		<p><?php the_content(); ?></p>
             	<?php endwhile; else: ?>
-				<?php endif; ?>
+				 <?php endif; ?>
             </div>
 </div>
 <?php get_footer(); ?>
