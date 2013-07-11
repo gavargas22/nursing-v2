@@ -9,6 +9,12 @@ function register_my_menus() {
   register_nav_menus(
     array( 'header-menu' => __( 'Header Menu' ) )
   );
+  register_nav_menus(
+    array( 'graduate-programs-menu' => __( 'Graduate Programs Menu' ) )
+  );
+  register_nav_menus(
+    array( 'undergraduate-programs-menu' => __( 'Undergraduate Programs Menu' ) )
+  );
 }
 add_action( 'init', 'register_my_menus' );
 ?>

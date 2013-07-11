@@ -8,6 +8,7 @@
             		<p><?php the_content(); ?></p>
             	<?php endwhile; else: ?>
 				 <?php endif; ?>
+				 <?php edit_post_link('Edit'); ?>
             </div>
 </div>
 <?php get_footer(); ?>

@@ -14,16 +14,15 @@
                         ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
                         sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed
                         odio dui.</p>
-                    <p><a class="btn" href="sub-page.html">View details »</a>
+                    <p><a class="btn" href="undergraduate-programs">View details »</a>
                     </p>
                 </div>
                 <div class="span4">
                      <h3>Graduate Programs</h3> 
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
-                        ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                        sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed
-                        odio dui.</p>
-                    <p><a class="btn" href="sub-page.html">View details »</a>
+                    <p>Click here if you are looking to enter into of the best Nursing Graduate Programs in the country. From DNP to D.. We have the
+                    	created a very good curriculum for you to join us.
+                    </p>
+                    <p><a class="btn" href="graduate-programs">View details »</a>
                     </p>
                 </div>
                 <div class="span4">

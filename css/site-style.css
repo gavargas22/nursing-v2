@@ -668,3 +668,5 @@ Landscape Mode
 	width:200px;
 	}
 }*/
+
+ul#menu-graduate-programs .current-menu-item a:active { background-color:#08c; }
