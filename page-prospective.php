@@ -3,44 +3,35 @@
 	<?php if ( function_exists('yoast_breadcrumb') ) { yoast_breadcrumb('<ul class="breadcrumb">','</ul>'); } ?>
             <div class="hero-unit" id="single-page-teaser" style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/img/bgProspective.jpg); color:#ffffff; background-size:cover;">
                  <h1>Prospective Students</h1> 
-                <p>This is a template for a simple showcase of the most important information
-                    that students would need to know for the starting semester which are the
-                    Admissions, one of the most visited parts of our website.</p>
+                <p>Image Caption: Prospective Students: With three BSN track options, three MSN majors, an RN to MSN option and two doctoral programs, at the UTEP School of Nursing, 
+                	you can find the option that is right for you.</p>
             </div>
             <div class="row" id="page-items">
             	<div class="span4">
                      <h3>Undergraduate Programs</h3> 
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
-                        ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                        sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed
-                        odio dui.</p>
+                    <p>Whether you’re a recent high school graduate, looking for a second career, or are in the health care field but want to obtain your BSN, 
+                    	the UTEP School of Nursing will take you through the right track.</p>
                     <p><a class="btn" href="undergraduate-programs">View details »</a>
                     </p>
                 </div>
                 <div class="span4">
                      <h3>Graduate Programs</h3> 
-                    <p>Click here if you are looking to enter into of the best Nursing Graduate Programs in the country. From DNP to D.. We have the
-                    	created a very good curriculum for you to join us.
-                    </p>
+                    <p>Are you ready for the next step in your career? The UTEP School of Nursing offers three MSN majors, an RN to MSN program, 
+                    	two doctoral programs and three Graduate Certificate programs.</p>
                     <p><a class="btn" href="graduate-programs">View details »</a>
                     </p>
                 </div>
                 <div class="span4">
                      <h3>Academic Advising</h3>
                      <h5>Office of Student Affairs</h5> 
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
-                        ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                        sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed
-                        odio dui.</p>
+                    <p>Your personal connection to successful admission, progression and graduation, the Office of Student Affairs is ready to assist you in attaining your academic goals.</p>
                     <p><a class="btn" href="#">View details »</a>
                     </p>
                 </div>
                 <div class="span4">
                      <h3>Scholarships & Financial Aid</h3> 
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas
-                        eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus,
-                        tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                        massa justo sit amet risus.</p>
+                    <p>With the School of Nursing’s vigorous schedule, it is sometimes difficult for students to hold a full-time job. 
+                    	Therefore, UTEP offers a variety of scholarship and financial aid opportunities.</p>
                     <p><a class="btn" href="#">View details »</a>
                     </p>
                 </div>
