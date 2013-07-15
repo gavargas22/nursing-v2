@@ -32,7 +32,7 @@
                 <!-- End Six Columns -->
                 <div class="span4 offset1" id="welcome-menu">
                     <ul class="inline" id="top-quick-menu">
-                        <li><a href="#">Contact Us</a>
+                        <li><a href="../contact">Contact Us</a>
 
                         </li>
                         <li><a href="#">UTEP Home</a>

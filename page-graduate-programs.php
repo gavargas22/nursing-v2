@@ -3,7 +3,8 @@
 	<?php if ( function_exists('yoast_breadcrumb') ) { yoast_breadcrumb('<ul class="breadcrumb">','</ul>'); } ?>
             <div class="hero-unit" id="single-page-teaser" style="background-image:url(http://farm6.staticflickr.com/5248/5287142100_86c0c9c90b_b.jpg); color:#ffffff; background-size:cover;">
                  <h1>Graduate Programs</h1> 
-                <p>Embark on the greatest Higher Education Experience you can have. Join our program and learn with some of the best Facutly in the Nation.</p>
+                <p>The UTEP School of Nursing is poised to educating tomorrow’s nursing leaders. The graduate programs prepare professional nurses for 
+                	post-graduate roles in a variety of advanced practice and specialty areas.</p>
             </div>
             <div class="row">
             	
@@ -12,13 +13,13 @@
 	</div>
 	<div class="span10">
 		<div class="span3">
-			<p><span style="color:#FF7908; font-size: 40px; font-weight: bold;">Doctorate</span></p>
+			<p><span style="color:#FF7908; font-size: 18px; font-weight: bold;">Doctorate Programs</span></p>
             <ul class="thumbnails">
               <li class="span3">
                 <div class="thumbnail">
                  <div class="caption">
                     <h4>Doctor of Nursing Practice (DNP)</h4>
-                    <p>The program we offer for DNP is one of the best in the nation</p>
+                    <p>The DNP builds on the competences of the master’s degree, and adds a highly advanced skill base in informatics and technology, evidence-based practice, continuous quality improvement, and organizational systems and leadership.</p>
                     <p><a class="btn" href="dnp/">Read More</a></p>
                   </div>
                 </div>
@@ -27,7 +28,7 @@
                 <div class="thumbnail">
                   <div class="caption">
                     <h4>PhD in Interdisciplinary Health Sciences</h4>
-                    <p>The program we offer for DNP is one of the best in the nation</p>
+                    <p>Training the next generation of interdisciplinary researchers and academicians, the Interdisciplinary Health Sciences Ph.D. provides experiences that teach advanced skills in research design, methods, statistics, grant writing and writing for publication.</p>
                     <p><a class="btn" href="#">Read More</a></p>
                   </div>
                 </div>
@@ -36,14 +37,15 @@
           </div>
           
           <div class="span3">
-			<p><span style="color:#006DCC; font-size: 40px; font-weight: bold;">Master</span></p>
+			<p><span style="color:#006DCC; font-size: 18px; font-weight: bold;">Master Programs</span></p>
             <ul class="thumbnails">
             	
               <li class="span3">
                 <div class="thumbnail">
                 	<div class="caption">
                     <h4>Master of Sciences in Nursing (MSN-Online)</h4>
-                    <p>The program we offer for DNP is one of the best in the nation</p>
+                    <p><h6><span style="color:#EE3E36">MSN-Online</span></h6>
+                    <p>The MSN program prepares professional nurses for post-graduate roles in a variety of advanced practice and specialty areas in and online setting.</p>
                     <p><a class="btn" href="#">Read More</a></p>
                   </div>
                 </div>
@@ -53,7 +55,8 @@
                 <div class="thumbnail">
                 	<div class="caption">
                     <h4>Nursing Education (NE)</h4>
-                    <p>The program we offer for DNP is one of the best in the nation</p>
+                    <p><h6><span style="color:#EE3E36">MSN-Online</span></h6>
+                    <p>Students are prepared to teach in an academic and clinical setting by becoming proficient in curriculum design and development, teaching methods, educational needs and learner-centered theories and methods.</p>
                     <p><a class="btn" href="#">Read More</a></p>
                   </div>
                 </div>
@@ -63,7 +66,8 @@
                 <div class="thumbnail">
                 	<div class="caption">
                     <h4>Nurse Practitioner (NP)</h4>
-                    <p>The program we offer for DNP is one of the best in the nation</p>
+                    <p><h6><span style="color:#EE3E36">MSN-Online</span></h6>
+                    <p>Advanced practice registered nurses are prepared in the profession of nurse practitioner for either primary or acute care in three concentrations.</p>
                     <p><a class="btn" href="#">Read More</a></p>
                   </div>
                 </div>
@@ -73,7 +77,8 @@
                 <div class="thumbnail">
                 	<div class="caption">
                     <h4>Nursing Systems manager (NSM)</h4>
-                    <p>This degree is designed to prepare nurses to advance in management and administration roles.</p>
+                    <p><h6><span style="color:#EE3E36">MSN-Online</span></h6>
+                    <p>Students are prepared for nurse leadership roles in management and administration.</p>
                     <p><a class="btn" href="#">Read More</a></p>
                   </div>
                 </div>
@@ -94,7 +99,7 @@
           </div>
           
           <div class="span3">
-			<p><span style="color:#333333; font-size: 25px; font-weight: bold;">Graduate Certificate Programs</span></p>
+			<p><span style="color:#666; font-size: 18px; font-weight: bold;">Graduate Certificate Programs</span></p>
             <ul class="thumbnails">
             	
               <li class="span3">
