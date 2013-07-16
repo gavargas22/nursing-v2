@@ -12,6 +12,20 @@ $(document).ready(function() {
 			queue: false, 
 		}
 	});
+	
+	var $containerJudgesVariable = $('#container-judges');
+	$containerJudgesVariable.isotope({
+		itemSelector : '.image-fancybox',
+		masonry : {
+		columnWidth : 1,
+		},
+		animationOptions: {
+			duration: 750,
+			easing: 'linear',
+			queue: false, 
+		}
+	});
+	
 	$('#filters a').click(function(){
 		var selector = $(this).attr('data-filter');
 		$container.isotope({ filter: selector });
@@ -34,7 +48,7 @@ $(function() {
 		
 		// if we've scrolled more than the navigation, change its position to fixed to stick to top, otherwise change it back to relative
 		if (scroll_top > sticky_navigation_offset_top) { 
-			$('#menu-background-holder-single').css({ 'position': 'fixed', 'top':0, 'left':0, 'width': screen_width, 'z-index':999999, });
+			$('#menu-background-holder-single').css({ 'position': 'fixed', 'top':0, 'left':0, 'width': screen_width, 'z-index':10, });
 			$('#mini-logo').css({ 'visibility': 'visible' });
 		} else {
 			$('#menu-background-holder-single').css({ 'position': 'relative', 'top':0, });
@@ -56,5 +70,13 @@ $(function() {
 		event.preventDefault(); 
 	});
 	
+});
+
+//Code for FancyBox
+$(document).ready(function() {
+        $('.fancybox').fancybox({
+            padding : 0,
+            openEffect  : 'elastic'
+        });
 });
 
