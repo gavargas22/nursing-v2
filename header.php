@@ -20,6 +20,9 @@
         <link href="<?php bloginfo('stylesheet_directory'); ?>/css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href="<?php bloginfo('stylesheet_directory'); ?>/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
         <!-- ----------------- -->
+        <!-- FancyBox 2 -->
+        <link href="<?php bloginfo('stylesheet_directory'); ?>/includes/fancyBox-master/source/jquery.fancybox.css" rel="stylesheet" media="screen">
+        <!-- ----------------- -->
         <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
     </head>
     
