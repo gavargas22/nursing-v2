@@ -6,8 +6,9 @@
         <p>At the UTEP School of Nursing we pride ourselves in preparing students to be the best and brightest nurses serving the health care needs of our community and beyond. Our experienced faculty is committed to providing future nurses the tools necessary to excel in the ever changing and culturally diverse healthcare system.</p>
     </div>
     <div class="row">
-        <div class="span2">
-            <?php wp_nav_menu( array( 'menu'=>'Undergraduate Programs Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?></div>
+        <!--<div class="span2">
+            <?php wp_nav_menu( array( 'menu'=>'Undergraduate Programs Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
+        </div>-->
         <div class="span9">
 		<div class="span9">
             <ul class="thumbnails">

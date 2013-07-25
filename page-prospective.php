@@ -22,8 +22,7 @@
                     </p>
                 </div>
                 <div class="span4">
-                     <h3>Academic Advising</h3>
-                     <h5>Office of Student Affairs</h5> 
+                     <h3>Academic Advising | Office of Student Affairs</h3>
                     <p>Your personal connection to successful admission, progression and graduation, the Office of Student Affairs is ready to assist you in attaining your academic goals.</p>
                     <p><a class="btn" href="#">View details »</a>
                     </p>

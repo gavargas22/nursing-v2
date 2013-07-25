@@ -8,9 +8,9 @@
             </div>
             <div class="row">
             	
-	<div class="span2">
+	<!--<div class="span2">
 		<?php wp_nav_menu( array( 'menu'=>'Graduate Programs Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
-	</div>
+	</div>-->
 	<div class="span10">
 		<div class="span3">
 			<p><span style="color:#FF7908; font-size: 18px; font-weight: bold;">Doctorate Programs</span></p>

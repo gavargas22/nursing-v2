@@ -44,7 +44,7 @@
                         <li><a href="#">For Faculty &amp; Staff</a>
 
                         </li>
-                        <li><a href="https://givingto.utep.edu/SSLPage.aspx?pid=280&frcrld=1">Give to SoN</a>
+                        <li><a href="https://givingto.utep.edu/SSLPage.aspx?pid=280&frcrld=1" target="_blank">Give to SoN</a>
 
                         </li>
                     </ul>
