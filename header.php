@@ -44,7 +44,7 @@
                         <li><a href="#">For Faculty &amp; Staff</a>
 
                         </li>
-                        <li><a href="https://givingto.utep.edu/SSLPage.aspx?pid=280&frcrld=1" target="_blank">Give to SoN</a>
+                        <li><a href="https://givingto.utep.edu/SSLPage.aspx?pid=280&frcrld=1" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/givenow.png"/></a>
 
                         </li>
                     </ul>
@@ -57,7 +57,7 @@
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/small-title.png" />
             </div>
             <div class="span4 offset4" id="nursing-logo" style="width:285px; height:61px;">
-                <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sonlogo.png" width="285px" height="61px" />
+                <a href="http://nursing.utep.edu"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/sonlogo.png" width="285px" height="61px" /></a>
             </div>
         </div>
         <div id="menu-background-holder-single" class="hidden-phone">
