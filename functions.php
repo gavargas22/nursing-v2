@@ -10,11 +10,22 @@ function register_my_menus() {
     array( 'header-menu' => __( 'Header Menu' ) )
   );
   register_nav_menus(
-    array( 'graduate-programs-menu' => __( 'Graduate Programs Menu' ) )
+    array( 'graduate-programs-menu' => __( 'DNP Menu Menu' ) )
+  );
+  register_nav_menus(
+    array( 'dihs-menu' => __( 'Phd in Interdisciplinary Health Sciences Menu' ) )
   );
   register_nav_menus(
     array( 'undergraduate-programs-menu' => __( 'Undergraduate Programs Menu' ) )
   );
 }
 add_action( 'init', 'register_my_menus' );
+
+if ( function_exists('register_sidebar') )
+register_sidebar(array(
+'before_widget' => '',
+'after_widget' => '',
+'before_title' => '<h2>',
+'after_title' => '</h2>',
+));
 ?>

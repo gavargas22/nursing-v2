@@ -60,6 +60,22 @@
                 <a href="http://nursing.utep.edu"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/sonlogo.png" width="285px" height="61px" /></a>
             </div>
         </div>
+        
+       <!-- <div class="container" id="slideshow-wrapper">
+		<div class="flexslider">
+  			
+		<div class="flex-viewport" style="overflow: hidden; position: relative;">
+			<ul class="slides" style="width: 800%; -webkit-transition: 0s; transition: 0s; -webkit-transform: translate3d(-1162px, 0, 0);"><li class="clone" style="width: 1162px; float: left; display: block;">
+    		  <img src="img/slide02.jpg">
+    		</li>
+  			</ul>
+  			</div>
+  			<ol class="flex-control-nav flex-control-paging"><li><a class="flex-active">1</a></li><li><a class="">2</a></li>
+  				
+  			</ol><ul class="flex-direction-nav"><li><a class="flex-prev" href="#">Previous</a></li><li><a class="flex-next" href="#">Next</a></li></ul></div>
+	</div>-->
+        
+        
         <div id="menu-background-holder-single" class="hidden-phone">
             <div class="container">
                 <div id="main-navigation">
