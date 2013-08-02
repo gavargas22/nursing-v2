@@ -7,16 +7,14 @@ if ( function_exists( 'add_theme_support' ) ) {
 
 function register_my_menus() {
   register_nav_menus(
-    array( 'header-menu' => __( 'Header Menu' ) )
-  );
-  register_nav_menus(
-    array( 'graduate-programs-menu' => __( 'DNP Menu Menu' ) )
-  );
-  register_nav_menus(
-    array( 'dihs-menu' => __( 'Phd in Interdisciplinary Health Sciences Menu' ) )
-  );
-  register_nav_menus(
-    array( 'undergraduate-programs-menu' => __( 'Undergraduate Programs Menu' ) )
+    array(
+      'header-menu' => __( 'Header Menu' ),
+      'graduate-programs-menu' => __( 'DNP Menu Menu' ),
+      'dihs-menu' => __( 'Phd in Interdisciplinary Health Sciences Menu' ),
+      'msn-menu' => __( 'MSN Programs Menu' ),
+      'undergraduate-programs-menu' => __( 'Undergraduate Programs Menu' ),
+	  'apply-masters-menu' => __( 'Apply Masters Program Page' )
+    )
   );
 }
 add_action( 'init', 'register_my_menus' );

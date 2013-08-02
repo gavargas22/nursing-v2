@@ -11,13 +11,21 @@
 	<!--<div class="span2">
 		<?php wp_nav_menu( array( 'menu'=>'Graduate Programs Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
 	</div>-->
-	<div class="span10">
+	<div class="span12">
 		
 		<!--<div class="container">
 			<div class="program-statistics" id="statistic-one">4 Doctorate Programs</div>
 		</div>-->
 		
-		<div class="span11">
+		<div class="tabbable"> <!-- Only required for left/right tabs -->
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#doctorate" data-toggle="tab">Doctorate Programs</a></li>
+    <li><a href="#masters" data-toggle="tab">Master of Sciences in Nursing</a></li>
+    <li><a href="#graduate-certificate" data-toggle="tab">Graduate Certificate Programs</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane active" id="doctorate">
+      <div class="span11">
             <ul class="thumbnails">
             <p><span style="color:#FF7908; font-size: 30px; font-weight: bold;">Doctorate Programs</span></p>
               <li class="span3">
@@ -40,12 +48,45 @@
               </li>
             </ul>
           </div>
-          
-          <div class="span11">
-            <ul class="thumbnails">
-            <h2>Master of Sciences in Nursing (MSN-Online)</h2>
-            <p><i>The MSN program prepares professional nurses for post-graduate roles in a variety of advanced practice and specialty areas in and online setting.</i></p>
+    </div>
+    <div class="tab-pane" id="masters">
+    	<div class="row">
+      <div class="span12">
             
+            	<!--Message for the introduction of the MSN Online goes below this line -->
+            	<div class="span5">
+            	<h2><span style="color:#777777;">Master of Sciences in Nursing (MSN-Online)</span></h2>
+            	<p><b>The MSN program prepares professional nurses for post-graduate roles in a variety of advanced practice and specialty areas in and online setting.</b></p>
+            	<p><i>Graduates have increased autonomy and independence in their practice and are eligible to apply for national certification.</i></p>
+            	<p>The degree of Master of Science in Nursing provides the graduate the opportunity to complete the following program outcomes:</p>
+				<p>
+					<ol>
+					<li>Synthesize theory and concepts from nursing and other disciplines for applications in the care of clients</li>
+					<li>Provide advanced nursing care based upon in-depth client assessment in an area of specialization</li>
+					<li>Evaluate ethical, moral, and legal precepts in client care</li>
+					<li>Design culturally competent interventions based on current, valid evidence</li>
+					<li>Apply research methods to investigate problems that influence advanced nursing care</li>
+					<li>Analyze public policy and issues that affect advanced nursing practice and health care delivery systems</li>
+					<li>Collaborate with other disciplines to provide care in a variety of settings</li>
+					<li>Integrate peer review and/or peer guidance in advanced practice</li>
+					<li>Participate in leadership and development of the profession</li>
+					<li>Enhance the basis for life-long learning and/or doctoral study</li>
+					</ol>
+				</p>
+				<h2>Unique Features</h2>
+				<ul>
+					<li>Didactic 100% online</li>
+					<li>Curriculum aligned with latest national standards and guidelines</li>
+					<li>Prepatory activities for online learning and student success</li>
+					<li>Personalized guidance from faculty and staff advisors</li>
+				</ul>
+				</div>
+
+				<div class="span6 well">
+				<h2><span style="color:#A28F67">Three MSN Majors</span></h2>
+            	<!-- End Message!-->
+            
+            <ul class="thumbnails">
               <li class="span3">
                 <div class="thumbnail">
                  <div class="caption">
@@ -75,9 +116,11 @@
               </li>
             </ul>
           </div>
-          
-          
-          <div class="span11">
+          </div>
+         </div>
+    </div>
+    <div class="tab-pane" id="graduate-certificate">
+      <div class="span11">
             <ul class="thumbnails">
             <h2>Graduate Certificate Programs</h2>
             <p><i></i></p>
@@ -111,6 +154,9 @@
               </li>
             </ul>
           </div>
+    </div>
+  </div>
+</div>
           
           
 	</div>

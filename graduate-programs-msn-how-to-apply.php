@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: PhD in Interdisciplinary Health Sciences
+Template Name: MSN Programs How to Apply
 */
 
 get_header(); ?>
@@ -18,17 +18,7 @@ get_header(); ?>
             <div class="span4">
             	<h2>Information</h2>
             	<div id="sidebar">
-            		<?php wp_nav_menu( array( 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
-            	</div>
-            	<div class="span2">
-            		<h2>Contact</h2>
-            		<img src="http://chs.utep.edu/images/staff/christina_sobin.jpg" class="img-polaroid" alt="Dr. Christina Sobin, Ph.D.">
-            		<p><address>
-  					<strong>Dr. Christina Sobin, Ph.D.</strong><br>
-  					Program Director Interdisciplinary Health Sciences Ph.D. Program<br />
-  					<a href="mailto:ihsphd@utep.edu">ihsphd@utep.edu</a><br />
-  					915-747-7256<br />
-					</address></p>
+            		<?php wp_nav_menu( array( 'theme_location'  => 'How to apply to our Master Programs Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
             	</div>
             </div>
             </div>
