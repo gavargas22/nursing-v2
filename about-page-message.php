@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: MSN Programs How to Apply
+Template Name: Message of the Dean of Nursing
 */
 
 get_header(); ?>
@@ -16,11 +16,17 @@ get_header(); ?>
 				 <?php edit_post_link('Edit'); ?>
             </div>
             <div class="span4">
-            	<h2>Information</h2>
-            	<div id="sidebar">
-            		<?php wp_nav_menu( array( 'theme_location'  => 'How to apply to our Master Programs Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
+            	<div class="span2">
+            		<h2>Contact</h2>
+            		<img src="http://nursing.utep.edu/wp-content/uploads/2013/08/02.jpeg" class="img-polaroid" alt="Elias Provencio-Vasquez, PhD, RN, FAAN, FAANP">
+            		<p><address>
+  					<strong>Elias Provencio-Vasquez, PhD, RN, FAAN, FAANP</strong><br>
+  					Dean and Professor<br />
+					</address></p>
             	</div>
             </div>
             </div>
 </div>
 <?php get_footer(); ?>
+
+

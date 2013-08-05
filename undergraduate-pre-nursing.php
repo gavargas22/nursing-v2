@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: MSN Programs How to Apply
+Template Name: Undergraduate Programs Pre-Nursing
 */
 
 get_header(); ?>
@@ -18,9 +18,19 @@ get_header(); ?>
             <div class="span4">
             	<h2>Information</h2>
             	<div id="sidebar">
-            		<?php wp_nav_menu( array( 'theme_location'  => 'How to apply to our Master Programs Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
+            		<?php wp_nav_menu( array( 'menu'=>'Undergraduate Programs Pre Nursing Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
+            	</div>
+            	<div class="span2" style="margin-left:0;">
+            		<h2>Contact</h2>
+            		<p><address>
+  					<strong><a href="http://nursing.utep.edu/sa">Office of Student Affairs</a></strong><br>
+  					<a href="mailto:dimonsivais@utep.edu">dimonsivais@utep.edu</a><br />
+  					915-747-8209<br />
+					</address></p>
             	</div>
             </div>
             </div>
 </div>
 <?php get_footer(); ?>
+
+

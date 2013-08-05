@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Undergraduate Pre Nursing
+Template Name: Undergraduate Programs Accelerated Fast Track
 */
 
 get_header(); ?>
@@ -18,16 +18,15 @@ get_header(); ?>
             <div class="span4">
             	<h2>Information</h2>
             	<div id="sidebar">
-            		<?php wp_nav_menu( array( 'menu'=>'MSN Programs Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
+            		<?php wp_nav_menu( array( 'menu'=>'Undergraduate Programs Fast Track Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
             	</div>
-            	<div class="span2">
+            	<div class="span2" style="margin-left:0;">
             		<h2>Contact</h2>
-            		<img src="http://hb2504.utep.edu/photos/dimonsivais.jpg" class="img-polaroid" alt="Dr. Diane Monsivais">
+            		<img src="http://hb2504.utep.edu/photos/jmccallister.jpg" class="img-polaroid" alt="Dr. Jana McCallister">
             		<p><address>
-  					<strong>Diane Monsivais, Ph.D., RN, CRRN</strong><br>
-  					Director/Advisor<br />
-  					<a href="mailto:dimonsivais@utep.edu">dimonsivais@utep.edu</a><br />
-  					915-747-8209<br />
+  					<strong>Jana McCallister, Ph.D., RN</strong><br>
+  					Fast Track Director<br />
+  					<a href="mailto:fasttrack@utep.edu">fasttrack@utep.edu</a><br />
 					</address></p>
             	</div>
             </div>
