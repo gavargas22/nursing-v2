@@ -3,9 +3,9 @@
 	<?php if ( function_exists('yoast_breadcrumb') ) { yoast_breadcrumb('<ul class="breadcrumb">','</ul>'); } ?>
             <div class="hero-unit" id="single-page-teaser" style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/img/bgCurrent.jpg); color:#ffffff; background-size:cover;">
                  <h1>Current Students</h1> 
-                <p>This is a template for a simple showcase of the most important information
-                    that students would need to know for the starting semester which are the
-                    Admissions, one of the most visited parts of our website.</p>
+                <p>
+                	As a nursing student at UTEP, you’ve joined an exceptional academic program with a reputation of excellence and dedication improving the health care in our community. 
+                </p>
             </div>
             <div class="row" id="page-items">
                 <div class="span4">

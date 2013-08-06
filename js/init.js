@@ -13,9 +13,9 @@ $(document).ready(function() {
 		}
 	});
 	
-	var $containerJudgesVariable = $('#container-judges');
+	var $containerJudgesVariable = $('#page-items');
 	$containerJudgesVariable.isotope({
-		itemSelector : '.image-fancybox',
+		itemSelector : '.span4',
 		masonry : {
 		columnWidth : 1,
 		},
