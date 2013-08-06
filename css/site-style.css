@@ -709,3 +709,42 @@ ul#menu-graduate-programs .current-menu-item a:active { background-color:#08c; }
 	position:relative;
 	z-index: 500;
 }
+
+.finaid-containers {
+	position:relative;
+	top:0;
+	left:0;
+	height:auto
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	webkit-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.3);
+	padding:40px;
+}
+.financialaid-block {
+	background: #3E474F;
+	color:#FFFFFF;
+	background-image:url(http://academics.utep.edu/Portals/385/images/studentadvising.jpg);
+	background-size:cover;
+}
+.financialaid-block a {
+	color:#FFFFFF;
+}
+.financialaid-block a:hover {
+	color:#FFFFFF;
+}
+.scholarships-block {
+	background: #2D5952;
+	color:#FFFFFF;
+	background-image: url(http://admin.utep.edu/Portals/1791/press_images/Grad-FairW.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.scholarships-block a {
+	color:#FFFFFF;
+}
+.scholarships-block a:hover {
+	color:#FFFFFF;
+}

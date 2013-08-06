@@ -20,7 +20,7 @@ get_header(); ?>
             	<div id="sidebar">
             		<?php wp_nav_menu( array( 'menu'=>'MSN Programs Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
             	</div>
-            	<div class="span2">
+            	<div class="span2" style="margin-left:0;">
             		<h2>Contact</h2>
             		<img src="http://hb2504.utep.edu/photos/dbsharp.jpg" class="img-polaroid" alt="Dr. Diane Monsivais">
             		<p><address>

@@ -13,7 +13,8 @@ function register_my_menus() {
       'dihs-menu' => __( 'Phd in Interdisciplinary Health Sciences Menu' ),
       'msn-menu' => __( 'MSN Programs Menu' ),
       'undergraduate-programs-menu' => __( 'Undergraduate Programs Menu' ),
-	  'apply-masters-menu' => __( 'Apply Masters Program Page' )
+	  'apply-masters-menu' => __( 'Apply Masters Program Page' ),
+	  'gcp-menu' => __( 'Graduate Certificate Programs Menu' )
     )
   );
 }
@@ -26,4 +27,10 @@ register_sidebar(array(
 'before_title' => '<h2>',
 'after_title' => '</h2>',
 ));
+
+function my_theme_add_editor_styles() {
+    add_editor_style( 'editor-style.css' );
+}
+add_action( 'init', 'my_theme_add_editor_styles' );
+
 ?>
