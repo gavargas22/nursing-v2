@@ -10,10 +10,25 @@
             <div class="container">
             	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
             		<h2><span style="color:#566B94"><?php the_title(); ?></span></h2>
-            		<p><?php the_content(); ?></p>
-            	<?php endwhile; else: ?>
-				 <?php endif; ?>
-				 <?php edit_post_link('Edit'); ?>
-            </div>
+            		
+            		<div class="row-fluid">
+            		<div class="span6 sa-blocks sa-staff">
+            			<h2>Welcome!</h2>
+            			<p><?php the_content(); ?></p>
+            			<?php endwhile; else: ?>
+				 		<?php endif; ?>
+				 		<?php edit_post_link('Edit'); ?>
+            		</div>
+            		<div class="span4 offset1 sa-blocks sa-importance">
+            			<?php query_posts(array('category_name' => 'sa-right-box')); ?>
+						<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+            			<h2><abbr title="attribute">Important Dates</abbr></h2>
+            			<p><b>Three Application Windows</b></p>
+            			<p><?php the_content(); ?></p>
+            			<?php endwhile; else: ?>
+						<?php endif; ?>
+            		</div>
+            	</div>
+            	</div>
 </div>
 <?php get_footer(); ?>

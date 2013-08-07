@@ -709,7 +709,7 @@ ul#menu-graduate-programs .current-menu-item a:active { background-color:#08c; }
 	position:relative;
 	z-index: 500;
 }
-
+/*Finaid Styling*/
 .finaid-containers {
 	position:relative;
 	top:0;
@@ -747,4 +747,24 @@ ul#menu-graduate-programs .current-menu-item a:active { background-color:#08c; }
 }
 .scholarships-block a:hover {
 	color:#FFFFFF;
+}
+/*Student Affairs Stying*/
+.sa-blocks {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding:40px;
+	webkit-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.3);
+}
+.sa-staff {
+	background-color: #FFFFFF;
+	color:#333;
+	padding:0;
+}
+.sa-importance {
+	background-color: #F89406;
+	color:#ffffff;
+	background-image:url(../img/bg/texture.jpg);
 }
