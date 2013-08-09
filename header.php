@@ -5,7 +5,7 @@
         <meta charset="utf-8" />
         <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame Remove this if you use the .htaccess -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <title>School of Nursing | The University of Texas at El Paso Development Version</title>
+        <title>School of Nursing | The University of Texas at El Paso</title>
         <meta name="description" content="" />
         <meta name="author" content="Guillermo Vargas @ The School of Nursing | The University of Texas at El Paso" />
         <meta name="viewport" content="width=device-width; initial-scale=1.0" />
