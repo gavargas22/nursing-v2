@@ -748,3 +748,13 @@ ul#menu-graduate-programs .current-menu-item a:active { background-color:#08c; }
 .scholarships-block a:hover {
 	color:#FFFFFF;
 }
+.spotlight-unit {
+	height:560px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.spotlight-text {
+	position:relative;
+	top:40pt;
+}

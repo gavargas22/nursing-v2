@@ -18,7 +18,7 @@
                     	you’ll be blown away by the quality of the education and service we provide, the state-of-the-art facilities and equipment we offer, 
                     	and the rich environment we afford to our diverse student body and faculty. 
                     </p>
-                    <p><a class="btn" href="#">Read More</a></p>
+                    <p><a class="btn" href="message-from-the-dean">Read More</a></p>
                   </div>
                 </div>
               </li>
@@ -44,7 +44,7 @@
                     	The School of Nursing started as the Hotel Dieu Training School for nurses in 1898, the first nursing school in El Paso, 
                     	and joined The University of Texas at El Paso in 1976.
                     </p>
-                    <p><a class="btn" href="#">Read More</a></p>
+                    <p><a class="btn" href="school-of-nursing-history">Read More</a></p>
                   </div>
                 </div>
               </li>
