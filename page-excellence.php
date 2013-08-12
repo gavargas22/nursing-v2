@@ -8,29 +8,23 @@
             <div class="row" id="page-items">
             	<div class="span4">
                      <h3>Center for Simulation</h3> 
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
-                        ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                        sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed
-                        odio dui.</p>
-                    <p><a class="btn" href="#">View details »</a>
+                    <p>The Center for Simulation is designed to allow students and the health care community to develop competency in safely managing
+                    	priority areas of care through the use of state-of-the-art computer simulations.</p>
+                    <p><a class="btn" href="simulation">View details »</a>
                     </p>
                 </div>
                 <div class="span4">
                      <h3>Center for Aging</h3> 
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
-                        ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                        sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed
-                        odio dui.</p>
-                    <p><a class="btn" href="sub-page.html">View details »</a>
+                    <p>Resources available through the Center for Aging can assist health care professionals, 
+                    	community groups, students and faculty to enhance their interactions with our aging population.</p>
+                    <p><a class="btn" href="aging-center">View details »</a>
                     </p>
                 </div>
                 <div class="span4">
                      <h3>Hispanic Health Disparities Research Center</h3> 
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
-                        ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                        sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed
-                        odio dui.</p>
-                    <p><a class="btn" href="#">View details »</a>
+                    <p>The HHDRC is a collaboration between the UTEP College of Health Sciences, the UTEP School of Nursing and The University of Texas School of Public Health 
+                    to address Hispanic health  disparities.</p>
+                    <p><a class="btn" href="http://hhdrc.utep.edu">View details »</a>
                     </p>
                 </div>
             </div>
