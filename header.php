@@ -10,7 +10,7 @@
         <meta name="author" content="Guillermo Vargas @ The School of Nursing | The University of Texas at El Paso" />
         <meta name="viewport" content="width=device-width; initial-scale=1.0" />
         <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/img/logo-retina-icon.png" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/site-style.css">
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/nav-css/sticky-navigation.css">

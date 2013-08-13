@@ -748,6 +748,17 @@ ul#menu-graduate-programs .current-menu-item a:active { background-color:#08c; }
 .scholarships-block a:hover {
 	color:#FFFFFF;
 }
+<<<<<<< HEAD
+.spotlight-unit {
+	height:560px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.spotlight-text {
+	position:relative;
+	top:40pt;
+=======
 /*Student Affairs Stying*/
 .sa-blocks {
 	-webkit-border-radius: 5px;
@@ -767,4 +778,5 @@ ul#menu-graduate-programs .current-menu-item a:active { background-color:#08c; }
 	background-color: #F89406;
 	color:#ffffff;
 	background-image:url(../img/bg/texture.jpg);
+>>>>>>> b0b4fd3fcc2052859811d21ea2e160570d0f41f1
 }

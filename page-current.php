@@ -37,9 +37,17 @@
                 </div>
                 <div class="span4">
                      <h3>Student Affairs</h3> 
+<<<<<<< HEAD
                     <p>Your personal connection to successful admission, progression and graduation, 
                     	the Office of Student Affairs is ready to assist you in attaining your academic goals.</p>
                     <p><a class="btn" href="#">View details »</a>
+=======
+                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas
+                        eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus,
+                        tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
+                        massa justo sit amet risus.</p>
+                    <p><a class="btn" href="sa">View details »</a>
+>>>>>>> c19d37e5babd9c7d1dbe56eedb572e2f0aafa08c
                     </p>
                 </div>
             </div>
