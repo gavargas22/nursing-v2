@@ -59,13 +59,7 @@ get_header(); ?>
             						it was her bachelor’s degree in nursing from UTEP that set her on a diverse and successful path. After graduating from UTEP
             						 in 1987, she worked as a nurse at Lubbock General Hospital, remaining there a year before returning to El Paso, where she became a nurse
             						  in the ICU/Post-Anesthesia Care Unit at Providence Memorial Hospital.
-            						  <br />
-            						  <br />
-            						  After leaving once more to serve in hospitals from Houston to Boston, she is back in El Paso, where she has been the chief nursing officer 
-            						  for Sierra Medical Center since 2008.“Nursing is one of the most fulfilling professions,” she said. “As nurses, we have the opportunity to
-            						  truly make a remarkable difference in the lives of others.” A surveyor for the American Nurses Credentialing Center Magnet Recognition
-            						  Program, which recognizes excellence in professional nursing practice at hospitals worldwide, Lawson also has lobbied the Texas Legislature
-            						  to continue funding nursing schools to address the statewide nursing shortage.
+            						 <p><a class="btn">Read More</a></p>
             					</p>
             				</div>
             			</div>

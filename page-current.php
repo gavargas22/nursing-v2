@@ -9,7 +9,6 @@
             </div>
             <div class="row">
             	<div class="span8" id="page-items">
-            		<div><h2>Important Links</h2></div>
                 <div class="span4">
                      <h3>Forms &amp; Handbooks</h3> 
                     <p><a class="btn" href="handbooks">View details »</a>
@@ -21,11 +20,6 @@
                     </p>
                 </div>
                 <div class="span4">
-                     <h3>Organizations</h3> 
-                    <p><a class="btn" href="#">View details »</a>
-                    </p>
-                </div>
-                <div class="span4">
                      <h3>Academic Advising</h3> 
                     <p>Office of Student Affairs</p>
                     <p><a class="btn" href="sa">View details »</a>
@@ -33,8 +27,8 @@
                     </p>
                 </div>
                 <div class="span4">
-                     <h3>Professional Organization</h3> 
-                    <p><a class="btn" href="#">View details »</a>
+                     <h3>Professional Organizations</h3> 
+                    <p><a class="btn" href="professional-organizations">View details »</a>
                     </p>
                 </div>
                 <div class="span4">

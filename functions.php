@@ -14,7 +14,8 @@ function register_my_menus() {
       'msn-menu' => __( 'MSN Programs Menu' ),
       'undergraduate-programs-menu' => __( 'Undergraduate Programs Menu' ),
 	  'apply-masters-menu' => __( 'Apply Masters Program Page' ),
-	  'gcp-menu' => __( 'Graduate Certificate Programs Menu' )
+	  'gcp-menu' => __( 'Graduate Certificate Programs Menu' ),
+	  'sa-important-links' => __( 'Student Affairs Important Links Page' )
     )
   );
 }
