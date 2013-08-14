@@ -7,49 +7,51 @@
                 	As a nursing student at UTEP, you’ve joined an exceptional academic program with a reputation of excellence and dedication improving the health care in our community. 
                 </p>
             </div>
-            <div class="row" id="page-items">
+            <div class="row">
+            	<div class="span8" id="page-items">
+            		<div><h2>Important Links</h2></div>
                 <div class="span4">
                      <h3>Forms &amp; Handbooks</h3> 
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
-                        ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                        sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed
-                        odio dui.</p>
-                    <p><a class="btn" href="sub-page.html">View details »</a>
+                    <p><a class="btn" href="handbooks">View details »</a>
                     </p>
                 </div>
                 <div class="span4">
                      <h3>Clinical Compliance</h3> 
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
-                        ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                        sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed
-                        odio dui.</p>
-                    <p><a class="btn" href="#">View details »</a>
+                    <p><a class="btn" href="http://chs.utep.edu/complianceclearances/">View details »</a>
                     </p>
                 </div>
                 <div class="span4">
                      <h3>Organizations</h3> 
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas
-                        eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus,
-                        tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                        massa justo sit amet risus.</p>
                     <p><a class="btn" href="#">View details »</a>
                     </p>
                 </div>
                 <div class="span4">
-                     <h3>Student Affairs</h3> 
-<<<<<<< HEAD
-                    <p>Your personal connection to successful admission, progression and graduation, 
-                    	the Office of Student Affairs is ready to assist you in attaining your academic goals.</p>
-                    <p><a class="btn" href="#">View details »</a>
-=======
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas
-                        eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus,
-                        tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                        massa justo sit amet risus.</p>
+                     <h3>Academic Advising</h3> 
+                    <p>Office of Student Affairs</p>
                     <p><a class="btn" href="sa">View details »</a>
->>>>>>> c19d37e5babd9c7d1dbe56eedb572e2f0aafa08c
+
                     </p>
                 </div>
+                <div class="span4">
+                     <h3>Professional Organization</h3> 
+                    <p><a class="btn" href="#">View details »</a>
+                    </p>
+                </div>
+                <div class="span4">
+                     <h3>Financial Aid</h3> 
+                    <p><a class="btn" href="finaid">View details »</a>
+                    </p>
+                </div>
+                <div class="span4">
+                     <h3>STTI | Delta Kappa Chapter</h3> 
+                    <p><a class="btn" href="#">View details »</a>
+                    </p>
+                </div>
+               </div>
+               <div class="span4">
+               	<h2><span style="color:#3b5998;">Social Media</span></h2>
+               	<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Futepnursing&amp;width=292&amp;height=590&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=true&amp;show_border=true&amp;appId=413969985317796" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:590px;" allowTransparency="true"></iframe>
+               </div>
             </div>
 </div>
 <?php get_footer(); ?>

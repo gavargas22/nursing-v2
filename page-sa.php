@@ -25,7 +25,7 @@
                 <div class="span4">
                      <h3>Degree Programs</h3> 
                     <p>The School of Nursing offers a variety of BSN, MSN and PhD tracks that are right for you.</p>
-                    <p><a class="btn btn-primary" href="degree-programs">View Programs »</a>
+                    <p><a class="btn btn-primary" href="prospective">View Programs »</a>
                     </p>
                 </div>
                 <div class="span4">
@@ -42,7 +42,7 @@
                 </div>
             </div>
 			
-            <div class="container">
+            <!--<div class="container">
             	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
             		<h2><span style="color:#566B94"><?php the_title(); ?></span></h2>
             		
@@ -64,6 +64,6 @@
 						<?php endif; ?>
             		</div>
             	</div>
-            	</div>
+            	</div>-->
 </div>
 <?php get_footer(); ?>

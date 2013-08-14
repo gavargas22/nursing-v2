@@ -11,7 +11,6 @@
 				 <?php edit_post_link('Edit'); ?>
             </div>
             <div class="span4">
-            	<h2>Useful Links</h2>
             	<?php $page_menu_id = get_post_meta($post->ID, "Page Menu", true); ?>
             	<?php echo get_post_meta($post->ID, 'Page Menu', true); ?>
             </div>
