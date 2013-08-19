@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Graduate Programs DNP Template
+Template Name: About Us History Page
 */
 
 get_header(); ?>
@@ -16,21 +16,17 @@ get_header(); ?>
 				 <?php edit_post_link('Edit'); ?>
             </div>
             <div class="span4">
-            	<h2>Information</h2>
-            	<div id="sidebar">
-            		<?php wp_nav_menu( array( 'menu'=>'MSN Programs Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
-            	</div>
-            	<div class="span2" style="margin-left:0;">
+            	<div class="span2">
             		<h2>Contact</h2>
-            		<img src="http://nursing.utep.edu/wp-content/uploads/2011/01/lhrobbins1.jpg" class="img-polaroid">
+            		<img src="http://nursing.utep.edu/wp-content/uploads/2013/08/02.jpeg" class="img-polaroid" alt="Elias Provencio-Vasquez, PhD, RN, FAAN, FAANP">
             		<p><address>
-  					<strong>Dr. Leslie Robbins PhD, MSN, APRN-BC, RN</strong><br>
-  					DNP Program Director<br />
-  					<a href="mailto:lhrobbins@utep.edu">lhrobbins@utep.edu</a><br />
-  					915-747-7227<br />
+  					<strong>Elias Provencio-Vasquez, PhD, RN, FAAN, FAANP</strong><br>
+  					Dean and Professor<br />
 					</address></p>
             	</div>
             </div>
             </div>
 </div>
 <?php get_footer(); ?>
+
+

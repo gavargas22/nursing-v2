@@ -15,7 +15,9 @@ function register_my_menus() {
       'undergraduate-programs-menu' => __( 'Undergraduate Programs Menu' ),
 	  'apply-masters-menu' => __( 'Apply Masters Program Page' ),
 	  'gcp-menu' => __( 'Graduate Certificate Programs Menu' ),
-	  'sa-important-links' => __( 'Student Affairs Important Links Page' )
+	  'sa-important-links' => __( 'Student Affairs Important Links Page' ),
+	  'support-son-menu' => __( 'Support SoN Menu' ),
+	  'about-page-menu' => __( 'About Us Page Menu' )
     )
   );
 }

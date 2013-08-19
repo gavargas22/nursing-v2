@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="container" id="single-page">
 	<?php if ( function_exists('yoast_breadcrumb') ) { yoast_breadcrumb('<ul class="breadcrumb">','</ul>'); } ?>
-            <div class="hero-unit" id="single-page-teaser" style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/img/alumni.jpg); color:#ffffff; background-size:cover;">
+            <div class="hero-unit" id="single-page-teaser" style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/img/bg/centres.jpg); color:#ffffff; background-size:cover; background-position:50% 41%;">
                  <h1>Areas of Excellence</h1> 
                 <p>At the UTEP School of Nursing, we pride ourselves in our innovative approach to research and educating future nurses and health care educators.</p>
             </div>
