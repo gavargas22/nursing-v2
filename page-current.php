@@ -38,7 +38,7 @@
                 </div>
                 <div class="span4">
                      <h3>STTI | Delta Kappa Chapter</h3> 
-                    <p><a class="btn" href="#">View details »</a>
+                    <p><a class="btn" href="stti-delta-kappa-chapter">View details »</a>
                     </p>
                 </div>
                </div>

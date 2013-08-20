@@ -17,7 +17,8 @@ function register_my_menus() {
 	  'gcp-menu' => __( 'Graduate Certificate Programs Menu' ),
 	  'sa-important-links' => __( 'Student Affairs Important Links Page' ),
 	  'support-son-menu' => __( 'Support SoN Menu' ),
-	  'about-page-menu' => __( 'About Us Page Menu' )
+	  'about-page-menu' => __( 'About Us Page Menu' ),
+	  'stti-page-menu' => __( 'Delta Kappa Chapter Menu' )
     )
   );
 }

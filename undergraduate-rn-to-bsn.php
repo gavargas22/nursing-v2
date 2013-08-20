@@ -22,7 +22,7 @@ get_header(); ?>
             	</div>
             	<div class="span2" style="margin-left:0;">
             		<h2>Contact</h2>
-            		<img src="http://hb2504.utep.edu/photos/jmccallister.jpg" class="img-polaroid" alt="Dr. Jana McCallister">
+            		<img src="http://hb2504.utep.edu/photos/dlsikes.jpg" class="img-polaroid" alt="Debbie Sikes, MSN, RN">
             		<p><address>
   					<strong>Debbie Sikes, MSN, RN</strong><br>
   					RN to BSN Director<br />

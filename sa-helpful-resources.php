@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Student Affairs Directory Page
+Template Name: Student Affairs Helpful Resources
 */
 
 get_header(); ?>
