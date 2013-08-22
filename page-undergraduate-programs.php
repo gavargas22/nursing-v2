@@ -13,8 +13,7 @@
         <!--<div class="span2">
             <?php wp_nav_menu( array( 'menu'=>'Undergraduate Programs Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
         </div>-->
-        <div class="span9">
-		<div class="span9">
+		<div class="span12">
             <ul class="thumbnails">
               <li class="span3">
                 <div class="thumbnail">
@@ -59,6 +58,5 @@
             </ul>
           </div>  
 	</div>
-    </div>
 </div>
 <?php get_footer(); ?>

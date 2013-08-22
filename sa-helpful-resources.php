@@ -15,9 +15,9 @@ get_header(); ?>
 				 <?php endif; ?>
 				 <?php edit_post_link('Edit'); ?>
             </div>
-            <div class="span4">
-            	<h2>Information</h2>
-            	<div id="sidebar">
+            <div class="span3">
+            	<!--<h2>Information</h2>-->
+            	<div id="sidebar" class="well">
             		<?php wp_nav_menu( array( 'menu'=>'Student Affairs Important Links Page', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
             	</div>
             </div>

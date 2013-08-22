@@ -15,15 +15,15 @@ get_header(); ?>
 				 <?php endif; ?>
 				 <?php edit_post_link('Edit'); ?>
             </div>
-            <div class="span4">
-            	<h2>Information</h2>
-            	<div id="sidebar">
+            <div class="span3">
+            	<!--<h3>Menu</h3>-->
+            	<div id="sidebar" class="well">
             		<?php wp_nav_menu( array( 'menu'=>'Undergraduate Programs Pre Nursing Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
             	</div>
             	<div class="span2" style="margin-left:0;">
-            		<h2>Contact</h2>
+            		<h3>Contact</h3>
             		<p><address>
-  					<strong><a href="http://nursing.utep.edu/sa">Office of Student Affairs</a></strong><br>
+  					<strong><a href="../sa">Office of Student Affairs</a></strong><br>
   					<a href="mailto:dimonsivais@utep.edu">dimonsivais@utep.edu</a><br />
   					915-747-8209<br />
 					</address></p>

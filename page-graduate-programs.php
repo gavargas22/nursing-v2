@@ -27,11 +27,11 @@
     <div class="tab-pane active" id="doctorate">
       <div class="span11">
             <ul class="thumbnails">
-            <p><span style="color:#FF7908; font-size: 30px; font-weight: bold;">Doctorate Programs</span></p>
+            <h2><span style="color:#FF7908; font-size: 30px; font-weight: bold;">Doctoral Programs</span></h2>
               <li class="span3">
                 <div class="thumbnail">
                  <div class="caption">
-                    <h4>Doctor of Nursing Practice (DNP)</h4>
+                    <h4>Ph.D of Nursing Practice (DNP)</h4>
                     <p>The DNP builds on the competences of the master’s degree, and adds a highly advanced skill base in informatics and technology, evidence-based practice, continuous quality improvement, and organizational systems and leadership.</p>
                     <p><a class="btn" href="dnp/">Read More</a></p>
                   </div>
@@ -42,7 +42,7 @@
                   <div class="caption">
                     <h4>PhD in Interdisciplinary Health Sciences</h4>
                     <p>Training the next generation of interdisciplinary researchers and academicians, the Interdisciplinary Health Sciences Ph.D. provides experiences that teach advanced skills in research design, methods, statistics, grant writing and writing for publication.</p>
-                    <p><a class="btn" href="ihs">Read More</a></p>
+                    <p><a class="btn" href="http://chs.utep.edu/ihs/">Read More</a></p>
                   </div>
                 </div>
               </li>
@@ -91,7 +91,8 @@
                 <div class="thumbnail">
                  <div class="caption">
                     <h4>Nursing Education (NE) Concentration</h4>
-                    <p>The DNP builds on the competences of the master’s degree, and adds a highly advanced skill base in informatics and technology, evidence-based practice, continuous quality improvement, and organizational systems and leadership.</p>
+                    <p>Students are prepared to teach in an academic and clinical setting by becoming proficient in curriculum 
+					and development, teaching methods, educational needs and learner-centered theories and methods.</p>
                     <p><a class="btn" href="ne">Read More</a></p>
                   </div>
                 </div>
@@ -100,7 +101,8 @@
                 <div class="thumbnail">
                   <div class="caption">
                     <h4>Nurse Practitioner (NP) Concentration</h4>
-                    <p>Training the next generation of interdisciplinary researchers and academicians, the Interdisciplinary Health Sciences Ph.D. provides experiences that teach advanced skills in research design, methods, statistics, grant writing and writing for publication.</p>
+                    <p>Advanced practice registered nurses are prepared in the profession of nurse practitioner for either 
+                    	primary or acute care in three concentrations.</p>
                     <p><a class="btn" href="np">Read More</a></p>
                   </div>
                 </div>
@@ -109,7 +111,7 @@
                 <div class="thumbnail">
                   <div class="caption">
                     <h4>Nursing Systems Manager (NSM) Concentration</h4>
-                    <p>Training the next generation of interdisciplinary researchers and academicians, the Interdisciplinary Health Sciences Ph.D. provides experiences that teach advanced skills in research design, methods, statistics, grant writing and writing for publication.</p>
+                    <p>Students are prepared for nurse leadership roles in management and administration.</p>
                     <p><a class="btn" href="nsm">Read More</a></p>
                   </div>
                 </div>

@@ -16,8 +16,7 @@
                 </div>
                 <div class="span4">
                      <h3>Graduate Programs</h3> 
-                    <p>Are you ready for the next step in your career? The UTEP School of Nursing offers three MSN majors, an RN to MSN program, 
-                    	two doctoral programs and three Graduate Certificate programs.</p>
+                    <p>Are you ready for the next step in your career? The UTEP School of Nursing offers three MSN majors, two doctoral programs and three Graduate Certificate programs.</p>
                     <p><a class="btn" href="graduate-programs">View details »</a>
                     </p>
                 </div>

@@ -18,7 +18,7 @@ get_header(); ?>
             <div class="span4">
             	<h2>Information</h2>
             	<div id="sidebar">
-            		<?php wp_nav_menu( array( 'theme_location'  => 'Graduate Certificate Programs Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
+            		<?php wp_nav_menu( array( 'menu'  => 'Graduate Certificate Programs Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
             	</div>
             	<div class="span2">
             		<h2>Contact</h2>

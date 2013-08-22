@@ -726,7 +726,7 @@ ul#menu-graduate-programs .current-menu-item a:active { background-color:#08c; }
 .financialaid-block {
 	background: #3E474F;
 	color:#FFFFFF;
-	background-image:url(http://academics.utep.edu/Portals/385/images/studentadvising.jpg);
+	background-image:url(../img/bg/studentadvising.jpg);
 	background-size:cover;
 }
 .financialaid-block a {
@@ -738,7 +738,7 @@ ul#menu-graduate-programs .current-menu-item a:active { background-color:#08c; }
 .scholarships-block {
 	background: #2D5952;
 	color:#FFFFFF;
-	background-image: url(http://admin.utep.edu/Portals/1791/press_images/Grad-FairW.jpg);
+	background-image: url(../img/bg/Grad-FairW.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }

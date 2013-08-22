@@ -8,16 +8,34 @@
                  </p>
             </div>
             <div class="container">
-            	<div class="span10">
-            		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-                     <h3><?php the_title(); ?></h3> 
-                    <p>
-                    	<?php the_content(); ?>
-                    	</p>
-                    <?php endwhile; else: ?>
+            	<div class="row">
+            <div class="span8">
+            	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+            		<h2><?php the_title(); ?></h2>
+            		<p><?php the_content(); ?></p>
+            	<?php endwhile; else: ?>
 				 <?php endif; ?>
 				 <?php edit_post_link('Edit'); ?>
-                </div>
+            </div>
+            <div class="span4">
+            	<!--<h2>Contact</h2>
+            	<div id="sidebar">
+            		<?php wp_nav_menu( array( 'menu'=>'MSN Programs Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
+            	</div>-->
+            	<div class="span2" style="margin-left:0;">
+            		<h2>Contact</h2>
+            		<img src="http://orspprofile.utep.edu/profilesystem/images/0/1934_0_2070.jpg" class="img-polaroid" alt="Mr. Ronnie Stout">
+            		<p><address>
+  					<strong>Mr. Ronnie Stout</strong><br>
+  					Family Nurse Practitioner Director/Advisor<br />
+  					<a href="mailto:rcstout@utep.edu">rcstout@utep.edu</a><br />
+  					(915)747-8204   <br />
+					</address></p>
+            	</div>
+            </div>
+            </div>
             </div>
 </div>
 <?php get_footer(); ?>
+
+

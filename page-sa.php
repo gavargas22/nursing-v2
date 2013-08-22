@@ -44,12 +44,12 @@
     			</div>
     			<div class="span3">
     				<h2>Important Links</h2>
-            	<div id="sidebar">
+            	<div id="sidebar" class="well">
             		<?php wp_nav_menu( array( 'menu'=>'Student Affairs Important Links Page', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
             	</div>
-            	<div class="span3">
+            	<!--<div class="span3">
             		Information
-            	</div>
+            	</div>-->
     			</div>
             </div>
 </div>
