@@ -10,7 +10,7 @@
         </div>
             <ul id="filters">
             	<li style="padding: 5px;">Sort By:</li>
-            <li class="news-filter"><a href="#" data-filter=".news-element"><span class="filter-marker"></span>News &amp; Events</a>
+            <li class="news-filter"><a href="#" data-filter=".news-element">News &amp; Events</a>
 
             </li>
             <li class="admissions-filter"><a href="#" data-filter=".admissions-element">Admissions</a>

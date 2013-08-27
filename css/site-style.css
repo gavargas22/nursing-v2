@@ -324,11 +324,21 @@ font-size:60px;
 	color:#333333;
 	background-color:#F4F4F4;
 }
-.filter-marker {
-	width:15px;
-	height:15px;
+.filter-marker-news {
+	width:7px;
+	height:7px;
 	background-color:#F89406;
-	
+	position:relative;
+	float:left;
+	top:12px;
+}
+.filter-marker-admissions {
+	width:7px;
+	height:7px;
+	background-color:#F89406;
+	position:relative;
+	float:left;
+	top:12px;
 }
 ul#filters {
 	font-family:"Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
@@ -369,7 +379,7 @@ ul#filters li.news-filter a:active {
 }
 ul#filters li.admissions-filter a {
 	padding: 5px 10px 5px 10px;
-	color:#333333;
+	color:#153a6e;
 	display:block;
 	text-decoration:none;
 }
