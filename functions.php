@@ -18,7 +18,8 @@ function register_my_menus() {
 	  'sa-important-links' => __( 'Student Affairs Important Links Page' ),
 	  'support-son-menu' => __( 'Support SoN Menu' ),
 	  'about-page-menu' => __( 'About Us Page Menu' ),
-	  'stti-page-menu' => __( 'Delta Kappa Chapter Menu' )
+	  'stti-page-menu' => __( 'Delta Kappa Chapter Menu' ),
+	  'alumniandfriends-page-menu' => __( 'Alumni and Friends Menu' )
     )
   );
 }

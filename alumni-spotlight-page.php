@@ -59,7 +59,7 @@ get_header(); ?>
             						it was her bachelor’s degree in nursing from UTEP that set her on a diverse and successful path. After graduating from UTEP
             						 in 1987, she worked as a nurse at Lubbock General Hospital, remaining there a year before returning to El Paso, where she became a nurse
             						  in the ICU/Post-Anesthesia Care Unit at Providence Memorial Hospital.
-            						 <p><a class="btn">Read More</a></p>
+            						 <!--<p><a class="btn">Read More</a></p>-->
             					</p>
             				</div>
             			</div>
@@ -69,7 +69,13 @@ get_header(); ?>
 				 <?php endif; ?>
 				 <?php edit_post_link('Edit'); ?>
             </div>
-            <div class="span3">Hello</div>
+            <div class="span3">
+            	
+            	<div id="sidebar">
+            		<?php wp_nav_menu( array( 'menu'=>'Alumni and Friends Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
+            	</div>
+            	
+            </div>
             </div>
 </div>
 <?php get_footer(); ?>

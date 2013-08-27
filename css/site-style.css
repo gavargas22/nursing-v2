@@ -1,5 +1,5 @@
 ::selection {
-	background-color:#F89406;
+	background-color:#000000;
 	color:#FFFFFF;
 }
 /*Header aspects*/
@@ -450,7 +450,7 @@ ul#filters li.show-all a:active {
 	text-rendering: optimizeLegibility;
 }
 .news-element {
-	background-color: #FF7908;
+	background-color: #ff6600;
 	color:#ffffff;
 }
 .admissions-element {
