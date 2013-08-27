@@ -33,6 +33,7 @@ get_header(); ?>
             			<br />
             			915-747-7251
             		</p>
+            		<img src="http://nursing.utep.edu/beta/wp-content/uploads/2013/08/photo1106.png" href="https://givingto.utep.edu/SSLPage.aspx?pid=280&frcrld=1#.Uh0KDmQ1aqN" target="_blank" />
             	</div>
             	
             	<div id="sidebar">

@@ -7,13 +7,13 @@ get_header(); ?>
 <div class="container" id="single-page">
 	<?php if ( function_exists('yoast_breadcrumb') ) { yoast_breadcrumb('<ul class="breadcrumb">','</ul>'); } ?>
             <div class="row">
-            <div class="span8">
+            <div class="span9">
             	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
             		<h2><?php the_title(); ?></h2>
             		<p>The UTEP School of Nursing is proud of our alumni and their successes as health care providers and leaders in the El Paso community and beyond.</p>
             		<p>
-            			<div class="spotlight-unit span12" id="spotlight-01" style="background-image: url(<?php bloginfo('stylesheet_directory'); ?>/img/bg/0030_Steffen-EP-MAG-CROPPED.jpg); background-size:cover; color:#ffffff;">
-            				<div class="span5 offset6 spotlight-text">
+            			<div class="spotlight-unit span9" id="spotlight-01" style="background-image: url(<?php bloginfo('stylesheet_directory'); ?>/img/bg/0030_Steffen-EP-MAG-CROPPED.jpg); background-size:cover; color:#ffffff; margin-left:0;">
+            				<div class="span5 offset3 spotlight-text">
             					<h2>Sally A. Hurt Deitch, ’90, ’94</h2>
             					<p>
             					In less than 18 years, Sally Hurt Deitch worked her way up from a 22-year-old staff nurse in an endoscopy department to CEO of one of El Paso’s newest hospitals.
@@ -31,8 +31,8 @@ get_header(); ?>
             				</div>
             			</div>
             			
-            			<div class="spotlight-unit span12" id="spotlight-02" style="background-image: url(<?php bloginfo('stylesheet_directory'); ?>/img/bg/enriue-mata.jpg); background-size:cover; color:#ffffff;">
-            				<div class="span5 offset6 spotlight-text">
+            			<div class="spotlight-unit span9" id="spotlight-02" style="background-image: url(<?php bloginfo('stylesheet_directory'); ?>/img/bg/enriue-mata.jpg); background-size:cover; color:#ffffff; margin-left:0">
+            				<div class="span5 offset3 spotlight-text">
             					<h2>Enrique Mata, ’97</h2>
             					<p><i><span style="color: #888888;">UTEP Gold Nugget ’12 Congratulations to Enrique Mata for being the recipient of the  2012 UTEP Gold Nugget.</span> </i></p>
             					<p>
@@ -47,8 +47,8 @@ get_header(); ?>
             					</p>
             				</div>
             			</div>
-            			<div class="spotlight-unit span12" id="spotlight-02" style="background-image: url(<?php bloginfo('stylesheet_directory'); ?>/img/bg/lawson-linda.jpg); background-size:cover; color:#ffffff;">
-            				<div class="span5 offset6 spotlight-text">
+            			<div class="spotlight-unit span9" id="spotlight-02" style="background-image: url(<?php bloginfo('stylesheet_directory'); ?>/img/bg/lawson-linda.jpg); background-size:cover; color:#ffffff; margin-left:0">
+            				<div class="span5 offset3 spotlight-text">
             					<h2>Linda Lawson</h2>
             					<p><i><span style="color: #888888;">Distinguished Alumna 2011 Gold Nugget</span> </i></p>
             					<p>
@@ -69,7 +69,7 @@ get_header(); ?>
 				 <?php endif; ?>
 				 <?php edit_post_link('Edit'); ?>
             </div>
-            <div class="span4"></div>
+            <div class="span3">Hello</div>
             </div>
 </div>
 <?php get_footer(); ?>

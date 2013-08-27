@@ -287,14 +287,15 @@ font-size:60px;
 	color:#888888;
 	font-size:15px;
 	font-weight: normal;
-	border-bottom: 1px solid #DDDDDD;
-	padding-bottom:10px;
+	padding-bottom:5px;
 	}
 	
 #filter-holders {
 	position:relative;
 	top:20px;
 	left:0;
+	border-bottom:1px solid #DDDDDD;
+	padding-bottom:10px;
 }
 .filter-labels {
 	border-radius 3px;
@@ -323,7 +324,12 @@ font-size:60px;
 	color:#333333;
 	background-color:#F4F4F4;
 }
-
+.filter-marker {
+	width:15px;
+	height:15px;
+	background-color:#F89406;
+	
+}
 ul#filters {
 	font-family:"Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
 	font-size:10px;
@@ -333,7 +339,7 @@ ul#filters {
 	width:auto;
 	height:auto;
 	margin: 0px;
-	z-index:10;
+	z-index:0;
 	list-style:none;
 }
 ul#filters li {
@@ -343,7 +349,8 @@ ul#filters li {
 	left:0;
 	width:auto;
 	height:auto;
-	font-size:10px;
+	font-size:12px;
+	font-weight:bold;
 	padding-right:6px;
 	margin-bottom:6px;
 }
@@ -353,93 +360,50 @@ ul#filters li.news-filter a {
 	color:#FF7908;
 	display:block;
 	text-decoration:none;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	-moz-box-shadow: 0px 0px 2px #000;
-  	-webkit-box-shadow: 0px 0px 2px #000;
-  	box-shadow: 0px 0px 2px #000;
+}
+ul#filters li.news-filter a:hover {
+	text-decoration:underline;
 }
 ul#filters li.news-filter a:active {
-	-moz-box-shadow:inset 0px 0px 3px #000;
-	-webkit-box-shadow:inset 0px 0px 3px #000;
-	box-shadow:inset 0px 0px 3px #000;
 	z-index: 0;
 }
 ul#filters li.admissions-filter a {
 	padding: 5px 10px 5px 10px;
-	background-color:#112233;
-	color:#FFFFFF;
+	color:#333333;
 	display:block;
 	text-decoration:none;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	-moz-box-shadow: 0px 0px 2px #000;
-  	-webkit-box-shadow: 0px 0px 2px #000;
-  	box-shadow: 0px 0px 2px #000;
+}
+ul#filters li.admissions-filter a:hover {
+	text-decoration:underline
 }
 ul#filters li.admissions-filter a:active {
-	-moz-box-shadow:inset 0px 0px 3px #000;
-	-webkit-box-shadow:inset 0px 0px 3px #000;
-	box-shadow:inset 0px 0px 3px #000;
 	z-index: 0;
 }
 ul#filters li.social-media-filter a {
 	padding: 5px 10px 5px 10px;
-	background-color:#FFFFFF;
 	color:#333333;
 	display:block;
 	text-decoration:none;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	-moz-box-shadow: 0px 0px 2px #000;
-  	-webkit-box-shadow: 0px 0px 2px #000;
-  	box-shadow: 0px 0px 2px #000;
 }
 ul#filters li.social-media-filter a:active {
-	-moz-box-shadow:inset 0px 0px 3px #000;
-	-webkit-box-shadow:inset 0px 0px 3px #000;
-	box-shadow:inset 0px 0px 3px #000;
 	z-index: 0;
 }
 ul#filters li.resources-element-filter a {
 	padding: 5px 10px 5px 10px;
-	background-color:#666666;
-	color:#FFFFFF;
+	color:#333;
 	display:block;
 	text-decoration:none;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	-moz-box-shadow: 0px 0px 2px #000;
-  	-webkit-box-shadow: 0px 0px 2px #000;
-  	box-shadow: 0px 0px 2px #000;
 }
 ul#filters li.resources-element-filter a:active {
-	-moz-box-shadow:inset 0px 0px 3px #000;
-	-webkit-box-shadow:inset 0px 0px 3px #000;
-	box-shadow:inset 0px 0px 3px #000;
 	z-index: 0;
 }
 ul#filters li.show-all a {
 	padding: 5px 10px 5px 10px;
-	background-color:#FFFFFF;
 	color:#333333;
 	display:block;
 	text-decoration:none;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	-moz-box-shadow: 0px 0px 2px #000;
-  	-webkit-box-shadow: 0px 0px 2px #000;
-  	box-shadow: 0px 0px 2px #000;
 }
 ul#filters li.show-all a:active {
-	-moz-box-shadow:inset 0px 0px 3px #000;
-	-webkit-box-shadow:inset 0px 0px 3px #000;
-	box-shadow:inset 0px 0px 3px #000;
 	z-index: 0;
 }
 /*Isotope element styles are located here*/
@@ -473,18 +437,19 @@ ul#filters li.show-all a:active {
 	box-shadow:0 0 1px 0px #AAA, 0 2px 0px 0px #999,0 5px 10px rgba(0, 0, 0, 0.25);
 	/*width:280px;*/
 	width:220px;
+	text-rendering: optimizeLegibility;
 }
 .news-element {
 	background-color: #FF7908;
 	color:#ffffff;
 }
 .admissions-element {
-	background-color: #112233;
+	background-color: #153a6e;
 	color:#ffffff;
 	font-size:11px;
 }
-.facebook-element {
-	background-color: #FFFFFF;
+.social-element {
+	background-color: #EEEEEE;
 	color:#333333;
 	font-size:11px;
 }
@@ -545,8 +510,8 @@ ul#filters li.show-all a:active {
 	background-color: rgba(0, 0, 0, .5);
 }
 .like-icon {
-	position:relative;
-	top:8px;
+	position:absolute;
+	top:7px;
 	left: 50%;
 	width:13px;
 	height:13px;
