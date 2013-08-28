@@ -1,12 +1,8 @@
 <?php get_header(); ?>
 <div class="container" id="single-page">
 	<?php if ( function_exists('yoast_breadcrumb') ) { yoast_breadcrumb('<ul class="breadcrumb">','</ul>'); } ?>
-            <div class="alert alert-block">
-  			<button type="button" class="close" data-dismiss="alert">&times;</button>
-  			<h4>Attention!</h4>
-  			<p>The application windows for the Spring 2014 period of the <b>Traditional BSN</b> and <b>Fast Track Program</b> are now open! Click on the button to apply now.</p>
-  			<p><a class="btn btn btn-primary" type="button" href="http://nursing.utep.edu/applications"><i class="icon-pencil icon-white"></i> Apply Now</button></a>
-			</div>
+		
+			<?php get_template_part( 'alert-part' ); ?>
 			
 			<div class="hero-unit" id="single-page-teaser" style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/img/bg/03.jpg); color:#ffffff; background-size:cover; background-position: 50% 100%;">
          		<h1>Academic Advising</h1>

@@ -4,6 +4,7 @@ Template Name: Student Affairs Helpful Resources
 */
 
 get_header(); ?>
+<?php get_template_part( 'alert-part' ); ?>
 <div class="container" id="single-page">
 	<?php if ( function_exists('yoast_breadcrumb') ) { yoast_breadcrumb('<ul class="breadcrumb">','</ul>'); } ?>
             <div class="row">

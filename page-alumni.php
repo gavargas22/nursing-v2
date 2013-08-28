@@ -42,7 +42,7 @@
                     </p>
                 </div>
                 <div class="span4">
-                     <h3>Community Partners</h3> 
+                     <h3>Clinical Partners</h3> 
                     <p>
                     	The UTEP School of Nursing counts on its partnerships with health care institutions and community organizations to provide 
                     	hands-on experiences to our nursing students.

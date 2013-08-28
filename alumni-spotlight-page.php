@@ -31,7 +31,7 @@ get_header(); ?>
             				</div>
             			</div>
             			
-            			<div class="spotlight-unit span9" id="spotlight-02" style="background-image: url(<?php bloginfo('stylesheet_directory'); ?>/img/bg/enriue-mata.jpg); background-size:cover; color:#ffffff; margin-left:0">
+            			<div class="spotlight-unit span9" id="spotlight-02" style="background-image: url(http://nursing.utep.edu/beta/wp-content/uploads/2013/08/enriue-mata.jpg); background-size:cover; color:#ffffff; margin-left:0">
             				<div class="span5 offset3 spotlight-text">
             					<h2>Enrique Mata, ’97</h2>
             					<p><i><span style="color: #888888;">UTEP Gold Nugget ’12 Congratulations to Enrique Mata for being the recipient of the  2012 UTEP Gold Nugget.</span> </i></p>
@@ -47,7 +47,7 @@ get_header(); ?>
             					</p>
             				</div>
             			</div>
-            			<div class="spotlight-unit span9" id="spotlight-02" style="background-image: url(<?php bloginfo('stylesheet_directory'); ?>/img/bg/lawson-linda.jpg); background-size:cover; color:#ffffff; margin-left:0">
+            			<div class="spotlight-unit span9" id="spotlight-02" style="background-image: url(http://nursing.utep.edu/beta/wp-content/uploads/2013/08/lawson-linda.jpg); background-size:cover; color:#ffffff; margin-left:0">
             				<div class="span5 offset3 spotlight-text">
             					<h2>Linda Lawson</h2>
             					<p><i><span style="color: #888888;">Distinguished Alumna 2011 Gold Nugget</span> </i></p>
@@ -70,7 +70,16 @@ get_header(); ?>
 				 <?php edit_post_link('Edit'); ?>
             </div>
             <div class="span3">
-            	
+            	<div class="well">
+            		<h4>To learn more about giving to the UTEP School of Nursing, Contact:</h4>
+            			<p>
+            			<h4>Martin Muñoz</h4>
+            			Director of Development
+            			<br />
+            			915-747-7251
+            		</p>
+            		<a href="https://givingto.utep.edu/SSLPage.aspx?pid=280&frcrld=1#.Uh0KDmQ1aqN"><img src="http://nursing.utep.edu/beta/wp-content/uploads/2013/08/photo1106.png" href="https://givingto.utep.edu/SSLPage.aspx?pid=280&frcrld=1#.Uh0KDmQ1aqN" target="_blank" /></a>
+            	</div>
             	<div id="sidebar">
             		<?php wp_nav_menu( array( 'menu'=>'Alumni and Friends Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
             	</div>
