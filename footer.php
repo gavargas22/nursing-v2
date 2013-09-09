@@ -52,6 +52,7 @@
 <script src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery.flexslider-min.js"></script>
 <script src="http://slackentie.github.io/isotope/jquery.isotope.min.js"></script>
 <script src="<?php bloginfo('stylesheet_directory'); ?>/includes/fancyBox-master/source/jquery.fancybox.pack.js"></script>
+<script src="http://slackentie.github.io/jquery-bbq/jquery.ba-bbq.min.js"></script>
 </body>
 
 </html>
