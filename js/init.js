@@ -1,5 +1,6 @@
-$(document).ready(function() {
-	var $container = $('#tile-wrapper');
+jQuery(document).ready(function() {
+	var $container = jQuery('#tile-wrapper');
+	$container.imagesLoaded( function() {
 	$container.isotope({
 		itemSelector : '.isotope-elements',
 		masonry : {
@@ -13,7 +14,7 @@ $(document).ready(function() {
 		}
 	});
 	
-	var $containerJudgesVariable = $('#page-items');
+	var $containerJudgesVariable = jQuery('#page-items');
 	$containerJudgesVariable.isotope({
 		itemSelector : '.span4',
 		masonry : {
@@ -26,11 +27,12 @@ $(document).ready(function() {
 		}
 	});
 	
-	$('#filters a').click(function(){
+	jQuery('#filters a').click(function(){
 		var selector = $(this).attr('data-filter');
 		$container.isotope({ filter: selector });
 		return false;
 	});
+});
 });
 
 /*Load the Centennial Code*/
