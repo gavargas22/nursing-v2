@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: About Us Office of the Dean
+Template Name: Alumni Clinical Partners Page
 */
 
 get_header(); ?>
@@ -15,15 +15,11 @@ get_header(); ?>
 				 <?php endif; ?>
 				 <?php edit_post_link('Edit'); ?>
             </div>
-            <div class="row span4">
-            	<div class="span2">
-					<p>
-						<?php wp_nav_menu( array( 'menu'=>'About Us Sub Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
-					</p>
+            <div class="span3">
+            	<div id="sidebar">
+            		<?php wp_nav_menu( array( 'menu'=>'Alumni and Friends Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
             	</div>
             </div>
             </div>
 </div>
 <?php get_footer(); ?>
-
-

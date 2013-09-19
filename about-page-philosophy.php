@@ -17,7 +17,6 @@ get_header(); ?>
             </div>
             <div class="span4">
             	<div class="span2">
-            		<h2>Menu</h2>
             		<div id="sidebar">
             		<?php wp_nav_menu( array( 'menu'=>'About Us Sub Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
             		</div>

@@ -17,7 +17,6 @@ get_header(); ?>
             </div>
             <div class="row span4">
             	<div class="span2">
-            		<h2>Contact</h2>
             		<img src="http://nursing.utep.edu/wp-content/uploads/2013/08/02.jpeg" class="img-polaroid" alt="Elias Provencio-Vasquez, PhD, RN, FAAN, FAANP">
             		<p><address>
   					<strong>Elias Provencio-Vasquez, PhD, RN, FAAN, FAANP</strong><br>
