@@ -18,7 +18,7 @@
                 <div class="span4">
                      <h3>Clinical Compliance</h3>
                      <p>The Clinical Compliance Office works diligently to ensure that all students have met their Pre-Clinical Clearance Requirements.</p>
-                    <p><a class="btn" href="http://chs.utep.edu/complianceclearances/">View details »</a>
+                    <p><a class="btn" href="http://chs.utep.edu/complianceclearances/" target="_blank">View details »</a>
                     </p>
                 </div>
                 <div class="span4">

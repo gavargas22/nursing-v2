@@ -19,7 +19,8 @@ function register_my_menus() {
 	  'support-son-menu' => __( 'Support SoN Menu' ),
 	  'about-page-menu' => __( 'About Us Page Menu' ),
 	  'stti-page-menu' => __( 'Delta Kappa Chapter Menu' ),
-	  'alumniandfriends-page-menu' => __( 'Alumni and Friends Menu' )
+	  'alumniandfriends-page-menu' => __( 'Alumni and Friends Menu' ),
+	  'currentstudents-page-menu' => __( 'Current Students Menu' )
     )
   );
 }

@@ -17,7 +17,7 @@
                      <h3>Center for Aging</h3> 
                     <p>Resources available through the Center for Aging can assist health care professionals, 
                     	community groups, students and faculty to enhance their interactions with our aging population.</p>
-                    <p><a class="btn" href="aging-center">View details »</a>
+                    <p><a class="btn" href="aging">View details »</a>
                     </p>
                 </div>
                 <div class="span4">

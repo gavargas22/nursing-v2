@@ -42,7 +42,7 @@
                   <div class="caption">
                     <h4>PhD in Interdisciplinary Health Sciences</h4>
                     <p>Training the next generation of interdisciplinary researchers and academicians, the Interdisciplinary Health Sciences Ph.D. provides experiences that teach advanced skills in research design, methods, statistics, grant writing and writing for publication.</p>
-                    <p><a class="btn" href="http://chs.utep.edu/ihs/">Read More</a></p>
+                    <p><a class="btn" href="http://chs.utep.edu/ihs/" target="_blank">Read More</a></p>
                   </div>
                 </div>
               </li>
