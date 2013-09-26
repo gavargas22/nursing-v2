@@ -22,7 +22,7 @@
                 	<div class="span4">
                      <h3>Degree Programs</h3> 
                     <p>The School of Nursing offers a variety of BSN, MSN and PhD tracks that are right for you.</p>
-                    <p><a class="btn btn-primary" href="prospective">View Programs »</a>
+                    <p><a class="btn btn-primary" href="degree-plans">View Programs »</a>
                     </p>
                 	</div>
                 	<div class="span4">

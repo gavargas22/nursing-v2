@@ -69,6 +69,27 @@
 .flex-control-nav .flex-control-paging {
 	visibility:hidden;
 }
+
+#imageSlider {
+	height:400px;
+}
+#slidingElements {
+	height:400px;
+}
+.slideshow-caption {
+	position:absolute;
+	color:#FFFFFF;
+	text-shadow:0px 1px 1px rgba(0,0,0,0.25);
+	left:10%;
+	top:30%;
+}
+#custom-controls {
+	background: none;
+	border: none;
+	-webkit-border-radius: none;
+	-moz-border-radius: none;
+	border-radius: none;
+}
 /* ---------------- */
 
 /* Miscellaneous CSS*/
@@ -535,6 +556,16 @@ ul#filters li.show-all a:active {
 	background-image:url(../img/pickbutton.png);
 	background-position: 0 13px;
 	background-size:cover;
+}
+.post-read-more {
+	position:relative;
+	top:0;
+	left:0;
+	width:auto;
+	height:auto;
+	font-weight:bold;
+	font-size:11px;
+	color:#666666;
 }
 .like-counter {
     position: absolute;
