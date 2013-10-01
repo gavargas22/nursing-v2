@@ -30,7 +30,7 @@
     <div class="container">
         <div class="row">
             <div class="span8">
-            	<?php query_posts(array('showposts' => 10, 'orderby' => 'desc', 'category_name' => 'isotope-elements')); ?>
+            	<?php query_posts(array('showposts' => 10, 'orderby' => 'desc', 'category_name' => 'simulation')); ?>
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                 	<div class="span7 simlab-elements">
                 		<h2><?php the_title(); ?></h2>
