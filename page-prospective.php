@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="container" id="single-page">
 	<?php if ( function_exists('yoast_breadcrumb') ) { yoast_breadcrumb('<ul class="breadcrumb">','</ul>'); } ?>
-            <div class="hero-unit" id="single-page-teaser" style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/img/bgProspective.jpg); color:#ffffff; background-size:cover;">
+            <div class="hero-unit" id="single-page-teaser" style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/img/bg/greenbg.jpg); color:#ffffff; background-size:cover;">
                  <h1>Prospective Students</h1> 
                 <p>With three BSN track options, three MSN majors, an RN to MSN option and two doctoral programs, 
                 	at the UTEP School of Nursing, you can find the option that is right for you.</p>
@@ -27,7 +27,7 @@
                     </p>
                 </div>
                 <div class="span4">
-                     <h3>Scholarships & Financial Aid</h3> 
+                     <h3>Scholarships &amp; Financial Aid</h3> 
                     <p>With the School of Nursing’s vigorous schedule, it is sometimes difficult for students to hold a full-time job. 
                     	Therefore, UTEP offers a variety of scholarship and financial aid opportunities.</p>
                     <p><a class="btn" href="finaid">View details »</a>

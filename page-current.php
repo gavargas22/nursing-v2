@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="container" id="single-page">
 	<?php if ( function_exists('yoast_breadcrumb') ) { yoast_breadcrumb('<ul class="breadcrumb">','</ul>'); } ?>
-            <div class="hero-unit" id="single-page-teaser" style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/img/bgCurrent.jpg); color:#ffffff; background-size:cover;">
+            <div class="hero-unit" id="single-page-teaser" style="background-image:url(http://farm4.staticflickr.com/3601/3382698435_17f4c57126_o.jpg); color:#ffffff; background-size:cover;">
                  <h1>Current Students</h1> 
                 <p>
                 	As a nursing student at UTEP, you’ve joined an exceptional academic program with a reputation of excellence and dedication improving the health care in our community. 
