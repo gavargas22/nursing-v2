@@ -791,6 +791,12 @@ ul#menu-graduate-programs .current-menu-item a:active { background-color:#08c; }
 	background-image:url(../img/bg/texture.jpg);
 }
 
+/*SimLab CSS*/
+.simlab-elements {
+	position:relative;
+	padding: 10px 0 10px 0;
+}
+
 /*Wordpress Overrride*/
 /*Image alignment and Caption*/
 .wp-caption{background:#F5F5F5;line-height:18px;margin-bottom:20px;text-align:center;padding:4px;}
