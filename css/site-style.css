@@ -81,7 +81,10 @@
 	color:#FFFFFF;
 	text-shadow:0px 1px 1px rgba(0,0,0,0.25);
 	left:10%;
-	top:30%;
+	/*top:30%;*/
+	bottom:60px;
+	background: rgba(0,0,0,0.5);
+	padding:10px;
 }
 #custom-controls {
 	background: none;
@@ -770,6 +773,7 @@ ul#menu-graduate-programs .current-menu-item a:active { background-color:#08c; }
 .spotlight-text {
 	position:relative;
 	top:40pt;
+}
 /*Student Affairs Stying*/
 .sa-blocks {
 	-webkit-border-radius: 5px;
@@ -792,14 +796,112 @@ ul#menu-graduate-programs .current-menu-item a:active { background-color:#08c; }
 }
 
 /*SimLab CSS*/
+#simlab-microsite-title {
+	padding-bottom:30px;
+}
 .simlab-elements {
 	position:relative;
 	padding: 10px 0 10px 0;
 }
+.simlab-top-items-wrapper {
+	position:relative;
+	top:0;
+	left:0;
+	width:auto;
+	height:auto;
+}
+.simlab-top-items-element {
+	position:relative;
+	height:380px;
+	width:270px;
+	margin: 0 5px 0 5px;
+	float:left;
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+	border: solid 4px #FFFFFF;
+}
+.simlab-top-items-element-info-wrapper {
+	padding:15px 10px 10px 10px;
+}
+.simlab-top-items-element-content-title a {
+	font-weight: bold;
+	font-size:18px;
+	color:#556378;
+	padding-bottom:5px;
+	border-bottom: solid 1px #EEEEEE;
+}
+.simlab-top-items-element-content-title a:hover {
+	background-color:#EEEEEE;
+	color:#333;
+	text-decoration:none;
+}
+.simlab-top-items-element-content-text {
+	font-size:12px;
+	padding: 10px 10px 10px 0;
+	color:#777777;
+}
+.simlab-top-items-element-important-links-item {
+	padding-bottom:5px;
+}
+.simlab-top-items-element-important-links-item a {
+	font-weight: bold;
+	font-size:14px;
+	color:#777;	
+	border-bottom: solid 1px #EEEEEE;
+}
+.simlab-top-items-element-important-links-item a:hover {
+	background-color:#EEEEEE;
+	color:#333;
+	text-decoration:none;
+}
+/*The actual elements that denote the date of event*/
+.simlab-top-items-element-todays-date {
+	padding:5px;
+	font-weight:bold;
+	font-size:11px;
+	color:#556378;
+}
+.simlab-top-items-element .simlab-top-items-element-title {
+	position:relative;
+	top:0;
+	left:0;
+	width:auto;
+	height:20px;
+	font-weight: bold;
+	font-size:12px;
+	background-color:#153a6e;
+	color:#FFFFFF;
+	padding:5px;
+}
+.simlab-top-items-element .simlab-top-items-element-calendar-appointment-title a {
+	color:#333333;
+	font-weight:bold;
+}
+.simlab-top-items-element .simlab-top-items-element-calendar-appointment-title a:hover {
+	background-color:#EEEEEE;
+	color:#333;
+	text-decoration:none;
+}
+.simlab-top-items-element-calendar-appointment-date {
+	color:#999999;
+	font-size:11px;
+}
+
+/*---------------------------------------------*/
+.simlab-top-items-element .simlab-top-items-element-calendar-wrapper {
+	
+}
+.simlab-top-items-element .simlab-top-items-element-calendar-appointment {
+	position:relative;
+	top:0;
+	left:0;
+	padding:5px;
+	border-bottom: solid 1px #EEEEEE;
+}
 
 /*Wordpress Overrride*/
 /*Image alignment and Caption*/
-.wp-caption{background:#F5F5F5;line-height:18px;margin-bottom:20px;text-align:center;padding:4px;}
+/*.wp-caption{background:#F5F5F5;line-height:18px;margin-bottom:20px;text-align:center;padding:4px;}
 .wp-caption img{margin:5px 5px 0;}
 .wp-caption p.wp-caption-text{color:#888;font-size:12px;margin:5px;}
 .attachment img{max-width:620px;}
@@ -807,4 +909,4 @@ ul#menu-graduate-programs .current-menu-item a:active { background-color:#08c; }
 .alignright, img.alignright{display:inline;float:right;margin-left:24px;margin-top:4px;}
 .aligncenter, img.aligncenter{clear:both;display:block;margin-left:auto;margin-right:auto;}
 img.alignleft, img.alignright, img.aligncenter{margin-bottom:12px;}
-.attachment img {display: block;margin: 0 auto;}
+.attachment img {display: block;margin: 0 auto;}*/
