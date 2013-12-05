@@ -20,7 +20,8 @@ function register_my_menus() {
 	  'about-page-menu' => __( 'About Us Page Menu' ),
 	  'stti-page-menu' => __( 'Delta Kappa Chapter Menu' ),
 	  'alumniandfriends-page-menu' => __( 'Alumni and Friends Menu' ),
-	  'currentstudents-page-menu' => __( 'Current Students Menu' )
+	  'currentstudents-page-menu' => __( 'Current Students Menu' ),
+	  'simlab-important-links-menu' => __( 'Simlab Important Links' )
     )
   );
 }
@@ -46,4 +47,11 @@ function special_nav_class($classes, $item){
      }
      return $classes;
 }
+
+// Create Slider Post Type
+require( get_template_directory() . '/simLabMicroSite/simlab-home-tile-post-type.php' );
+// Create Slider
+//require( get_template_directory() . '/inc/slider/slider.php' );
+
+
 ?>

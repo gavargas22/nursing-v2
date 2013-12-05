@@ -34,123 +34,27 @@
     <div class="row">
     	<div class="span9">
     	<div class="simlab-top-items-wrapper">
+    		<?php query_posts(array('showposts' => 20, 'orderby' => 'desc', 'category_name' => 'simlab-home-tiles')); ?>
+			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     		<div class="simlab-top-items-element">
-    			<div class="simlab-top-items-element-title">Video 1</div>
+    			<div class="simlab-top-items-element-title">Video</div>
     			<div class="simlab-top-items-element-content-wrapper">
-    				<div class="simlab-top-items-element-content-thumbnail"><img src="http://nursing.utep.edu/beta/wp-content/themes/nursing-v2/img/6840.jpg" /></div>
+    				<div class="simlab-top-items-element-content-thumbnail"><a href="<?php the_permalink(); ?>"><?php if ( has_post_thumbnail() ) {the_post_thumbnail();} ?></a></div>
     				<div class="simlab-top-items-element-info-wrapper">
-    					<div class="simlab-top-items-element-content-title"><a href="#">State of the Art</a></div>
-    					<div class="simlab-top-items-element-content-text">We believe that when the latest technology and education come together, education of our future healthcare professionals is impacted.</div>
+    					<div class="simlab-top-items-element-content-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
+    					<div class="simlab-top-items-element-content-text"><?php the_content(); ?></div>
+    					<div class="simlab-top-items-element-important-links"><?php edit_post_link('Edit'); ?></div>
     				</div>
     			</div>
     		</div>
-    		<div class="simlab-top-items-element">
-    			<div class="simlab-top-items-element-title">Video 2</div>
-    			<div class="simlab-top-items-element-content-wrapper">
-    				<div class="simlab-top-items-element-content-thumbnail"><a href="#"><img src="http://nursing.utep.edu/beta/wp-content/themes/nursing-v2/img/6857.jpg" /></a></div>
-    				<div class="simlab-top-items-element-info-wrapper">
-    					<div class="simlab-top-items-element-content-title"><a href="#">Learn More</a></div>
-    					<div class="simlab-top-items-element-content-text">Watch our video series to learn more about how our SimLab is nationally recognized and is changing Nursing Education.</div>
-    				</div>
-    			</div>
-    		</div>
-    		<div class="simlab-top-items-element">
-    			<div class="simlab-top-items-element-title">Video 3</div>
-    			<div class="simlab-top-items-element-content-wrapper">
-    				<!--<div class="simlab-top-items-element-content-thumbnail"><a href="#"><img src="http://nursing.utep.edu/beta/wp-content/themes/nursing-v2/img/IMG_1056.jpg" /></a></div>-->
-    				<div class="simlab-top-items-element-info-wrapper">
-    					<div class="simlab-top-items-element-content-title"><a href="#">Important Links</a></div>
-    					<div class="simlab-top-items-element-content-text">We offer many services to our student body click here to view information for students.</div>
-    					<div class="simlab-top-items-element-important-links">
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">Academic Coaching</a></div>
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">Community Partners</a></div>
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">Tours</a></div>
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">ACE</a></div>
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">Mine Shaft</a></div>
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">Open Lab</a></div>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    		<div class="simlab-top-items-element">
-    			<div class="simlab-top-items-element-title">Video 4</div>
-    			<div class="simlab-top-items-element-content-wrapper">
-    				<!--<div class="simlab-top-items-element-content-thumbnail"><a href="#"><img src="http://nursing.utep.edu/beta/wp-content/themes/nursing-v2/img/IMG_1056.jpg" /></a></div>-->
-    				<div class="simlab-top-items-element-info-wrapper">
-    					<div class="simlab-top-items-element-content-title"><a href="#">Important Links</a></div>
-    					<div class="simlab-top-items-element-content-text">We offer many services to our student body click here to view information for students.</div>
-    					<div class="simlab-top-items-element-important-links">
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">Academic Coaching</a></div>
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">Community Partners</a></div>
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">Tours</a></div>
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">ACE</a></div>
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">Mine Shaft</a></div>
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">Open Lab</a></div>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    		<div class="simlab-top-items-element">
-    			<div class="simlab-top-items-element-title">Video 5</div>
-    			<div class="simlab-top-items-element-content-wrapper">
-    				<!--<div class="simlab-top-items-element-content-thumbnail"><a href="#"><img src="http://nursing.utep.edu/beta/wp-content/themes/nursing-v2/img/IMG_1056.jpg" /></a></div>-->
-    				<div class="simlab-top-items-element-info-wrapper">
-    					<div class="simlab-top-items-element-content-title"><a href="#">Important Links</a></div>
-    					<div class="simlab-top-items-element-content-text">We offer many services to our student body click here to view information for students.</div>
-    					<div class="simlab-top-items-element-important-links">
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">Academic Coaching</a></div>
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">Community Partners</a></div>
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">Tours</a></div>
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">ACE</a></div>
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">Mine Shaft</a></div>
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">Open Lab</a></div>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    		<div class="simlab-top-items-element">
-    			<div class="simlab-top-items-element-title">Video 6</div>
-    			<div class="simlab-top-items-element-content-wrapper">
-    				<!--<div class="simlab-top-items-element-content-thumbnail"><a href="#"><img src="http://nursing.utep.edu/beta/wp-content/themes/nursing-v2/img/IMG_1056.jpg" /></a></div>-->
-    				<div class="simlab-top-items-element-info-wrapper">
-    					<div class="simlab-top-items-element-content-title"><a href="#">Important Links</a></div>
-    					<div class="simlab-top-items-element-content-text">We offer many services to our student body click here to view information for students.</div>
-    					<div class="simlab-top-items-element-important-links">
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">Academic Coaching</a></div>
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">Community Partners</a></div>
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">Tours</a></div>
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">ACE</a></div>
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">Mine Shaft</a></div>
-    						<div class="simlab-top-items-element-important-links-item"><a href="#">Open Lab</a></div>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
+    		<?php endwhile; else: ?>
+			<?php endif; ?>
     	</div>
     	</div>
     	<div class="span3">
     		<div class="simlab-top-items-element">
     			<div class="simlab-top-items-element-title-important-links">Important Links</div>
-    			<div class="simlab-top-items-element-calendar-wrapper">
-    				<div class="simlab-top-items-element-calendar-appointment">
-    					<div class="simlab-top-items-element-calendar-appointment-title"><a href="#">Academic Coaching</a></div>
-    				</div>
-    				<div class="simlab-top-items-element-calendar-appointment">
-    					<div class="simlab-top-items-element-calendar-appointment-title"><a href="#">Community Partners</a></div>
-    				</div>
-    				<div class="simlab-top-items-element-calendar-appointment">
-    					<div class="simlab-top-items-element-calendar-appointment-title"><a href="#">Tours</a></div>
-    				</div>
-    				<div class="simlab-top-items-element-calendar-appointment">
-    					<div class="simlab-top-items-element-calendar-appointment-title"><a href="#">ACE</a></div>
-    				</div>
-    				<div class="simlab-top-items-element-calendar-appointment">
-    					<div class="simlab-top-items-element-calendar-appointment-title"><a href="#">Mine Shaft</a></div>
-    				</div>
-    				<div class="simlab-top-items-element-calendar-appointment">
-    					<div class="simlab-top-items-element-calendar-appointment-title"><a href="#">Open Lab</a></div>
-    				</div>
-    			</div>
+    			<?php wp_nav_menu( array('menu' => 'Simlab Important Links', 'container' => false, 'nav nav-list', 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
     		</div>
     	</div>
     </div>
