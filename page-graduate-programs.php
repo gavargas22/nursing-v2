@@ -19,42 +19,16 @@
 		
 		<div class="tabbable"> <!-- Only required for left/right tabs -->
   <ul class="nav nav-tabs">
-    <li class="active"><a href="#doctorate" data-toggle="tab">Doctorate Programs</a></li>
-    <li><a href="#masters" data-toggle="tab">Master of Sciences in Nursing</a></li>
+    <li class="active"><a href="#masters" data-toggle="tab">Master's Programs</a></li>
+    <li><a href="#doctorate" data-toggle="tab">Doctoral Programs</a></li>
     <li><a href="#graduate-certificate" data-toggle="tab">Graduate Certificate Programs</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane active" id="doctorate">
-      <div class="span11">
-            <ul class="thumbnails">
-            <h2><span style="color:#FF7908; font-size: 30px; font-weight: bold;">Doctoral Programs</span></h2>
-              <li class="span3">
-                <div class="thumbnail">
-                 <div class="caption">
-                    <h4>Ph.D of Nursing Practice (DNP)</h4>
-                    <p>The DNP builds on the competences of the master’s degree, and adds a highly advanced skill base in informatics and technology, evidence-based practice, continuous quality improvement, and organizational systems and leadership.</p>
-                    <p><a class="btn" href="dnp/">Read More</a></p>
-                  </div>
-                </div>
-              </li>
-              <li class="span3">
-                <div class="thumbnail">
-                  <div class="caption">
-                    <h4>PhD in Interdisciplinary Health Sciences</h4>
-                    <p>Training the next generation of interdisciplinary researchers and academicians, the Interdisciplinary Health Sciences Ph.D. provides experiences that teach advanced skills in research design, methods, statistics, grant writing and writing for publication.</p>
-                    <p><a class="btn" href="http://chs.utep.edu/ihs/" target="_blank">Read More</a></p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-    </div>
-    <div class="tab-pane" id="masters">
+    <div class="tab-pane active" id="masters">
     	<div class="row">
-      <div class="span12">
-            
+      <div class="span12">  
             	<!--Message for the introduction of the MSN Online goes below this line -->
-            	<div class="span5">
+            	<!--<div class="span5">-->
             	<h2><span style="color:#777777;">Master of Sciences in Nursing (MSN-Online)</span></h2>
             	<p><b>The MSN program prepares professional nurses for post-graduate roles in a variety of advanced practice and specialty areas in and online setting.</b></p>
             	<p><i>Graduates have increased autonomy and independence in their practice and are eligible to apply for national certification.</i></p>
@@ -80,9 +54,9 @@
 					<li>Prepatory activities for online learning and student success</li>
 					<li>Personalized guidance from faculty and staff advisors</li>
 				</ul>
-				</div>
+				<!--</div>-->
 
-				<div class="span6 well">
+				<div class="span10">
 				<h2><span style="color:#A28F67">Three MSN Majors</span></h2>
             	<!-- End Message!-->
             
@@ -119,7 +93,32 @@
             </ul>
           </div>
           </div>
-         </div>
+          </div>
+    </div>
+    <div class="tab-pane" id="doctorate">
+      <div class="span11">
+		<ul class="thumbnails">
+            <h2><span style="color:#FF7908; font-size: 30px; font-weight: bold;">Doctoral Programs</span></h2>
+              <li class="span3">
+                <div class="thumbnail">
+                 <div class="caption">
+                    <h4>Ph.D of Nursing Practice (DNP)</h4>
+                    <p>The DNP builds on the competences of the master’s degree, and adds a highly advanced skill base in informatics and technology, evidence-based practice, continuous quality improvement, and organizational systems and leadership.</p>
+                    <p><a class="btn" href="dnp/">Read More</a></p>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <div class="thumbnail">
+                  <div class="caption">
+                    <h4>PhD in Interdisciplinary Health Sciences</h4>
+                    <p>Training the next generation of interdisciplinary researchers and academicians, the Interdisciplinary Health Sciences Ph.D. provides experiences that teach advanced skills in research design, methods, statistics, grant writing and writing for publication.</p>
+                    <p><a class="btn" href="http://chs.utep.edu/ihs/" target="_blank">Read More</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
     </div>
     <div class="tab-pane" id="graduate-certificate">
       <div class="span11">

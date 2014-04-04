@@ -18,7 +18,7 @@ get_header(); ?>
             <div class="span3">
             	<!--<h2>Information</h2>-->
             	<div id="sidebar" class="well">
-            		<?php wp_nav_menu( array( 'menu'=>'MSN Programs Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
+            		<?php wp_nav_menu( array( 'menu'=>'DNP Menu Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
             	</div>
             	<div class="span2" style="margin-left:0;">
             		<h2>Contact</h2>

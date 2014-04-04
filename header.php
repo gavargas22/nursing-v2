@@ -76,7 +76,7 @@
 	</div>-->
         
         
-        <div id="menu-background-holder-single" class="hidden-phone">
+        <div id="menu-background-holder-single" class="hidden-phone" style="z-index:999">
             <div class="container">
                 <div id="main-navigation">
                     <div id="sticky_navigation">
