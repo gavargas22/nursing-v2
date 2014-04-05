@@ -24,6 +24,11 @@
         <link href="<?php bloginfo('stylesheet_directory'); ?>/includes/fancyBox-master/source/jquery.fancybox.css" rel="stylesheet" media="screen">
         <!-- ----------------- -->
         <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+
+        <!--Nurses week code-->
+        <link href="http://nursing.utep.edu/nurseswoche/css/nurses-week.css" media="screen" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="http://nursing.utep.edu/nurseswoche/includes/nivo/nivo-slider.css" type="text/css" />
+        
     </head>
     
     <body>
@@ -57,7 +62,7 @@
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/small-title.png" />
             </div>
             <div class="span4 offset4" id="nursing-logo" style="width:285px; height:61px;">
-                <a href="http://nursing.utep.edu"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/sonlogo.png" width="285px" height="61px" /></a>
+                <a href="http://nursing.utep.edu"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/sonlogo.gif" width="285px" height="61px" /></a>
             </div>
         </div>
         
