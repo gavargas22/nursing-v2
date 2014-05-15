@@ -8,8 +8,25 @@
                         <!-- The content of the header hero goes here goes here-->
                         <div class="dimmed-text-wrapper">
                         	
-                        	<h1>UTEP Nurses Week</h1>
-                        	<p>Celebration of our Nurses and something else!</p>
+                        	<div class="row">
+                        		<div class="span4">
+                        		<img src="http://nursing.utep.edu/nurseswoche/img/NHCLI-cent-conf.png" />
+                        		<!--<div id="ehsm" style="height:255px;">
+<ul class="level1">
+<li><a href="http://nursing.utep.edu/beta/nursesweek" class="sel_side">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Full Schedule</a></li>
+<li><a href="#">Speakers</a></li>
+<li><a href="#">Sponsors</a></li>
+<li><a href="#">Meet The Keynotes</a></li>
+<li><a href="#">Program Directors</a></li>
+<li><a href="#">Register</a></li>
+</ul>
+&nbsp;</div>-->
+                        	</div>
+                        	</div>
+                        	
+                        	<div class="right_side"></div>
                         	
                         </div>
 
@@ -41,39 +58,140 @@
 									cocktail.
                                 	
                                 </p>
-                                <div class="locations__near_area">
-
-                                    <div class="text">
-                                        <p>
-											<a href="#">Apply to the program.</a>
-										</p>
-                                    </div>
-                                </div>
                             </div>
                             
                             
                             <div class="right_side">
                                 <ul>
                                 	<li>
-                                        <div class="number"><span class='grouped_unit'>What you will see</span>
+                                        <div class="number">What <span class='grouped_unit'>Nursing &amp; Health Care Leaders Centennial Conference.</span>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="number">250 <span class='grouped_unit'>Nurses</span>
+                                        <div class="number">When <span class='grouped_unit'>May 9, 2014<br>
+                                        	8:00 AM - 4:30 PM
+                                        </span>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="number">8.5 <span class='grouped_unit'>Hours of Enrichment</span>
+                                        <div class="number">Who <span class='grouped_unit'>Regional, National and international healthcare leaders.</span>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="number">4 <span class='grouped_unit'>Field Leaders and Speakers</span>
+                                        <div class="number">Where <span class='grouped_unit'>UTEP School of Nursing Rm. 217</span>
                                         </div>
+                                    </li>
+                                    <li>
+                                      <div class="locations__near_area">
+
+                                    <div class="text">
+                                        <p>
+											<a href="#">Apply today.</a>
+										</p>
+                                    </div>
+                                </div>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </section>
+                    
+                    
+                    <section id="speakers">
+	<div class="container">
+		<header class="speakers-header">
+			<h2>Speakers.</h2>
+			<p>Learn from the absolute best in the industry.</p>
+		</header>
+		<div class="row speaker-elements">
+			<figure class="third" style="background-image: url();">
+				<div class="details">
+					<img class="img-polaroid" src="http://luc.edu/media/lucedu/nursing/faculty/schmidt-150x241.jpg" />
+					<h3 class="speaker-name">Lee A. Schmidt, RN, PhD</h3>
+					<p class="speaker-company">Loyola University</p>
+					<p class="speaker-description">Keynote Session</p>
+				</div>
+			</figure>
+			<figure class="third" style="background-image: url(/images/dayle.png);">
+				<div class="details">
+					<h3 class="speaker-name">Lady from Canada</h3>
+					<p class="speaker-company">Canada University</p>
+					<p class="speaker-description">Keynote Session</p>
+						<img src="" />
+				</div>
+			</figure>
+			<figure class="third" style="background-image: url(/images/shawn.png);">
+				<div class="details">
+					<h3 class="speaker-name"></h3>
+					<p class="speaker-company"></p>
+					<p class="speaker-description"></p>
+						<p class="twitter"><a href="http://twitter.com/shawnmccool"><img src="/images/icon-twitter.svg" width="22" height="18"></a></p>
+				</div>
+			</figure>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</section>
+
+
+
+
+<section id="schedule">
+	<div class="container">
+		<header>
+			<h2>Event Schedule.</h2>
+		</header>
+		<div id="friday">
+			<h3>Friday, May 9th</h3>
+			<ul>
+				<li>
+					<p class="event-time">8:00 - 9:00 AM</p>
+					<p class="event-title">Event Registrations</p>
+				</li>
+				<li>
+					<p class="event-time">9:00 - 9:15 AM</p>
+					<p class="event-title">Welcome by UTEP President</p>
+					<p class="event-description">Diana Natalicio</p>
+				</li>
+				<li>
+					<p class="event-time">9:15 - 9:30AM</p>
+					<p class="event-title event-featured">Introduction by the Dean of the SON</p>
+					<p class="event-description">Elias Provencio-Vasquez</p>
+				</li>
+				<li>
+					<p class="event-time">9:30 - 11:00 AM</p>
+					<p class="event-title event-featured">Keynote Session: INSERT TITLE</p>
+					<p class="event-description">Lee A. Schmidt, RN, PhD, Loyola University</p>
+				</li>
+				<li>
+					<p class="event-time">11:00 - 12:00 PM</p>
+					<p class="event-title event-featured">Keynote Session: INSERT TITLE</p>
+					<p class="event-description">Canada, Loyola University</p>
+				</li>
+
+				<li>
+					<p class="event-time">12:00 - 1:00 PM</p>
+					<p class="event-title event-featured">Breakout Sessions</p>
+					<p class="event-description">TBD by Linda Lawson DNP, RN, NEA-BC</p>
+					<p class="event-description">TBD</p>
+				</li>
+				<li>
+					<p class="event-time">12:25 - 2:00 PM</p>
+					<p class="event-title">Lunch</p>
+				</li>
+				<li>
+					<p class="event-time">2:00 - 2:45 PM</p>
+					<p class="event-title event-featured"></p>
+					<p class="event-description"></p>
+				</li>
+				<li>
+
+			</ul>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</section>
+                    
                     
                     
                     
