@@ -22,11 +22,11 @@ get_header(); ?>
             	</div>
             	<div class="span2" style="margin-left:0;">
             		<h2>Contact</h2>
-            		<img src="http://hb2504.utep.edu/photos/msantacruz.jpg" class="img-polaroid" alt="Dr. Diane Monsivais">
+            		<img src="http://nursing.utep.edu/beta/wp-content/uploads/2014/05/Yvonne-Acosta.jpg" class="img-polaroid" alt="Yvonne Acosta">
             		<p><address>
-  					<strong>Manuel Santa Cruz, DNP, MSN, MBA, RN, NE-BC</strong><br>
-  					Assistant Dean, Undergraduate Education<br />
-  					<a href="mailto:msantacruz@utep.edu">msantacruz@utep.edu</a><br />
+  					<strong>Yvonne Acosta, MSN, RN, JD</strong><br>
+  					Executive Nursing Officer<br />
+  					<a href="mailto:ymacosta@utep.edu">ymacosta@utep.edu</a><br />
 					</address></p>
             	</div>
             </div>

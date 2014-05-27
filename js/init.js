@@ -27,6 +27,19 @@ jQuery(document).ready(function() {
 		}
 	});
 	
+	var $containerJudgesVariable = jQuery('#simlab-items-wrapper-masonry');
+	$containerJudgesVariable.isotope({
+		itemSelector : '.simlab-top-items-element',
+		masonry : {
+		columnWidth : 1,
+		},
+		animationOptions: {
+			duration: 750,
+			easing: 'linear',
+			queue: false, 
+		}
+	});
+	
 	jQuery('#filters a').click(function(){
 		var selector = $(this).attr('data-filter');
 		$container.isotope({ filter: selector });

@@ -13,48 +13,60 @@
         </ol>
         <!-- Carousel items -->
         <div class="carousel-inner" id="slidingElements">
-            <div class="active item">
-                <img src="http://nursing.utep.edu/beta/wp-content/themes/nursing-v2/img/6879.jpg" width="1200px" height="400px" />
-                <div class="slideshow-caption">
-                	<h1>Dean Elias Provencio-Vazquez</h1>
-                	<p><i>The Dean of the College of Nursing is pushing for more inovation.</i></p>
+        	
+        	<div id="1040" class="item active">
+                <img width="1170" height="390" src="http://nursing.utep.edu/beta/wp-content/uploads/2014/05/6879-1170x390.jpg" class="attachment-simlab-slider wp-post-image" alt="6879">                <div class="slideshow-caption">
+                	<h1>Custom post first</h1>
+                	<p><i>This is another test of a custom slider</i></p>
                 </div>
             </div>
-            <div class="item">
-                <img src="http://nursing.utep.edu/beta/wp-content/themes/nursing-v2/img/UTEP_0001.jpg" width="1200px" height="400px" />
+        	
+        	<?php 
+				$args = array( 'post_type' => 'simlab-slider', 'posts_per_page' => 4 );
+				$loop = new WP_Query( $args );
+				while ( $loop->have_posts() ) : $loop->the_post();
+			?>
+            <div id="<?php the_ID(); ?>" class="item">
+                <?php if ( has_post_thumbnail() ) {the_post_thumbnail( 'simlab-slider' );} ?>
                 <div class="slideshow-caption">
-                	<h1>The UTEP School of Nursing</h1>
-                	<p><i>Our school is changing the face of Nursing, with our state of the art installations and world class faculty, we are the best option in Nursing Education.</i></p>
+                	<h1><?php the_title(); ?></h1>
+                	<p><i><?php the_content(); ?></i></p>
                 </div>
             </div>
+            <?php endwhile; ?>
         </div>
 	<a class="carousel-control left" id="custom-controls" href="#imageSlider" data-slide="prev">&lsaquo;</a>
 	<a class="carousel-control right" id="custom-controls" href="#imageSlider" data-slide="next">&rsaquo;</a>
     </div>
     <div class="row">
     	<div class="span9">
-    	<div class="simlab-top-items-wrapper">
-    		<?php query_posts(array('showposts' => 20, 'orderby' => 'desc', 'category_name' => 'simlab-home-tiles')); ?>
-			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+    	<div class="simlab-top-items-wrapper" id="simlab-items-wrapper-masonry">
+    		<?php 
+			$args = array( 'post_type' => 'simlab-posts', 'posts_per_page' => 10 );
+			$loop = new WP_Query( $args );
+			while ( $loop->have_posts() ) : $loop->the_post();
+			?>
     		<div class="simlab-top-items-element">
-    			<div class="simlab-top-items-element-title">Video</div>
+    			<div class="simlab-top-items-element-title"><?php the_title(); ?></div>
     			<div class="simlab-top-items-element-content-wrapper">
-    				<div class="simlab-top-items-element-content-thumbnail"><a href="<?php the_permalink(); ?>"><?php if ( has_post_thumbnail() ) {the_post_thumbnail();} ?></a></div>
+    				<div class="simlab-top-items-element-content-thumbnail"><a href="<?php the_permalink(); ?>"><?php if ( has_post_thumbnail() ) {the_post_thumbnail('simlab-post-thumbnail');} ?></a></div>
     				<div class="simlab-top-items-element-info-wrapper">
     					<div class="simlab-top-items-element-content-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
-    					<div class="simlab-top-items-element-content-text"><?php the_content(); ?></div>
+    					<div class="simlab-top-items-element-content-text"><?php the_excerpt(); ?></div>
     					<div class="simlab-top-items-element-important-links"><?php edit_post_link('Edit'); ?></div>
     				</div>
     			</div>
     		</div>
-    		<?php endwhile; else: ?>
-			<?php endif; ?>
+    		<?php endwhile; ?>
     	</div>
     	</div>
     	<div class="span3">
     		<div class="simlab-top-items-element">
-    			<div class="simlab-top-items-element-title-important-links">Important Links</div>
-    			<?php wp_nav_menu( array('menu' => 'Simlab Important Links', 'container' => false, 'nav nav-list', 'menu_class' => 'nav nav-pills nav-stacked' )); ?>
+    			<div class="simlab-top-items-element-title-important-links">Navigation</div>
+    			<?php wp_nav_menu( array('menu' => 'Simlab Important Links', 'container' => false, 'nav nav-list', 'menu_class' => 'nav nav-pills nav-stacked custom-pill-behavior' )); ?>
+    		</div>
+    		<div class="simlab-top-items-element-social" style="padding-left:4px;">
+				<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FUTEPSimulation&amp;width=280&amp;height=395&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=true&amp;appId=771052199594024" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:280px; height:395px;" allowTransparency="true"></iframe>
     		</div>
     	</div>
     </div>

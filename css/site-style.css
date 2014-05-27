@@ -812,13 +812,23 @@ ul#menu-graduate-programs .current-menu-item a:active { background-color:#08c; }
 }
 .simlab-top-items-element {
 	position:relative;
-	height:380px;
+	/*height:380px;*/
+	height:auto;
 	width:270px;
 	margin: 10px 5px 10px 5px;
 	float:left;
 	-webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
 	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
 	border: solid 4px #FFFFFF;
+}
+.simlab-top-items-element-facebook {
+	position:relative;
+	height:400px;
+	width:270px;
+	margin: 10px 5px 10px 5px;
+	float:left;
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
 }
 .simlab-top-items-element-title-important-links {
 	position:relative;
@@ -840,7 +850,7 @@ ul#menu-graduate-programs .current-menu-item a:active { background-color:#08c; }
 	font-size:18px;
 	color:#556378;
 	padding-bottom:5px;
-	border-bottom: solid 1px #EEEEEE;
+	/*border-bottom: solid 1px #EEEEEE;*/
 }
 .simlab-top-items-element-content-title a:hover {
 	background-color:#EEEEEE;
@@ -878,7 +888,7 @@ ul#menu-graduate-programs .current-menu-item a:active { background-color:#08c; }
 	top:0;
 	left:0;
 	width:auto;
-	height:20px;
+	height:auto;
 	font-weight: bold;
 	font-size:12px;
 	background-color:#003168;
@@ -893,6 +903,9 @@ ul#menu-graduate-programs .current-menu-item a:active { background-color:#08c; }
 	background-color:#EEEEEE;
 	color:#333;
 	text-decoration:none;
+}
+.simlab-top-items-element .simlab-top-items-element-calendar-appointment-title a:visited, focus, active {
+	background-color:#EEEEEE !important;
 }
 .simlab-top-items-element-calendar-appointment-date {
 	color:#999999;
@@ -910,6 +923,9 @@ ul#menu-graduate-programs .current-menu-item a:active { background-color:#08c; }
 	padding:5px;
 	border-bottom: solid 1px #EEEEEE;
 }
+/*ul.custom-pill-behavior li a {
+	background-color:#AAAAAA !important;
+} */
 
 /*Wordpress Overrride*/
 /*Image alignment and Caption*/
