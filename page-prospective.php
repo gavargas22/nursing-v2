@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="container" id="single-page">
 	<?php if ( function_exists('yoast_breadcrumb') ) { yoast_breadcrumb('<ul class="breadcrumb">','</ul>'); } ?>
-            <div class="hero-unit" id="single-page-teaser" style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/img/bg/greenbg.jpg); color:#ffffff; background-size:cover;">
+            <div class="hero-unit" id="single-page-teaser" style="color:#ffffff; background-size:cover; background-color:#f89728;">
                  <h1>Prospective Students</h1> 
                 <p>With three BSN track options, three MSN majors, an RN to MSN option and two doctoral programs, 
                 	at the UTEP School of Nursing, you can find the option that is right for you.</p>

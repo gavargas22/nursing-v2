@@ -11,7 +11,7 @@
             	<div class="span8" id="page-items">
                 <div class="span4">
                      <h3>Forms &amp; Handbooks</h3>
-                     <p>Quick reference guides for undergraduate and gradate nursing students.</p>
+                     <p>Quick reference guides for undergraduate and graduate nursing students.</p>
                     <p><a class="btn" href="handbooks">View details »</a>
                     </p>
                 </div>

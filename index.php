@@ -9,11 +9,8 @@
         <!-- Carousel items -->
         <div class="carousel-inner" id="slidingElements">
             <div class="active item">
-                <img src="http://nursing.utep.edu/beta/wp-content/themes/nursing-v2/img/6879.jpg" width="1200px" height="400px" />
-                <div class="slideshow-caption">
-                	<h1>Dean Elias Provencio-Vazquez</h1>
-                	<p><i>The Dean of the College of Nursing is pushing for more innovation.</i></p>
-                </div>
+                <img src="http://nursing.utep.edu/beta/wp-content/uploads/2014/05/Screen-Shot-2014-05-30-at-2.45.27-PM.png" width="1200px" height="400px" />
+                
             </div>
             <div class="item">
                 <img src="http://nursing.utep.edu/beta/wp-content/themes/nursing-v2/img/UTEP_0001.jpg" width="1200px" height="400px" />

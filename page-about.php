@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="container" id="single-page">
   			<?php if ( function_exists('yoast_breadcrumb') ) { yoast_breadcrumb('<ul class="breadcrumb">','</ul>'); } ?>
-            <div class="hero-unit" id="single-page-teaser" style="background-image:url(<?php bloginfo('stylesheet_directory'); ?>/img/alumni.jpg); color:#ffffff; background-size:cover;">
+            <div class="hero-unit" id="single-page-teaser" style="background-color:#f89728; color:#ffffff; background-size:cover;">
                  <h1>About Us</h1> 
                 <p><strong>Excellence</strong> in everything we do │ <strong>Innovation</strong> to compete in the global healthcare environment │<strong>Diversity</strong>, our greatest resource.</p>
             </div>

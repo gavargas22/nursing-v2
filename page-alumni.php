@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="container" id="single-page">
 	<?php if ( function_exists('yoast_breadcrumb') ) { yoast_breadcrumb('<ul class="breadcrumb">','</ul>'); } ?>
-            <div class="hero-unit" id="single-page-teaser" style="background-image:url(http://farm4.staticflickr.com/3209/2892313560_23cd899bc8_b.jpg); color:#ffffff; background-size:cover;">
+            <div class="hero-unit" id="single-page-teaser" style="background-color:#333; color:#ffffff; background-size:cover;">
                  <h1>Alumni &amp; Friends</h1> 
                 <p>The many successes of our alumni and generous support from School of Nursing friends and alumni are the foundation upon 
                 	which we have been able to increase the number of degrees offered, the number of qualified faculty recruited, 

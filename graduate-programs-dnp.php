@@ -29,6 +29,15 @@ get_header(); ?>
   					<a href="mailto:lhrobbins@utep.edu">lhrobbins@utep.edu</a><br />
   					915-747-7227<br />
 					</address></p>
+
+                    <hr>
+
+                    <p><address>
+                    <strong>Susana Aguirre</strong><br>
+                    Graduate Education Coordinator<br />
+                    <a href="mailto:saguirre2@utep.edu">saguirre2@utep.edu</a><br />
+                    915-747-7281<br />
+                    </address></p>
             	</div>
             </div>
             </div>

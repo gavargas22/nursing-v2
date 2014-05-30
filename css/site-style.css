@@ -343,7 +343,10 @@ font-size:60px;
 	vertical-align: baseline;
 }
 .filter-labels .news-element {
-	background-color:#FF7908;
+	background-color:#5577cc;
+}
+.filter-labels .news-element a {
+	background-color:#fff;
 }
 .filter-labels .admissions-element {
 	background-color:#112233;
@@ -459,6 +462,7 @@ ul#filters li.show-all a:active {
 .isotope-elements img {
 	max-width:100%;
 	height:auto;
+	margin-left: -10%;
 }
 .isotope-elements {
 	position: relative;
@@ -471,7 +475,7 @@ ul#filters li.show-all a:active {
 	float: left;
 	font-family: 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
 	left: 0px;
-	margin: 10px 0px 0px 10px;
+	margin: 10px 10px 10px 10px;
 	padding: 0px 0px 25px 0px;
 	top: 0px;
 	z-index: 0;
@@ -480,9 +484,18 @@ ul#filters li.show-all a:active {
 	width:220px;
 	text-rendering: optimizeLegibility;
 }
+.isotope-elements a{
+	color: #333;
+}
 .news-element {
-	background-color: #ff6600;
-	color:#ffffff;
+	background-color: #fff;
+	color:#333;
+}
+.news-element a {
+	color:#333;
+}
+.news-element a:hover {
+	color:#333;
 }
 .admissions-element {
 	background-color: #153a6e;

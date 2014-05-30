@@ -47,7 +47,7 @@
 					<li>Enhance the basis for life-long learning and/or doctoral study</li>
 					</ol>
 				</p>
-				<h2>Unique Features</h2>
+				<h2>Program Features</h2>
 				<ul>
 					<li>Didactic 100% online</li>
 					<li>Curriculum aligned with latest national standards and guidelines</li>
@@ -64,7 +64,7 @@
               <li class="span3">
                 <div class="thumbnail">
                  <div class="caption">
-                    <h4>Nursing Education (NE) Concentration</h4>
+                    <h4>Nursing Education (NE)</h4>
                     <p>Students are prepared to teach in an academic and clinical setting by becoming proficient in curriculum 
 					and development, teaching methods, educational needs and learner-centered theories and methods.</p>
                     <p><a class="btn" href="ne">Read More</a></p>
@@ -74,7 +74,7 @@
               <li class="span3">
                 <div class="thumbnail">
                   <div class="caption">
-                    <h4>Nurse Practitioner (NP) Concentration</h4>
+                    <h4>Nurse Practitioner (NP)</h4>
                     <p>Advanced practice registered nurses are prepared in the profession of nurse practitioner for either 
                     	primary or acute care in three concentrations.</p>
                     <p><a class="btn" href="np">Read More</a></p>
@@ -84,7 +84,7 @@
               <li class="span3">
                 <div class="thumbnail">
                   <div class="caption">
-                    <h4>Nursing Systems Manager (NSM) Concentration</h4>
+                    <h4>Nursing Systems Manager (NSM)</h4>
                     <p>Students are prepared for nurse leadership roles in management and administration.</p>
                     <p><a class="btn" href="nsm">Read More</a></p>
                   </div>
@@ -126,7 +126,7 @@
             <h2>Graduate Certificate Programs</h2>
             <p><i></i></p>
             
-              <li class="span3">
+              <!-- <li class="span3">
                 <div class="thumbnail">
                  <div class="caption">
                     <h4>Healthcare Leadership Management</h4>
@@ -134,8 +134,8 @@
                     <p><a class="btn" href="hlm">Read More</a></p>
                   </div>
                 </div>
-              </li>
-              <li class="span3">
+              </li> -->
+              <!-- <li class="span3">
                 <div class="thumbnail">
                   <div class="caption">
                   <h4>Nursing Education</h4>
@@ -143,7 +143,7 @@
                   <p><a class="btn" href="gcne">Read More</a></p>
                   </div>
                 </div>
-              </li>
+              </li> -->
               <li class="span3">
                 <div class="thumbnail">
                   <div class="caption">
