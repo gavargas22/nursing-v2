@@ -86,7 +86,7 @@
 
                                     <div class="text">
                                         <p>
-											<a href="#">Apply today.</a>
+											<a href="#">Apply today</a>
 										</p>
                                     </div>
                                 </div>

@@ -13,13 +13,13 @@
                     <p><a class="btn" href="simulation">View details »</a>
                     </p>
                 </div>
-                <div class="span4">
+                <!-- <div class="span4">
                      <h3>Center for Aging</h3> 
                     <p>Resources available through the Center for Aging can assist health care professionals, 
                     	community groups, students and faculty to enhance their interactions with our aging population.</p>
                     <p><a class="btn" href="aging">View details »</a>
                     </p>
-                </div>
+                </div> -->
                 <div class="span4">
                      <h3>Hispanic Health Disparities Research Center</h3> 
                     <p>The HHDRC is a collaboration between the UTEP College of Health Sciences, the UTEP School of Nursing and The University of Texas School of Public Health 
