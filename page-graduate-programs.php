@@ -84,7 +84,7 @@
               <li class="span3">
                 <div class="thumbnail">
                   <div class="caption">
-                    <h4>Nursing Systems Manager (NSM)</h4>
+                    <h4>Nursing Systems Management (NSM)</h4>
                     <p>Students are prepared for nurse leadership roles in management and administration.</p>
                     <p><a class="btn" href="nsm">Read More</a></p>
                   </div>
@@ -102,7 +102,7 @@
               <li class="span3">
                 <div class="thumbnail">
                  <div class="caption">
-                    <h4>Ph.D of Nursing Practice (DNP)</h4>
+                    <h4>Doctor of Nursing Practice (DNP)</h4>
                     <p>The DNP builds on the competences of the master’s degree, and adds a highly advanced skill base in informatics and technology, evidence-based practice, continuous quality improvement, and organizational systems and leadership.</p>
                     <p><a class="btn" href="dnp/">Read More</a></p>
                   </div>
@@ -111,7 +111,7 @@
               <li class="span3">
                 <div class="thumbnail">
                   <div class="caption">
-                    <h4>PhD in Interdisciplinary Health Sciences</h4>
+                    <h4>Doctor in Interdisciplinary Health Sciences</h4>
                     <p>Training the next generation of interdisciplinary researchers and academicians, the Interdisciplinary Health Sciences Ph.D. provides experiences that teach advanced skills in research design, methods, statistics, grant writing and writing for publication.</p>
                     <p><a class="btn" href="http://chs.utep.edu/ihs/" target="_blank">Read More</a></p>
                   </div>

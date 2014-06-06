@@ -40,10 +40,10 @@
                 <!-- End Six Columns -->
                 <div class="span4 offset1" id="welcome-menu">
                     <ul class="inline" id="top-quick-menu">
-                        <li><a href="../contact">Contact Us</a>
+                        <li><a href="about">Contact Us</a>
 
                         </li>
-                        <li><a href="http://www.utep.edu">UTEP Home</a>
+                        <li><a href="http://www.utep.edu" target="_blank">UTEP Home</a>
 
                         </li>
                         <li><a href="directory">Faculty &amp; Staff</a>

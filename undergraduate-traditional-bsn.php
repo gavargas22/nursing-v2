@@ -22,11 +22,11 @@ get_header(); ?>
             	</div>
             	<div class="span2" style="margin-left:0;">
             		<h2>Contact</h2>
-            		<img src="http://nursing.utep.edu/beta/wp-content/uploads/2014/05/Yvonne-Acosta.jpg" class="img-polaroid" alt="Yvonne Acosta">
+            		<img src="http://nursing.utep.edu/beta/wp-content/uploads/2014/06/IMG_8630r-1.jpg" class="img-polaroid" alt="Myrna Anchondo">
             		<p><address>
-  					<strong>Yvonne Acosta, MSN, RN, JD</strong><br>
-  					Executive Nursing Officer<br />
-  					<a href="mailto:ymacosta@utep.edu">ymacosta@utep.edu</a><br />
+  					<strong>Myrna Anchondo, MBA</strong><br>
+  					Assistant Dean of Student Affairs<br />
+  					<a href="mailto:myrna@utep.edu">myrna@utep.edu</a><br />
 					</address></p>
             	</div>
             </div>
