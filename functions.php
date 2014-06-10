@@ -50,10 +50,5 @@ function special_nav_class($classes, $item){
      return $classes;
 }
 
-// Create Slider Post Type
-//require( get_template_directory() . '/simLabMicroSite/simlab-home-tile-post-type.php' );
-// Create Slider
-//require( get_template_directory() . '/inc/slider/slider.php' );
-
 
 ?>

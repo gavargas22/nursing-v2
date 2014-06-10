@@ -15,9 +15,9 @@
         <div class="carousel-inner" id="slidingElements">
         	
         	<div id="1040" class="item active">
-                <img width="1170" height="390" src="http://nursing.utep.edu/beta/wp-content/uploads/2014/05/6879-1170x390.jpg" class="attachment-simlab-slider wp-post-image" alt="6879">                <div class="slideshow-caption">
-                	<h1>Custom post first</h1>
-                	<p><i>This is another test of a custom slider</i></p>
+                <img width="1170" height="390" src="http://nursing.utep.edu/beta/wp-content/themes/nursing-v2/img/UTEP_0001.jpg" class="attachment-simlab-slider wp-post-image" alt="6879">                <div class="slideshow-caption">
+                	<h1>The UTEP School of Nursing</h1>
+                	<p><i>Our school is changing the face of Nursing, with our state of the art installations and world class faculty, we are the best option in Nursing Education.</i></p>
                 </div>
             </div>
         	
