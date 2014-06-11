@@ -919,6 +919,7 @@ ul#menu-graduate-programs .current-menu-item a:active { background-color:#08c; }
 }
 .simlab-top-items-element .simlab-top-items-element-calendar-appointment-title a:visited, focus, active {
 	background-color:#EEEEEE !important;
+	color: #333;
 }
 .simlab-top-items-element-calendar-appointment-date {
 	color:#999999;

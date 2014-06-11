@@ -28,7 +28,8 @@ jQuery(document).ready(function() {
 	});
 	
 	var $containerJudgesVariable = jQuery('#simlab-items-wrapper-masonry');
-	$containerJudgesVariable.isotope({
+	$containerJudgesVariable.imagesLoaded(function() {
+		$containerJudgesVariable.isotope({
 		itemSelector : '.simlab-top-items-element',
 		masonry : {
 		columnWidth : 1,
@@ -38,6 +39,7 @@ jQuery(document).ready(function() {
 			easing: 'linear',
 			queue: false, 
 		}
+	});
 	});
 	
 	jQuery('#filters a').click(function(){

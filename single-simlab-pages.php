@@ -4,7 +4,7 @@
             <div class="span8">
               <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                 <h2 style="color:#3A4FA2;"><?php the_title(); ?></h2>
-                <p><?php the_content(); ?></p>
+                <p><?php the_content(); ?></p>.
               <?php endwhile; else: ?>
               <?php endif; ?>
               <?php edit_post_link('Edit'); ?>

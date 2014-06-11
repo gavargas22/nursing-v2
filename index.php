@@ -84,8 +84,7 @@
         <div class="element-text"><?php the_excerpt(); ?> </div>
         <div class="element-footer">
         	<?php edit_post_link('Edit'); ?>
-            <div class="like-icon"></div>
-            <div class="like-counter"><?php echo $commentNumber ?></div>
+            <div class="like-counter"><a href="<?php the_permalink(); ?>"><h4>Read More</h4></a></div>
         </div>
     </div>
     <?php endwhile; else: ?>
