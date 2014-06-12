@@ -2,23 +2,32 @@
 <div class="container">
 	
 	<div id="imageSlider" class="carousel slide visible-desktop" style="z-index: 0;">
-        <ol class="carousel-indicators">
+        <!--<ol class="carousel-indicators">
             <li data-target="#imageSlider" data-slide-to="0" class="active"></li>
             <li data-target="#imageSlider" data-slide-to="1"></li>
-        </ol>
+        </ol>-->
         <!-- Carousel items -->
         <div class="carousel-inner" id="slidingElements">
-            <div class="active item">
-                <img src="http://nursing.utep.edu/beta/wp-content/uploads/2014/05/Screen-Shot-2014-05-30-at-2.45.27-PM.png" width="1200px" height="400px" />
-                
+            <?php 
+                $args = array( 'post_type' => 'home-page-slider', 'posts_per_page' => 4 );
+                $loop = new WP_Query( $args );
+                while ( $loop->have_posts() ) : $loop->the_post();
+            ?>
+            <div class="item slider-item">
+                <?php if ( has_post_thumbnail() ) {the_post_thumbnail( 'home-page-slider' );} ?>
+                <div class="slideshow-caption">
+                    <h1><?php the_title(); ?></h1>
+                    <p><i></i></p>
+                </div>
             </div>
-            <div class="item">
+            <!--<div class="item">
                 <img src="http://nursing.utep.edu/beta/wp-content/themes/nursing-v2/img/UTEP_0001.jpg" width="1200px" height="400px" />
                 <div class="slideshow-caption">
                 	<h1>The UTEP School of Nursing</h1>
                 	<p><i>Our school is changing the face of Nursing, with our state of the art installations and world class faculty, we are the best option in Nursing Education.</i></p>
                 </div>
-            </div>
+            </div>-->
+            <?php endwhile; ?>
         </div>
 	<a class="carousel-control left" id="custom-controls" href="#imageSlider" data-slide="prev">&lsaquo;</a>
 	<a class="carousel-control right" id="custom-controls" href="#imageSlider" data-slide="next">&rsaquo;</a>

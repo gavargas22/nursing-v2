@@ -156,3 +156,8 @@ $(function(){
   
 });
 
+//Code for the frontpage where the sliders have an active class
+jQuery(document).ready(function(){
+    $('.slider-item:first').addClass('active');
+});
+

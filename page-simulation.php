@@ -7,26 +7,18 @@
     </div>
     
     <div id="imageSlider" class="carousel slide">
-        <ol class="carousel-indicators">
+        <!--<ol class="carousel-indicators">
             <li data-target="#imageSlider" data-slide-to="0" class="active"></li>
             <li data-target="#imageSlider" data-slide-to="1"></li>
-        </ol>
+        </ol>-->
         <!-- Carousel items -->
         <div class="carousel-inner" id="slidingElements">
-        	
-        	<div id="1040" class="item active">
-                <img width="1170" height="390" src="http://nursing.utep.edu/beta/wp-content/themes/nursing-v2/img/UTEP_0001.jpg" class="attachment-simlab-slider wp-post-image" alt="6879">                <div class="slideshow-caption">
-                	<h1>The UTEP School of Nursing</h1>
-                	<p><i>Our school is changing the face of Nursing, with our state of the art installations and world class faculty, we are the best option in Nursing Education.</i></p>
-                </div>
-            </div>
-        	
         	<?php 
 				$args = array( 'post_type' => 'simlab-slider', 'posts_per_page' => 4 );
 				$loop = new WP_Query( $args );
 				while ( $loop->have_posts() ) : $loop->the_post();
 			?>
-            <div id="<?php the_ID(); ?>" class="item">
+            <div id="<?php the_ID(); ?>" class="item slider-item">
                 <?php if ( has_post_thumbnail() ) {the_post_thumbnail( 'simlab-slider' );} ?>
                 <div class="slideshow-caption">
                 	<h1><?php the_title(); ?></h1>

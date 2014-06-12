@@ -3,8 +3,9 @@ if ( function_exists( 'add_theme_support' ) ) {
 	add_theme_support( 'post-thumbnails' );
 	set_post_thumbnail_size( 800, 600 );
 	add_image_size( 'single-thumb', 800, 9999 ); //300 pixels wide (and unlimited height)
-	add_image_size( 'simlab-slider', 1170, 400 ); //300 pixels wide (and unlimited height)
+	add_image_size( 'simlab-slider', 1170, 400 );
 	add_image_size( 'simlab-post-thumbnail', 270, 177 );
+	add_image_size( 'home-page-slider', 1200, 400 );
 }
 
 function register_my_menus() {
@@ -49,6 +50,5 @@ function special_nav_class($classes, $item){
      }
      return $classes;
 }
-
 
 ?>
