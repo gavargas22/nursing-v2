@@ -951,6 +951,14 @@ ul#menu-graduate-programs .current-menu-item a:active { background-color:#08c; }
 	padding:5px;
 	border-bottom: solid 1px #EEEEEE;
 }
+
+.simlab-custom-buttons {
+	
+}
+.simlab-custom-buttons ul li img {
+	width:100%;
+	height:auto;
+}
 /*ul.custom-pill-behavior li a {
 	background-color:#AAAAAA !important;
 } */

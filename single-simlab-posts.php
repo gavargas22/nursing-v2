@@ -10,7 +10,7 @@
               <?php edit_post_link('Edit'); ?>
             </div>
             <div class="span3">
-            <h4><a href="simulation"><i class="icon-chevron-left"></i>Back to Simlab Home</a></h4>
+            <h4><a href="simulation"><i class="icon-chevron-left"></i>Back to SimLab Home</a></h4>
         <div class="simlab-top-items-element">
           <div class="simlab-top-items-element-title-important-links">Navigation</div>
           <?php wp_nav_menu( array('menu' => 'Simlab Important Links', 'container' => false, 'nav nav-list', 'menu_class' => 'nav nav-pills nav-stacked custom-pill-behavior' )); ?>
