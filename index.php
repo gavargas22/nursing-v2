@@ -2,11 +2,6 @@
 <div class="container">
 	
 	<div id="imageSlider" class="carousel slide visible-desktop" style="z-index: 0;">
-        <!--<ol class="carousel-indicators">
-            <li data-target="#imageSlider" data-slide-to="0" class="active"></li>
-            <li data-target="#imageSlider" data-slide-to="1"></li>
-        </ol>-->
-        <!-- Carousel items -->
         <div class="carousel-inner" id="slidingElements">
             <?php 
                 $args = array( 'post_type' => 'home-page-slider', 'posts_per_page' => 4 );
@@ -20,17 +15,10 @@
                     <p><i></i></p>
                 </div>
             </div>
-            <!--<div class="item">
-                <img src="http://nursing.utep.edu/beta/wp-content/themes/nursing-v2/img/UTEP_0001.jpg" width="1200px" height="400px" />
-                <div class="slideshow-caption">
-                	<h1>The UTEP School of Nursing</h1>
-                	<p><i>Our school is changing the face of Nursing, with our state of the art installations and world class faculty, we are the best option in Nursing Education.</i></p>
-                </div>
-            </div>-->
             <?php endwhile; ?>
         </div>
-	<a class="carousel-control left" id="custom-controls" href="#imageSlider" data-slide="prev">&lsaquo;</a>
-	<a class="carousel-control right" id="custom-controls" href="#imageSlider" data-slide="next">&rsaquo;</a>
+    <a class="carousel-control left" id="custom-controls" href="#imageSlider" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" id="custom-controls" href="#imageSlider" data-slide="next">&rsaquo;</a>
     </div>
 	
 </div>
@@ -75,9 +63,7 @@
         	<!--<p><a class="btn btn-primary" href="about/message-from-the-dean">Read More</a></p>-->
         	</div>
         <div class="element-footer">
-        	<?php edit_post_link('Edit'); ?>
-            <div class="like-icon"></div>
-            <div class="like-counter">5</div>
+            <div class="post-read-more"><a href="about/message-from-the-dean/">Read More</a></div>
         </div>
     </div>
     <!-- ---- -->
@@ -92,8 +78,9 @@
         </div>
         <div class="element-text"><?php the_excerpt(); ?> </div>
         <div class="element-footer">
-        	<?php edit_post_link('Edit'); ?>
-            <div class="like-counter"><a href="<?php the_permalink(); ?>"><h4>Read More</h4></a></div>
+        	<div class="post-read-more"><a href="<?php the_permalink(); ?>">Read More</a></div>
+            <?php edit_post_link('Edit'); ?>
+            
         </div>
     </div>
     <?php endwhile; else: ?>

@@ -481,8 +481,9 @@ ul#filters li.show-all a:active {
 	z-index: 0;
 	box-shadow:0 0 1px 0px #AAA, 0 2px 0px 0px #999,0 5px 10px rgba(0, 0, 0, 0.25);
 	/*width:280px;*/
-	width:220px;
+	width:270px;
 	text-rendering: optimizeLegibility;
+	background-color: #EEEEEE;
 }
 .isotope-elements a{
 	color: #333;
@@ -549,7 +550,7 @@ ul#filters li.show-all a:active {
 }
 .element-footer {
 	position: relative;
-	top:25px;
+	top:15px;
 	left:0;
 	width:100%;
 	height:30px;
@@ -582,6 +583,19 @@ ul#filters li.show-all a:active {
 	font-weight:bold;
 	font-size:11px;
 	color:#666666;
+	text-align: center;
+}
+.post-read-more a {
+	background-color: #DDDDDD;
+	padding: 5px;
+	color:#333;
+	text-decoration: none;
+}
+.post-read-more a:hover {
+	background-color: #333;
+	padding: 5px;
+	color:#fff;
+	text-decoration: none;
 }
 .like-counter {
     position: absolute;
